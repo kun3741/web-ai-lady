@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'web-lady-api',
-      script: 'dist/apps/api/main.js',
+      script: 'dist/apps/api/apps/api/src/main.js',
       instances: 1,
       autorestart: true,
       watch: false,
@@ -13,7 +13,7 @@ module.exports = {
     },
     {
       name: 'web-lady-workers',
-      script: 'dist/apps/workers/main.js',
+      script: 'dist/apps/workers/apps/workers/src/main.js',
       instances: 1,
       autorestart: true,
       watch: false,

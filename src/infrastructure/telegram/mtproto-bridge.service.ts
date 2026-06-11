@@ -27,12 +27,14 @@ export class MtprotoBridgeService implements OnModuleInit, OnModuleDestroy {
     }
     // Auto-connect all personas that have saved MTProto sessions
     try {
-      const personas = await this.personaModel.find({
-        mtprotoSessionEncrypted: { $ne: '' },
-        mtprotoApiId: { $gt: 0 },
-        mtprotoApiHash: { $ne: '' },
-        status: 'active',
-      }).exec();
+      const personas = await this.personaModel
+        .find({
+          mtprotoSessionEncrypted: { $ne: '' },
+          mtprotoApiId: { $gt: 0 },
+          mtprotoApiHash: { $ne: '' },
+          status: 'active',
+        })
+        .exec();
 
       for (const persona of personas) {
         try {
@@ -45,7 +47,9 @@ export class MtprotoBridgeService implements OnModuleInit, OnModuleDestroy {
           );
           this.logger.log(`Auto-connected bridge for persona: ${persona.name}`);
         } catch (err) {
-          this.logger.error(`Failed to auto-connect bridge for ${persona.name}: ${(err as Error).message}`);
+          this.logger.error(
+            `Failed to auto-connect bridge for ${persona.name}: ${(err as Error).message}`,
+          );
         }
       }
     } catch (err) {
@@ -98,9 +102,11 @@ export class MtprotoBridgeService implements OnModuleInit, OnModuleDestroy {
     });
 
     // Update connection status in DB
-    await this.personaModel.findByIdAndUpdate(personaId, {
-      mtprotoConnected: true,
-    }).exec();
+    await this.personaModel
+      .findByIdAndUpdate(personaId, {
+        mtprotoConnected: true,
+      })
+      .exec();
 
     this.logger.log(`MTProto bridge connected for persona: ${personaId}`);
   }
@@ -170,14 +176,14 @@ export class MtprotoBridgeService implements OnModuleInit, OnModuleDestroy {
             throw new Error('2FA_REQUIRED');
           }
           const passwordInfo = await client.invoke(
-            new (await import('telegram/tl')).Api.account.GetPassword()
+            new (await import('telegram/tl')).Api.account.GetPassword(),
           );
           const { computeCheck } = await import('telegram/Password');
           const srpResult = await computeCheck(passwordInfo, password);
           await client.invoke(
             new (await import('telegram/tl')).Api.auth.CheckPassword({
               password: srpResult,
-            })
+            }),
           );
         } else {
           throw err;
@@ -193,23 +199,29 @@ export class MtprotoBridgeService implements OnModuleInit, OnModuleDestroy {
 
       // Warm up entity cache asynchronously in the background by fetching recent dialogs
       client.getDialogs({ limit: 50 }).catch((err) => {
-        this.logger.error(`Failed to pre-warm entity cache for persona ${personaId}: ${err.message}`);
+        this.logger.error(
+          `Failed to pre-warm entity cache for persona ${personaId}: ${err.message}`,
+        );
       });
 
       // Save encrypted session to DB
       const encryptedSession = this.encryptSession(sessionString);
-      await this.personaModel.findByIdAndUpdate(personaId, {
-        mtprotoSessionEncrypted: encryptedSession,
-        mtprotoConnected: true,
-        mtprotoPhone: phoneNumber,
-      }).exec();
+      await this.personaModel
+        .findByIdAndUpdate(personaId, {
+          mtprotoSessionEncrypted: encryptedSession,
+          mtprotoConnected: true,
+          mtprotoPhone: phoneNumber,
+        })
+        .exec();
 
       this.logger.log(`MTProto bridge authenticated for persona: ${personaId}`);
       return sessionString;
     } catch (err) {
       // Clean up on failure
       this.clients.delete(pendingKey);
-      try { await client.disconnect(); } catch (_) {}
+      try {
+        await client.disconnect();
+      } catch (_) {}
       throw err;
     }
   }
@@ -228,9 +240,11 @@ export class MtprotoBridgeService implements OnModuleInit, OnModuleDestroy {
       this.clients.delete(personaId);
     }
 
-    await this.personaModel.findByIdAndUpdate(personaId, {
-      mtprotoConnected: false,
-    }).exec();
+    await this.personaModel
+      .findByIdAndUpdate(personaId, {
+        mtprotoConnected: false,
+      })
+      .exec();
 
     this.logger.log(`MTProto bridge disconnected for persona: ${personaId}`);
   }
@@ -250,7 +264,9 @@ export class MtprotoBridgeService implements OnModuleInit, OnModuleDestroy {
       await client.sendMessage(targetEntity, { message: text });
     } catch (err: any) {
       if (err.message.includes('Could not find the input entity')) {
-        this.logger.log(`Entity cache empty for ${chatId}, fetching recent dialogs to repopulate cache...`);
+        this.logger.log(
+          `Entity cache empty for ${chatId}, fetching recent dialogs to repopulate cache...`,
+        );
         await client.getDialogs({ limit: 50 });
         const targetEntity = await client.getEntity(idVal as any);
         await client.sendMessage(targetEntity, { message: text });
@@ -279,7 +295,7 @@ export class MtprotoBridgeService implements OnModuleInit, OnModuleDestroy {
 
     (buffer as any).name = fileName;
     const idVal = /^-?\d+$/.test(chatId) ? BigInt(chatId) : chatId;
-    
+
     try {
       const targetEntity = await client.getEntity(idVal as any);
       await client.sendFile(targetEntity, {
@@ -290,7 +306,9 @@ export class MtprotoBridgeService implements OnModuleInit, OnModuleDestroy {
       });
     } catch (err: any) {
       if (err.message.includes('Could not find the input entity')) {
-        this.logger.log(`Entity cache empty for ${chatId}, fetching recent dialogs to repopulate cache...`);
+        this.logger.log(
+          `Entity cache empty for ${chatId}, fetching recent dialogs to repopulate cache...`,
+        );
         await client.getDialogs({ limit: 50 });
         const targetEntity = await client.getEntity(idVal as any);
         await client.sendFile(targetEntity, {
@@ -349,7 +367,9 @@ export class MtprotoBridgeService implements OnModuleInit, OnModuleDestroy {
       );
     } catch (err: any) {
       if (err.message.includes('Could not find the input entity')) {
-        this.logger.log(`Entity cache empty for ${chatId} in readHistory, fetching recent dialogs...`);
+        this.logger.log(
+          `Entity cache empty for ${chatId} in readHistory, fetching recent dialogs...`,
+        );
         await client.getDialogs({ limit: 50 });
         const targetEntity = await client.getEntity(idVal as any);
         const { Api } = await import('telegram/tl');
@@ -365,7 +385,6 @@ export class MtprotoBridgeService implements OnModuleInit, OnModuleDestroy {
     }
     this.logger.debug(`History read via bridge for persona ${personaId} and candidate ${chatId}`);
   }
-
 
   /**
    * Check if bridge is connected for a persona
@@ -410,9 +429,7 @@ export class MtprotoBridgeService implements OnModuleInit, OnModuleDestroy {
         const firstName = entity.firstName || '';
         const lastName = entity.lastName || '';
         const displayName =
-          [firstName, lastName].filter(Boolean).join(' ') ||
-          entity.username ||
-          `User ${id}`;
+          [firstName, lastName].filter(Boolean).join(' ') || entity.username || `User ${id}`;
 
         result.push({
           id,

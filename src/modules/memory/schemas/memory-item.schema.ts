@@ -9,7 +9,11 @@ export class MemoryItem extends Document {
   @Prop({ type: Types.ObjectId, required: true })
   candidateId: Types.ObjectId;
 
-  @Prop({ type: String, enum: ['profile', 'relationship', 'communication', 'operational'], required: true })
+  @Prop({
+    type: String,
+    enum: ['profile', 'relationship', 'communication', 'operational'],
+    required: true,
+  })
   category: string;
 
   @Prop({ required: true })

@@ -21,7 +21,10 @@ import { MtprotoBridgeService } from '@infrastructure/telegram/mtproto-bridge.se
 @Injectable()
 export class InboundPipelineService {
   private readonly logger = new Logger(InboundPipelineService.name);
-  public static readonly pendingAutosends = new Map<string, { timeoutId: NodeJS.Timeout; readTimeoutId?: NodeJS.Timeout; msgId: string }>();
+  public static readonly pendingAutosends = new Map<
+    string,
+    { timeoutId: NodeJS.Timeout; readTimeoutId?: NodeJS.Timeout; msgId: string }
+  >();
 
   constructor(
     private readonly aiOrchestrator: AiOrchestratorService,
@@ -54,7 +57,9 @@ export class InboundPipelineService {
     adminChatId?: string,
   ): Promise<void> {
     try {
-      this.logger.log(`Starting inbound pipeline for candidate ${candidateId} (persona: ${personaId})`);
+      this.logger.log(
+        `Starting inbound pipeline for candidate ${candidateId} (persona: ${personaId})`,
+      );
 
       // Cancel any pending scheduled autopilot sends for this candidate to prevent double-replying
       const pending = InboundPipelineService.pendingAutosends.get(candidateId);
@@ -64,7 +69,9 @@ export class InboundPipelineService {
           clearTimeout(pending.readTimeoutId);
         }
         InboundPipelineService.pendingAutosends.delete(candidateId);
-        this.logger.log(`Cancelled previous pending autosend message ${pending.msgId} for candidate ${candidateId}`);
+        this.logger.log(
+          `Cancelled previous pending autosend message ${pending.msgId} for candidate ${candidateId}`,
+        );
         await this.messagesService.deleteDraft(pending.msgId).catch(() => {});
       }
 
@@ -72,16 +79,16 @@ export class InboundPipelineService {
       const candidate = await this.candidateModel.findById(candidateId).exec();
 
       if (!persona || !candidate) {
-        this.logger.error(`Persona (${personaId}) or Candidate (${candidateId}) not found. Aborting pipeline.`);
+        this.logger.error(
+          `Persona (${personaId}) or Candidate (${candidateId}) not found. Aborting pipeline.`,
+        );
         return;
       }
 
       // Step 1: Extract memory facts in background (does not block draft generation)
-      this.memoryService.extractFromMessage(
-        personaId,
-        candidateId,
-        messageText,
-      ).catch((err) => this.logger.error(`Memory extraction failed: ${err.message}`));
+      this.memoryService
+        .extractFromMessage(personaId, candidateId, messageText)
+        .catch((err) => this.logger.error(`Memory extraction failed: ${err.message}`));
 
       // Step 2: Generate draft response
       const draftResult = await this.aiOrchestrator.generateDraft(personaId, candidateId);
@@ -98,7 +105,11 @@ export class InboundPipelineService {
         isDraft: true,
         normalizedText: draftResult.text,
         confidence: draftResult.confidence,
-        safetyStatus: draftResult.safety.blocked ? 'blocked' : draftResult.safety.flagged ? 'review' : 'safe',
+        safetyStatus: draftResult.safety.blocked
+          ? 'blocked'
+          : draftResult.safety.flagged
+            ? 'review'
+            : 'safe',
         draftTone: draftResult.tone,
         mediaCategory: draftResult.mediaCategory || null,
         mediaItemId: draftResult.attachedMediaId || null,
@@ -129,7 +140,9 @@ export class InboundPipelineService {
           delayMs = (Math.random() * (20 - 12) + 12) * 60 * 1000;
         }
 
-        this.logger.log(`Scheduling autopilot reply for candidate ${candidateId} in ${(delayMs / 1000 / 60).toFixed(1)} minutes`);
+        this.logger.log(
+          `Scheduling autopilot reply for candidate ${candidateId} in ${(delayMs / 1000 / 60).toFixed(1)} minutes`,
+        );
 
         // Mark as read after a realistic human delay (e.g. 5 to 15 seconds)
         const readDelayMs = Math.floor(Math.random() * 10000) + 5000;
@@ -137,7 +150,9 @@ export class InboundPipelineService {
           try {
             await this.bridgeService.readHistory(personaId, candidate.telegramUserId);
           } catch (err: any) {
-            this.logger.warn(`Failed to mark history as read for candidate ${candidate.telegramUserId}: ${err.message}`);
+            this.logger.warn(
+              `Failed to mark history as read for candidate ${candidate.telegramUserId}: ${err.message}`,
+            );
           }
         }, readDelayMs);
 
@@ -145,7 +160,7 @@ export class InboundPipelineService {
           InboundPipelineService.pendingAutosends.delete(candidateId);
           try {
             await this.messageSender.sendViaBridge(draftMsg._id.toString());
-            
+
             // Log auto-send audit event
             await this.auditService.log({
               workspaceId: ws._id.toString(),
@@ -156,10 +171,30 @@ export class InboundPipelineService {
               details: { messageId: draftMsg._id.toString() },
             });
 
-            await this.notifyAdmins(persona, candidate, draftMsg, messageText, draftResult, true, undefined, undefined);
+            await this.notifyAdmins(
+              persona,
+              candidate,
+              draftMsg,
+              messageText,
+              draftResult,
+              true,
+              undefined,
+              undefined,
+            );
           } catch (err: any) {
-            this.logger.error(`Auto-send via bridge failed: ${err.message}. Falling back to admin notification.`);
-            await this.notifyAdmins(persona, candidate, draftMsg, messageText, draftResult, false, err.message, undefined);
+            this.logger.error(
+              `Auto-send via bridge failed: ${err.message}. Falling back to admin notification.`,
+            );
+            await this.notifyAdmins(
+              persona,
+              candidate,
+              draftMsg,
+              messageText,
+              draftResult,
+              false,
+              err.message,
+              undefined,
+            );
           }
         }, delayMs);
 
@@ -170,10 +205,28 @@ export class InboundPipelineService {
         });
 
         // Notify admins that the response is scheduled
-        await this.notifyAdmins(persona, candidate, draftMsg, messageText, draftResult, false, undefined, delayMs);
+        await this.notifyAdmins(
+          persona,
+          candidate,
+          draftMsg,
+          messageText,
+          draftResult,
+          false,
+          undefined,
+          delayMs,
+        );
       } else {
         // Notify admins for manual approval immediately
-        await this.notifyAdmins(persona, candidate, draftMsg, messageText, draftResult, false, undefined, undefined);
+        await this.notifyAdmins(
+          persona,
+          candidate,
+          draftMsg,
+          messageText,
+          draftResult,
+          false,
+          undefined,
+          undefined,
+        );
       }
     } catch (err: any) {
       this.logger.error(`Error in inbound pipeline: ${err.message}`, err.stack);
@@ -212,7 +265,7 @@ export class InboundPipelineService {
     } else if (delayMs !== undefined) {
       const mins = (delayMs / 1000 / 60).toFixed(1);
       statusNotice = `⏳ *Автоответ запланирован через ${mins} мин.* Бот ответит сам.`;
-      
+
       keyboard
         .text('✅ Отправить сейчас', `draft:send:${draftMsg._id}`)
         .text('❌ Отменить автоответ', `draft:reject:${draftMsg._id}`)
@@ -221,7 +274,7 @@ export class InboundPipelineService {
         .row()
         .text('🔙 Меню', 'menu');
     } else {
-      statusNotice = sendError 
+      statusNotice = sendError
         ? `⚠️ *Ошибка автоотправки (${sendError}).* Требуется ручное одобрение:`
         : `⏳ *Ожидает проверки (Режим: Только черновик):*`;
 
@@ -234,12 +287,19 @@ export class InboundPipelineService {
         .text('🔙 Меню', 'menu');
     }
 
-    const safetyStatusEmoji = draftMsg.safetyStatus === 'safe' ? '✅ Safe' : draftMsg.safetyStatus === 'review' ? '⚠️ Review' : '🚫 Blocked';
-    
+    const safetyStatusEmoji =
+      draftMsg.safetyStatus === 'safe'
+        ? '✅ Safe'
+        : draftMsg.safetyStatus === 'review'
+          ? '⚠️ Review'
+          : '🚫 Blocked';
+
     let mediaNotice = '';
     if (draftResult.attachedMediaId) {
       try {
-        const mediaItem = await this.contentGroupService.getMediaItemById(draftResult.attachedMediaId);
+        const mediaItem = await this.contentGroupService.getMediaItemById(
+          draftResult.attachedMediaId,
+        );
         if (mediaItem) {
           const capText = mediaItem.caption ? ` ("${mediaItem.caption}")` : '';
           mediaNotice = `📸 *Прикреплено AI медиа [${mediaItem.mediaType}]:* \`${mediaItem.category}\`${capText}\n\n`;
@@ -270,7 +330,9 @@ export class InboundPipelineService {
           reply_markup: keyboard,
         });
       } catch (err: any) {
-        this.logger.error(`Failed to send telegram notification to admin ${chatId}: ${err.message}`);
+        this.logger.error(
+          `Failed to send telegram notification to admin ${chatId}: ${err.message}`,
+        );
       }
     }
   }

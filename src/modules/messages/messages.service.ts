@@ -47,11 +47,7 @@ export class MessagesService {
     return msg;
   }
 
-  async getRecentMessages(
-    personaId: string,
-    candidateId: string,
-    limit = 20,
-  ): Promise<Message[]> {
+  async getRecentMessages(personaId: string, candidateId: string, limit = 20): Promise<Message[]> {
     return this.messageModel
       .find({
         personaId: new Types.ObjectId(personaId),
@@ -104,7 +100,9 @@ export class MessagesService {
   }
 
   async countByConversation(conversationId: string): Promise<number> {
-    return this.messageModel.countDocuments({ conversationId: new Types.ObjectId(conversationId) }).exec();
+    return this.messageModel
+      .countDocuments({ conversationId: new Types.ObjectId(conversationId) })
+      .exec();
   }
 
   async getLastInboundMessage(personaId: string, candidateId: string): Promise<Message | null> {

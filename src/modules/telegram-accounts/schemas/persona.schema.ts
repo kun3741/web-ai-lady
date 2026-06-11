@@ -82,4 +82,3 @@ export class Persona extends Document {
 
 export const PersonaSchema = SchemaFactory.createForClass(Persona);
 PersonaSchema.index({ workspaceId: 1, status: 1 });
-

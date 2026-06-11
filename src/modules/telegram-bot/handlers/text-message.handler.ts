@@ -38,9 +38,7 @@ export class TextMessageHandler {
     const awaiting = ctx.session.awaitingInput;
     if (!awaiting) {
       // No active input flow — show hint
-      await ctx.reply(
-        '💡 Используйте /start для открытия меню или inline-кнопки для навигации.',
-      );
+      await ctx.reply('💡 Используйте /start для открытия меню или inline-кнопки для навигации.');
       return;
     }
 
@@ -113,7 +111,10 @@ export class TextMessageHandler {
     ctx.session.awaitingInput = 'create_lead_telegram_id';
     const personaId = ctx.session.selectedPersonaId;
 
-    const keyboard = new InlineKeyboard().text('🔙 Отмена', `leads:list:1${personaId ? `:${personaId}` : ''}`);
+    const keyboard = new InlineKeyboard().text(
+      '🔙 Отмена',
+      `leads:list:1${personaId ? `:${personaId}` : ''}`,
+    );
 
     await ctx.reply(
       `👤 Имя: *${name}*\n\n` +
@@ -138,12 +139,12 @@ export class TextMessageHandler {
     // If it's a username (not purely numeric)
     if (!/^\d+$/.test(resolvedId)) {
       const username = resolvedId.replace('@', '').trim();
-      
+
       // Basic username check
       if (!/^[a-zA-Z0-9_]{5,32}$/.test(username)) {
         await ctx.reply(
           '❌ Telegram ID должен быть либо числовым User ID (например, `123456789`), ' +
-          'либо корректным username (например, `@username`). Попробуйте еще раз:'
+            'либо корректным username (например, `@username`). Попробуйте еще раз:',
         );
         return;
       }
@@ -151,7 +152,7 @@ export class TextMessageHandler {
       if (!this.bridgeService.isConnected(personaId)) {
         await ctx.reply(
           `❌ Bridge для этого аккаунта не подключен.\n` +
-          `Чтобы использовать username, сначала подключите Bridge, либо введите числовой ID вручную:`
+            `Чтобы использовать username, сначала подключите Bridge, либо введите числовой ID вручную:`,
         );
         return;
       }
@@ -167,9 +168,14 @@ export class TextMessageHandler {
         const entity = await client.getEntity(username);
         if (entity && (entity as any).id) {
           resolvedId = (entity as any).id.toString();
-          const fullName = [(entity as any).firstName, (entity as any).lastName].filter(Boolean).join(' ') || (entity as any).username || resolvedId;
+          const fullName =
+            [(entity as any).firstName, (entity as any).lastName].filter(Boolean).join(' ') ||
+            (entity as any).username ||
+            resolvedId;
           await ctx.api.deleteMessage(ctx.chat!.id, resolvingMsg.message_id).catch(() => {});
-          await ctx.reply(`✅ Пользователь найден: *${fullName}* (ID: \`${resolvedId}\`)`, { parse_mode: 'Markdown' });
+          await ctx.reply(`✅ Пользователь найден: *${fullName}* (ID: \`${resolvedId}\`)`, {
+            parse_mode: 'Markdown',
+          });
         } else {
           await ctx.api.deleteMessage(ctx.chat!.id, resolvingMsg.message_id).catch(() => {});
           await ctx.reply('❌ Не удалось получить ID пользователя. Введите числовой ID вручную:');
@@ -177,17 +183,15 @@ export class TextMessageHandler {
         }
       } catch (err: any) {
         this.logger.error(`Failed to resolve username ${username}: ${err.message}`);
-        await ctx.reply(`❌ Пользователь *@${username}* не найден. Проверьте правильность и введите числовой ID вручную:`);
+        await ctx.reply(
+          `❌ Пользователь *@${username}* не найден. Проверьте правильность и введите числовой ID вручную:`,
+        );
         return;
       }
     }
 
     try {
-      const candidate = await this.contactsService.findOrCreate(
-        personaId,
-        resolvedId,
-        leadName,
-      );
+      const candidate = await this.contactsService.findOrCreate(personaId, resolvedId, leadName);
 
       // Clear session
       ctx.session.awaitingInput = undefined;
@@ -229,7 +233,10 @@ export class TextMessageHandler {
     );
   }
 
-  private async handleCreatePersonaTelegramId(ctx: BotContext, telegramAccountId: string): Promise<void> {
+  private async handleCreatePersonaTelegramId(
+    ctx: BotContext,
+    telegramAccountId: string,
+  ): Promise<void> {
     const personaName = ctx.session.pendingPersonaName;
 
     if (!personaName) {
@@ -273,7 +280,11 @@ export class TextMessageHandler {
 
   // ─── Persona Edit Field Helper ───
 
-  private async handleEditPersonaField(ctx: BotContext, field: string, value: string): Promise<void> {
+  private async handleEditPersonaField(
+    ctx: BotContext,
+    field: string,
+    value: string,
+  ): Promise<void> {
     const personaId = ctx.session.selectedPersonaId;
     if (!personaId || !Types.ObjectId.isValid(personaId)) {
       ctx.session.awaitingInput = undefined;
@@ -354,7 +365,7 @@ export class TextMessageHandler {
 
       try {
         await this.messageSenderService.sendViaBridge(msg._id.toString());
-        
+
         const keyboard = new InlineKeyboard().text('🔙 К лиду', `lead:${candidateId}`);
         await ctx.reply(`✅ *Отправлено через Bridge!*`, {
           parse_mode: 'Markdown',
@@ -368,9 +379,9 @@ export class TextMessageHandler {
           const keyboard = new InlineKeyboard().text('🔙 К лиду', `lead:${candidateId}`);
           await ctx.reply(
             `⚠️ *Bridge не подключен!*\n\n` +
-            `Сообщение записано в БД как отправленное.\n` +
-            `Скопируйте и отправьте его вручную:\n\n` +
-            `\`${text}\``,
+              `Сообщение записано в БД как отправленное.\n` +
+              `Скопируйте и отправьте его вручную:\n\n` +
+              `\`${text}\``,
             { parse_mode: 'Markdown', reply_markup: keyboard },
           );
         } else {
@@ -386,4 +397,3 @@ export class TextMessageHandler {
     }
   }
 }
-

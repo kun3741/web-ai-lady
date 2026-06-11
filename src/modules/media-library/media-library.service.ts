@@ -25,10 +25,12 @@ export class MediaLibraryService {
     const checksum = crypto.createHash('sha256').update(file.buffer).digest('hex');
 
     // De-duplication check per persona
-    const existing = await this.mediaAssetModel.findOne({
-      personaId: new Types.ObjectId(personaId),
-      checksum,
-    }).exec();
+    const existing = await this.mediaAssetModel
+      .findOne({
+        personaId: new Types.ObjectId(personaId),
+        checksum,
+      })
+      .exec();
 
     if (existing) {
       this.logger.log(`Media asset with checksum ${checksum} already exists, returning existing`);

@@ -19,10 +19,13 @@ export class PersonasPanel {
     const keyboard = new InlineKeyboard();
     for (const p of personas) {
       const statusEmoji = p.status === 'active' ? '🟢' : '⏸';
-      keyboard.text(`${statusEmoji} ${p.name} (@${p.telegramAccountId})`, `persona_select:${p._id}`).row();
+      keyboard
+        .text(`${statusEmoji} ${p.name} (@${p.telegramAccountId})`, `persona_select:${p._id}`)
+        .row();
     }
 
-    keyboard.text('➕ Новый аккаунт', 'personas:create')
+    keyboard
+      .text('➕ Новый аккаунт', 'personas:create')
       .text('📂 Контент-группа', 'content_group:menu')
       .row()
       .text('🔙 Назад', 'menu');
@@ -89,10 +92,7 @@ export class PersonasPanel {
         `persona_select:${persona._id}:toggle_status`,
       )
       .row()
-      .text(
-        this.bridge.isConnected(id) ? '🟢 Bridge' : '🔴 Bridge',
-        `bridge:menu:${persona._id}`,
-      )
+      .text(this.bridge.isConnected(id) ? '🟢 Bridge' : '🔴 Bridge', `bridge:menu:${persona._id}`)
       .row()
       .text('🔙 К списку', 'personas');
 

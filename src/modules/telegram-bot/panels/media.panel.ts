@@ -38,41 +38,63 @@ export class MediaPanel {
       const currentPage = Math.max(1, Math.min(page, totalPages));
       const skip = (currentPage - 1) * limit;
 
-      const items = await this.contentGroupService.findMediaItemsPaginated(groupId, dbQuery, skip, limit);
+      const items = await this.contentGroupService.findMediaItemsPaginated(
+        groupId,
+        dbQuery,
+        skip,
+        limit,
+      );
 
       const keyboard = new InlineKeyboard();
 
       for (const item of items) {
         const typeEmoji =
-          item.mediaType === 'photo' ? '📷' :
-          item.mediaType === 'video' ? '🎥' :
-          item.mediaType === 'voice' ? '🎤' :
-          item.mediaType === 'video_note' ? '⭕' : '📄';
-        
+          item.mediaType === 'photo'
+            ? '📷'
+            : item.mediaType === 'video'
+              ? '🎥'
+              : item.mediaType === 'voice'
+                ? '🎤'
+                : item.mediaType === 'video_note'
+                  ? '⭕'
+                  : '📄';
+
         const label = item.caption
           ? item.caption.substring(0, 18).replace(/\n/g, ' ')
           : item.filename || item.mediaType;
 
-        keyboard.text(
-          `${typeEmoji} [${item.category}] ${label}`,
-          `media:view:${item._id}:${currentPage}:${filterCategory}`,
-        ).row();
+        keyboard
+          .text(
+            `${typeEmoji} [${item.category}] ${label}`,
+            `media:view:${item._id}:${currentPage}:${filterCategory}`,
+          )
+          .row();
       }
 
       // Pagination row
       const navRow: any[] = [];
       if (currentPage > 1) {
-        navRow.push({ text: '◀️ Пред', callback_data: `media:list:${currentPage - 1}:${filterCategory}` });
+        navRow.push({
+          text: '◀️ Пред',
+          callback_data: `media:list:${currentPage - 1}:${filterCategory}`,
+        });
       }
       navRow.push({ text: `стр. ${currentPage}/${totalPages}`, callback_data: 'noop' });
       if (currentPage < totalPages) {
-        navRow.push({ text: 'След ▶️', callback_data: `media:list:${currentPage + 1}:${filterCategory}` });
+        navRow.push({
+          text: 'След ▶️',
+          callback_data: `media:list:${currentPage + 1}:${filterCategory}`,
+        });
       }
       keyboard.row(...navRow);
 
       // Filter and main menu buttons
-      keyboard.row()
-        .text(`📂 Категория: ${filterCategory === 'all' ? 'Все' : filterCategory}`, `media:categories:${currentPage}`)
+      keyboard
+        .row()
+        .text(
+          `📂 Категория: ${filterCategory === 'all' ? 'Все' : filterCategory}`,
+          `media:categories:${currentPage}`,
+        )
         .row()
         .text('🔙 Меню', 'menu');
 
@@ -96,9 +118,7 @@ export class MediaPanel {
       const returnPage = params[1] || '1';
       const activeCategories = await this.contentGroupService.getDistinctCategories(groupId);
 
-      const keyboard = new InlineKeyboard()
-        .text('📁 Все категории', `media:list:1:all`)
-        .row();
+      const keyboard = new InlineKeyboard().text('📁 Все категории', `media:list:1:all`).row();
 
       for (const cat of activeCategories) {
         keyboard.text(`📁 ${cat}`, `media:list:1:${cat}`).row();
@@ -125,13 +145,21 @@ export class MediaPanel {
       }
 
       const typeEmoji =
-        item.mediaType === 'photo' ? '📷 Фото' :
-        item.mediaType === 'video' ? '🎥 Видео' :
-        item.mediaType === 'voice' ? '🎤 Голосовое' :
-        item.mediaType === 'video_note' ? '⭕ Видео-кружок' : '📄 Документ';
+        item.mediaType === 'photo'
+          ? '📷 Фото'
+          : item.mediaType === 'video'
+            ? '🎥 Видео'
+            : item.mediaType === 'voice'
+              ? '🎤 Голосовое'
+              : item.mediaType === 'video_note'
+                ? '⭕ Видео-кружок'
+                : '📄 Документ';
 
       const keyboard = new InlineKeyboard()
-        .text('👁 Показать медиа в чате', `media:show:${mediaItemId}:${currentPage}:${filterCategory}`)
+        .text(
+          '👁 Показать медиа в чате',
+          `media:show:${mediaItemId}:${currentPage}:${filterCategory}`,
+        )
         .row()
         .text('🔙 К списку', `media:list:${currentPage}:${filterCategory}`);
 
@@ -170,8 +198,11 @@ export class MediaPanel {
 
       try {
         await ctx.answerCallbackQuery({ text: '⏳ Загрузка файла...' });
-        
-        const content = await this.contentGroupService.downloadMediaItem(item, persona._id.toString());
+
+        const content = await this.contentGroupService.downloadMediaItem(
+          item,
+          persona._id.toString(),
+        );
         if (!content || !content.buffer || content.buffer.length === 0) {
           throw new Error('Не удалось скачать файл');
         }
@@ -190,7 +221,6 @@ export class MediaPanel {
         } else {
           await ctx.replyWithDocument(file, { caption });
         }
-
       } catch (err: any) {
         this.logger.error(`Failed to show media item ${item.messageId}: ${err.message}`);
         await ctx.reply(`❌ Не удалось отправить файл: ${err.message}`);

@@ -80,8 +80,7 @@ export class ClearAllCommand {
         `${conversations.deletedCount} conversations, ${memory.deletedCount} memory items, ${funnels.deletedCount} funnel states`,
     );
 
-    const keyboard = new InlineKeyboard()
-      .text('🏠 Меню', 'menu');
+    const keyboard = new InlineKeyboard().text('🏠 Меню', 'menu');
 
     await ctx.editMessageText(
       `✅ *База данных очищена*\n\n` +

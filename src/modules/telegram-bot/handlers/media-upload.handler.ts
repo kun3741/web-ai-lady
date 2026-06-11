@@ -26,7 +26,7 @@ export class MediaUploadHandler {
     if (!personaId) {
       await ctx.reply(
         '⚠️ *Не выбран активный аккаунт*\n\n' +
-        'Перейдите в «Аккаунты» и выберите персону перед загрузкой медиа.',
+          'Перейдите в «Аккаунты» и выберите персону перед загрузкой медиа.',
         { parse_mode: 'Markdown' },
       );
       return;
@@ -107,11 +107,11 @@ export class MediaUploadHandler {
 
       await ctx.reply(
         `${typeEmoji} *Медиа загружено!*\n\n` +
-        `*Файл:* \`${fileName}\`\n` +
-        `*Размер:* ${sizeKb} KB\n` +
-        `*Тип:* ${type}\n` +
-        `*Персона:* ${persona.name}\n` +
-        `*Режим:* 🔒 Только вручную _(по умолчанию)_`,
+          `*Файл:* \`${fileName}\`\n` +
+          `*Размер:* ${sizeKb} KB\n` +
+          `*Тип:* ${type}\n` +
+          `*Персона:* ${persona.name}\n` +
+          `*Режим:* 🔒 Только вручную _(по умолчанию)_`,
         { parse_mode: 'Markdown', reply_markup: keyboard },
       );
     } catch (err) {

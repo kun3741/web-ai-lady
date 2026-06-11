@@ -31,7 +31,10 @@ export class LeadDetailPanel {
       return;
     }
 
-    const funnelState = await this.funnelService.getOrCreate(candidateId, candidate.personaId.toString());
+    const funnelState = await this.funnelService.getOrCreate(
+      candidateId,
+      candidate.personaId.toString(),
+    );
     const ws = await this.settingsService.getOrCreateDefault();
     const policy = await this.automationService.getPolicyForCandidate(
       candidateId,
@@ -39,14 +42,38 @@ export class LeadDetailPanel {
       ws._id.toString(),
     );
 
-    const lastMsg = await this.messagesService.getLastInboundMessage(candidate.personaId.toString(), candidateId);
-    const lastMsgStr = lastMsg 
-      ? `_${lastMsg.normalizedText.substring(0, 100)}${lastMsg.normalizedText.length > 100 ? '...' : ''}_` 
+    const lastMsg = await this.messagesService.getLastInboundMessage(
+      candidate.personaId.toString(),
+      candidateId,
+    );
+    const lastMsgStr = lastMsg
+      ? `_${lastMsg.normalizedText.substring(0, 100)}${lastMsg.normalizedText.length > 100 ? '...' : ''}_`
       : 'Нет входящих сообщений';
 
-    const statusEmoji = candidate.status === 'active' ? '🟢' : candidate.status === 'paused' ? '⏸' : candidate.status === 'blocked' ? '🚫' : '📁';
-    const statusText = candidate.status === 'active' ? 'АКТИВНЫЙ' : candidate.status === 'paused' ? 'НА ПАУЗЕ' : candidate.status === 'blocked' ? 'ЗАБЛОКИРОВАН' : 'В АРХИВЕ';
-    const modeText = policy.mode === 'draft' ? 'Только черновик' : policy.mode === 'assisted' ? 'Ассистент' : policy.mode === 'full' ? 'Полный автопилот' : 'На паузе';
+    const statusEmoji =
+      candidate.status === 'active'
+        ? '🟢'
+        : candidate.status === 'paused'
+          ? '⏸'
+          : candidate.status === 'blocked'
+            ? '🚫'
+            : '📁';
+    const statusText =
+      candidate.status === 'active'
+        ? 'АКТИВНЫЙ'
+        : candidate.status === 'paused'
+          ? 'НА ПАУЗЕ'
+          : candidate.status === 'blocked'
+            ? 'ЗАБЛОКИРОВАН'
+            : 'В АРХИВЕ';
+    const modeText =
+      policy.mode === 'draft'
+        ? 'Только черновик'
+        : policy.mode === 'assisted'
+          ? 'Ассистент'
+          : policy.mode === 'full'
+            ? 'Полный автопилот'
+            : 'На паузе';
 
     const keyboard = new InlineKeyboard()
       .text(
@@ -100,18 +127,18 @@ export class LeadDetailPanel {
       const keyboard = new InlineKeyboard().text('❌ Отмена', `lead:${candidateId}`);
       await ctx.editMessageText(
         `💬 *Ручной ответ для: ${candidate.displayName}*\n\n` +
-        `Введите сообщение, которое хотите отправить кандидату.\n\n` +
-        `💡 _Если подключен Bridge, оно будет отправлено автоматически. Если нет, оно сохранится как одобренное сообщение для копирования._`,
+          `Введите сообщение, которое хотите отправить кандидату.\n\n` +
+          `💡 _Если подключен Bridge, оно будет отправлено автоматически. Если нет, оно сохранится как одобренное сообщение для копирования._`,
         { parse_mode: 'Markdown', reply_markup: keyboard },
       );
     } else if (action === 'forward_help') {
       const keyboard = new InlineKeyboard().text('🔙 Назад', `lead:${candidateId}`);
       await ctx.editMessageText(
         `📥 *Как переслать сообщение от кандидата:*\n\n` +
-        `1. В Telegram откройте диалог с кандидатом.\n` +
-        `2. Выберите сообщение кандидата.\n` +
-        `3. Нажмите «Переслать» (Forward) и выберите этого бота.\n\n` +
-        `💡 _Бот запишет сообщение как входящее, автоматически обновит память и сгенерирует черновик ответа!_`,
+          `1. В Telegram откройте диалог с кандидатом.\n` +
+          `2. Выберите сообщение кандидата.\n` +
+          `3. Нажмите «Переслать» (Forward) и выберите этого бота.\n\n` +
+          `💡 _Бот запишет сообщение как входящее, автоматически обновит память и сгенерирует черновик ответа!_`,
         { parse_mode: 'Markdown', reply_markup: keyboard },
       );
     }
@@ -180,8 +207,10 @@ export class LeadDetailPanel {
       const mode = params[2];
       const paused = mode === 'pause';
       await this.settingsService.setGlobalPause(paused);
-      await ctx.answerCallbackQuery(paused ? 'Глобальная пауза активирована' : 'Глобальная пауза снята');
-      
+      await ctx.answerCallbackQuery(
+        paused ? 'Глобальная пауза активирована' : 'Глобальная пауза снята',
+      );
+
       const ws = await this.settingsService.getOrCreateDefault();
       const keyboard = new InlineKeyboard()
         .text(
@@ -206,7 +235,14 @@ export class LeadDetailPanel {
         ws._id.toString(),
       );
 
-      const modeText = policy.mode === 'draft' ? 'Только черновик' : policy.mode === 'assisted' ? 'Ассистент' : policy.mode === 'full' ? 'Полный автопилот' : 'На паузе';
+      const modeText =
+        policy.mode === 'draft'
+          ? 'Только черновик'
+          : policy.mode === 'assisted'
+            ? 'Ассистент'
+            : policy.mode === 'full'
+              ? 'Полный автопилот'
+              : 'На паузе';
       const mediaToggleText = policy.neverAutosendMedia
         ? '✅ Разрешить авто-отправку медиа'
         : '⛔ Запретить авто-отправку медиа';
@@ -245,7 +281,9 @@ export class LeadDetailPanel {
         mode: policy.mode as any,
         neverAutosendMedia: newNeverSend,
       });
-      await ctx.answerCallbackQuery(newNeverSend ? 'Автоотправка медиа запрещена' : 'Автоотправка медиа разрешена');
+      await ctx.answerCallbackQuery(
+        newNeverSend ? 'Автоотправка медиа запрещена' : 'Автоотправка медиа разрешена',
+      );
       await this.handleAutomation(ctx, [candidateId, 'menu']);
       return;
     }

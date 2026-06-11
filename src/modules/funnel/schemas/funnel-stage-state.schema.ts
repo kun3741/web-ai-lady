@@ -19,7 +19,15 @@ export class FunnelTransition {
 }
 
 export const FUNNEL_STAGES = [
-  'new', 'intro', 'rapport', 'deepening', 'planning', 'met', 'ongoing', 'cooled', 'archived',
+  'new',
+  'intro',
+  'rapport',
+  'deepening',
+  'planning',
+  'met',
+  'ongoing',
+  'cooled',
+  'archived',
 ] as const;
 export type FunnelStage = (typeof FUNNEL_STAGES)[number];
 

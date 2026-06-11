@@ -144,14 +144,20 @@ export class ImportProcessor extends WorkerHost {
       }
 
       // 7. Detect conversation language
-      const lastMessages = messages.filter((m) => !this.isAdminMessage(m.fromId, adminFromIds)).slice(-10);
+      const lastMessages = messages
+        .filter((m) => !this.isAdminMessage(m.fromId, adminFromIds))
+        .slice(-10);
       const combinedText = lastMessages.map((m) => m.normalizedText).join(' ');
       const cyrillicCount = (combinedText.match(/[\u0400-\u04FF]/g) || []).length;
       const language = cyrillicCount > combinedText.length * 0.2 ? 'ru' : 'en';
       await this.conversationsService.setLanguage(conversation._id.toString(), language);
 
       // 8. Extract reusable few-shot style examples for this persona
-      const extractedStylePairs = await this.persistStyleProfile(importJob.personaId, messages, adminFromIds);
+      const extractedStylePairs = await this.persistStyleProfile(
+        importJob.personaId,
+        messages,
+        adminFromIds,
+      );
 
       // 9. Update stats
       await this.importJobModel.findByIdAndUpdate(importJobId, {

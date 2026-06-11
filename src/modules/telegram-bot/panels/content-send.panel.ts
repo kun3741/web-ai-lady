@@ -53,7 +53,10 @@ export class ContentSendPanel {
       return;
     }
 
-    const funnelState = await this.funnelService.getOrCreate(candidateId, candidate.personaId.toString());
+    const funnelState = await this.funnelService.getOrCreate(
+      candidateId,
+      candidate.personaId.toString(),
+    );
     const currentStage = funnelState.stage;
 
     const ws = await this.settingsService.getOrCreateDefault();
@@ -124,7 +127,9 @@ export class ContentSendPanel {
     const ws = await this.settingsService.getOrCreateDefault();
     const groupId = ws.contentGroupId || '2183482722';
 
-    await ctx.editMessageText(`⏳ *Поиск и отправка контента для этапа "${stage}"...*`, { parse_mode: 'Markdown' });
+    await ctx.editMessageText(`⏳ *Поиск и отправка контента для этапа "${stage}"...*`, {
+      parse_mode: 'Markdown',
+    });
 
     try {
       const content = await this.contentGroupService.fetchContentForStage(
@@ -162,7 +167,11 @@ export class ContentSendPanel {
       }
 
       // Record message in DB
-      const conv = await this.conversationsService.findOrCreate(personaId, candidateId, candidate.telegramUserId);
+      const conv = await this.conversationsService.findOrCreate(
+        personaId,
+        candidateId,
+        candidate.telegramUserId,
+      );
       await this.messagesService.createMessage({
         conversationId: conv._id,
         personaId: new Types.ObjectId(personaId),
@@ -170,7 +179,13 @@ export class ContentSendPanel {
         telegramMessageId: Math.floor(Date.now() / 1000),
         direction: 'outbound',
         normalizedText: content.caption || `[Фото/видео из темы: ${content.topicTitle}]`,
-        mediaType: content.isVoice ? 'voice' : content.isRoundVideo ? 'video_note' : content.mimeType.startsWith('image') ? 'photo' : 'video',
+        mediaType: content.isVoice
+          ? 'voice'
+          : content.isRoundVideo
+            ? 'video_note'
+            : content.mimeType.startsWith('image')
+              ? 'photo'
+              : 'video',
         mediaCategory: content.category,
         sentAt: new Date(),
         isDraft: false,
@@ -213,7 +228,9 @@ export class ContentSendPanel {
     const funnelState = await this.funnelService.getOrCreate(candidateId, personaId);
     const stage = funnelState.stage;
 
-    await ctx.editMessageText(`⏳ *Поиск и отправка контента из категории "${category}"...*`, { parse_mode: 'Markdown' });
+    await ctx.editMessageText(`⏳ *Поиск и отправка контента из категории "${category}"...*`, {
+      parse_mode: 'Markdown',
+    });
 
     try {
       const content = await this.contentGroupService.fetchContentByCategory(
@@ -252,7 +269,11 @@ export class ContentSendPanel {
       }
 
       // Record message in DB
-      const conv = await this.conversationsService.findOrCreate(personaId, candidateId, candidate.telegramUserId);
+      const conv = await this.conversationsService.findOrCreate(
+        personaId,
+        candidateId,
+        candidate.telegramUserId,
+      );
       await this.messagesService.createMessage({
         conversationId: conv._id,
         personaId: new Types.ObjectId(personaId),
@@ -260,7 +281,13 @@ export class ContentSendPanel {
         telegramMessageId: Math.floor(Date.now() / 1000),
         direction: 'outbound',
         normalizedText: content.caption || `[Фото/видео из темы: ${content.topicTitle}]`,
-        mediaType: content.isVoice ? 'voice' : content.isRoundVideo ? 'video_note' : content.mimeType.startsWith('image') ? 'photo' : 'video',
+        mediaType: content.isVoice
+          ? 'voice'
+          : content.isRoundVideo
+            ? 'video_note'
+            : content.mimeType.startsWith('image')
+              ? 'photo'
+              : 'video',
         mediaCategory: content.category,
         sentAt: new Date(),
         isDraft: false,

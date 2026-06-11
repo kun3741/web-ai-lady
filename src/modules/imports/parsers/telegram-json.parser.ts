@@ -104,8 +104,8 @@ export class TelegramJsonParser {
       telegramMessageId: msg.id,
       type: msg.type as 'message' | 'service',
       date: new Date(msg.date),
-      fromName: isService ? (msg.actor || '') : (msg.from || ''),
-      fromId: this.cleanUserId(isService ? (msg.actor_id || '') : (msg.from_id || '')),
+      fromName: isService ? msg.actor || '' : msg.from || '',
+      fromId: this.cleanUserId(isService ? msg.actor_id || '' : msg.from_id || ''),
       normalizedText: normalizeText(msg.text),
       mediaType: this.detectMediaType(msg),
       mediaMetadata: {

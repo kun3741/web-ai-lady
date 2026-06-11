@@ -34,9 +34,12 @@ export class DocumentHandler {
     // Validate file type
     const fileName = doc.file_name || 'import.json';
     if (!fileName.endsWith('.json')) {
-      await ctx.reply('❌ Поддерживаются только файлы формата `.json` (экспорт Telegram Desktop).', {
-        parse_mode: 'Markdown',
-      });
+      await ctx.reply(
+        '❌ Поддерживаются только файлы формата `.json` (экспорт Telegram Desktop).',
+        {
+          parse_mode: 'Markdown',
+        },
+      );
       return;
     }
 

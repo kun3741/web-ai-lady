@@ -31,7 +31,12 @@ export class ForwardHandler {
   isForwarded(ctx: BotContext): boolean {
     const msg = ctx.message as any;
     if (!msg) return false;
-    return !!(msg.forward_origin || msg.forward_from || msg.forward_sender_name || msg.forward_date);
+    return !!(
+      msg.forward_origin ||
+      msg.forward_from ||
+      msg.forward_sender_name ||
+      msg.forward_date
+    );
   }
 
   async handle(ctx: BotContext): Promise<void> {
@@ -45,18 +50,20 @@ export class ForwardHandler {
     // Try forward_from first (user who didn't hide their profile)
     if (msg.forward_from) {
       senderTelegramId = msg.forward_from.id.toString();
-      senderName = [msg.forward_from.first_name, msg.forward_from.last_name]
-        .filter(Boolean)
-        .join(' ') || senderTelegramId || 'Неизвестный';
+      senderName =
+        [msg.forward_from.first_name, msg.forward_from.last_name].filter(Boolean).join(' ') ||
+        senderTelegramId ||
+        'Неизвестный';
     }
     // forward_origin (newer Bot API)
     else if (msg.forward_origin) {
       const origin = msg.forward_origin as any;
       if (origin.type === 'user' && origin.sender_user) {
         senderTelegramId = origin.sender_user.id.toString();
-        senderName = [origin.sender_user.first_name, origin.sender_user.last_name]
-          .filter(Boolean)
-          .join(' ') || senderTelegramId || 'Неизвестный';
+        senderName =
+          [origin.sender_user.first_name, origin.sender_user.last_name].filter(Boolean).join(' ') ||
+          senderTelegramId ||
+          'Неизвестный';
       } else if (origin.type === 'hidden_user') {
         senderName = origin.sender_user_name || 'Скрытый пользователь';
       } else if (origin.sender_user_name) {
@@ -73,7 +80,7 @@ export class ForwardHandler {
     if (!personaId) {
       await ctx.reply(
         '⚠️ *Не выбран активный аккаунт*\n\n' +
-        'Перейдите в «Аккаунты» и выберите персону перед пересылкой сообщений.',
+          'Перейдите в «Аккаунты» и выберите персону перед пересылкой сообщений.',
         { parse_mode: 'Markdown' },
       );
       return;
@@ -82,7 +89,9 @@ export class ForwardHandler {
     // Extract message text
     const messageText = msg.text || msg.caption || '';
     if (!messageText) {
-      await ctx.reply('⚠️ Переслано сообщение без текста. Пока поддерживаются только текстовые сообщения.');
+      await ctx.reply(
+        '⚠️ Переслано сообщение без текста. Пока поддерживаются только текстовые сообщения.',
+      );
       return;
     }
 
@@ -96,7 +105,10 @@ export class ForwardHandler {
         );
 
         // Save as inbound message
-        const conv = await this.conversationsService.findOrCreate(personaId, candidate._id.toString());
+        const conv = await this.conversationsService.findOrCreate(
+          personaId,
+          candidate._id.toString(),
+        );
         const savedMsg = await this.messagesService.createMessage({
           conversationId: conv._id,
           personaId: new Types.ObjectId(personaId),
@@ -112,9 +124,9 @@ export class ForwardHandler {
 
         await ctx.reply(
           `⏳ *Сообщение сохранено!*\n\n` +
-          `*От:* ${senderName} (\`${senderTelegramId}\`)\n` +
-          `*Текст:* _${messageText.substring(0, 100)}${messageText.length > 100 ? '...' : ''}_\n\n` +
-          `Обрабатываю сообщение и генерирую черновик...`,
+            `*От:* ${senderName} (\`${senderTelegramId}\`)\n` +
+            `*Текст:* _${messageText.substring(0, 100)}${messageText.length > 100 ? '...' : ''}_\n\n` +
+            `Обрабатываю сообщение и генерирую черновик...`,
           { parse_mode: 'Markdown' },
         );
 
@@ -131,14 +143,13 @@ export class ForwardHandler {
       }
     } else {
       // No telegram ID — offer to manually link
-      const keyboard = new InlineKeyboard()
-        .text('🔙 Меню', 'menu');
+      const keyboard = new InlineKeyboard().text('🔙 Меню', 'menu');
 
       await ctx.reply(
         `⚠️ *Не удалось определить отправителя*\n\n` +
-        `Отправитель: *${senderName}*\n` +
-        `У этого пользователя скрыт профиль. Для сохранения сообщения необходимо указать Telegram ID вручную.\n\n` +
-        `💡 _Попросите кандидата написать боту напрямую, или создайте лида вручную через меню «Лиды»._`,
+          `Отправитель: *${senderName}*\n` +
+          `У этого пользователя скрыт профиль. Для сохранения сообщения необходимо указать Telegram ID вручную.\n\n` +
+          `💡 _Попросите кандидата написать боту напрямую, или создайте лида вручную через меню «Лиды»._`,
         { parse_mode: 'Markdown', reply_markup: keyboard },
       );
     }

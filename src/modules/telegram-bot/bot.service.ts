@@ -44,7 +44,10 @@ export class BotService implements OnModuleInit, OnModuleDestroy {
       const userId = ctx.from?.id?.toString();
       if (!userId) return;
 
-      const adminIds = this.config.get<string>('ADMIN_TELEGRAM_IDS', '').split(',').map((id) => id.trim());
+      const adminIds = this.config
+        .get<string>('ADMIN_TELEGRAM_IDS', '')
+        .split(',')
+        .map((id) => id.trim());
       const isAdmin = adminIds.includes(userId) || (await this.settingsService.isAdmin(userId));
 
       if (!isAdmin) {
@@ -126,4 +129,3 @@ export class BotService implements OnModuleInit, OnModuleDestroy {
     return this.bot;
   }
 }
-

@@ -13,7 +13,10 @@ import { FunnelModule } from '@modules/funnel/funnel.module';
 import { SettingsModule } from '@modules/settings/settings.module';
 import { QueuesModule } from '@infrastructure/queues/queues.module';
 import { Persona, PersonaSchema } from '@modules/telegram-accounts/schemas/persona.schema';
-import { PromptProfile, PromptProfileSchema } from '@modules/prompting/schemas/prompt-profile.schema';
+import {
+  PromptProfile,
+  PromptProfileSchema,
+} from '@modules/prompting/schemas/prompt-profile.schema';
 
 @Module({
   imports: [

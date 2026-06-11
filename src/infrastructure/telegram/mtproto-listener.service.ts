@@ -133,7 +133,9 @@ export class MtprotoListenerService implements OnModuleInit {
       }
 
       if (!candidateDoc) {
-        this.logger.debug(`Ignoring message from unknown sender ${senderId} for persona ${personaId}`);
+        this.logger.debug(
+          `Ignoring message from unknown sender ${senderId} for persona ${personaId}`,
+        );
         return;
       }
 
@@ -159,7 +161,7 @@ export class MtprotoListenerService implements OnModuleInit {
       const candidateId = candidateDoc._id.toString();
 
       // Accumulate text for combined notification
-      let texts = this.accumulatedTexts.get(candidateId) || [];
+      const texts = this.accumulatedTexts.get(candidateId) || [];
       texts.push(messageText);
       this.accumulatedTexts.set(candidateId, texts);
 
@@ -177,12 +179,10 @@ export class MtprotoListenerService implements OnModuleInit {
         const combinedText = collectedTexts.join(' | ');
 
         try {
-          this.logger.log(`Executing debounced inbound pipeline for candidate ${candidateId} (persona: ${personaId}) with ${collectedTexts.length} messages`);
-          await this.inboundPipeline.processInbound(
-            personaId,
-            candidateId,
-            combinedText,
+          this.logger.log(
+            `Executing debounced inbound pipeline for candidate ${candidateId} (persona: ${personaId}) with ${collectedTexts.length} messages`,
           );
+          await this.inboundPipeline.processInbound(personaId, candidateId, combinedText);
         } catch (err: any) {
           this.logger.error(`Error in debounced inbound pipeline: ${err.message}`);
         }

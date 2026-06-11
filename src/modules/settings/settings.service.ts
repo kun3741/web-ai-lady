@@ -43,6 +43,8 @@ export class SettingsService {
   }
 
   async updateContentGroupId(groupId: string): Promise<Workspace | null> {
-    return this.workspaceModel.findOneAndUpdate({}, { contentGroupId: groupId }, { new: true }).exec();
+    return this.workspaceModel
+      .findOneAndUpdate({}, { contentGroupId: groupId }, { new: true })
+      .exec();
   }
 }

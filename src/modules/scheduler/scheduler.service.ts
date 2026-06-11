@@ -20,18 +20,23 @@ export class SchedulerService {
     scheduledAt: Date,
     payload: Record<string, unknown> = {},
   ): Promise<ScheduledJob> {
-    const finalScheduledAt = await this.adjustForQuietHours(new Types.ObjectId(personaId), scheduledAt);
+    const finalScheduledAt = await this.adjustForQuietHours(
+      new Types.ObjectId(personaId),
+      scheduledAt,
+    );
 
     // Cancel existing pending jobs of the same type for this candidate to avoid spam
     if (candidateId) {
-      await this.jobModel.updateMany(
-        {
-          candidateId: new Types.ObjectId(candidateId),
-          type,
-          status: 'pending',
-        },
-        { status: 'cancelled' },
-      ).exec();
+      await this.jobModel
+        .updateMany(
+          {
+            candidateId: new Types.ObjectId(candidateId),
+            type,
+            status: 'pending',
+          },
+          { status: 'cancelled' },
+        )
+        .exec();
     }
 
     return this.jobModel.create({
@@ -52,7 +57,7 @@ export class SchedulerService {
     // Basic parser for 'HH:MM' quiet hours format in local/UTC time.
     // Convert date to the specified timezone or local time.
     const hour = date.getUTCHours() + 3; // Ukraine time is roughly UTC+2/+3, let's assume Kiev timezone or timezone offset
-    
+
     const [startHourStr] = (start || '23:00').split(':');
     const [endHourStr] = (end || '08:00').split(':');
     const startHour = parseInt(startHourStr, 10);
@@ -76,7 +81,9 @@ export class SchedulerService {
       if (adjusted.getTime() <= date.getTime()) {
         adjusted.setDate(adjusted.getDate() + 1);
       }
-      this.logger.log(`Scheduled date ${date.toISOString()} was in quiet hours for persona ${personaId}, adjusted to ${adjusted.toISOString()}`);
+      this.logger.log(
+        `Scheduled date ${date.toISOString()} was in quiet hours for persona ${personaId}, adjusted to ${adjusted.toISOString()}`,
+      );
       return adjusted;
     }
 
@@ -84,32 +91,32 @@ export class SchedulerService {
   }
 
   async getPendingJobs(): Promise<ScheduledJob[]> {
-    return this.jobModel.find({
-      status: 'pending',
-      scheduledAt: { $lte: new Date() },
-    }).exec();
+    return this.jobModel
+      .find({
+        status: 'pending',
+        scheduledAt: { $lte: new Date() },
+      })
+      .exec();
   }
 
   async executeJob(id: string | Types.ObjectId): Promise<ScheduledJob | null> {
-    return this.jobModel.findByIdAndUpdate(
-      id,
-      { status: 'executed', executedAt: new Date() },
-      { new: true },
-    ).exec();
+    return this.jobModel
+      .findByIdAndUpdate(id, { status: 'executed', executedAt: new Date() }, { new: true })
+      .exec();
   }
 
   async failJob(id: string | Types.ObjectId): Promise<ScheduledJob | null> {
-    return this.jobModel.findByIdAndUpdate(
-      id,
-      { status: 'failed', executedAt: new Date() },
-      { new: true },
-    ).exec();
+    return this.jobModel
+      .findByIdAndUpdate(id, { status: 'failed', executedAt: new Date() }, { new: true })
+      .exec();
   }
 
   async cancelJobsForCandidate(candidateId: string | Types.ObjectId): Promise<void> {
-    await this.jobModel.updateMany(
-      { candidateId: new Types.ObjectId(candidateId), status: 'pending' },
-      { status: 'cancelled' },
-    ).exec();
+    await this.jobModel
+      .updateMany(
+        { candidateId: new Types.ObjectId(candidateId), status: 'pending' },
+        { status: 'cancelled' },
+      )
+      .exec();
   }
 }

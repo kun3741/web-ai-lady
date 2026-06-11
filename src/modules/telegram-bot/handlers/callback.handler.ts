@@ -170,7 +170,11 @@ export class CallbackHandler {
       }
     } catch (err: any) {
       const errMsg = err.message || '';
-      if (errMsg.includes('message is not modified') || errMsg.includes('query is too old') || errMsg.includes('query ID is invalid')) {
+      if (
+        errMsg.includes('message is not modified') ||
+        errMsg.includes('query is too old') ||
+        errMsg.includes('query ID is invalid')
+      ) {
         return;
       }
       this.logger.error(`Callback error for "${data}": ${errMsg}`);

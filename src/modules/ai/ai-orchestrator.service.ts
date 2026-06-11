@@ -15,10 +15,10 @@ import { z } from 'zod';
 /** Schema for AI draft response validation */
 const DraftResponseSchema = z.object({
   reply: z.string().min(1),
-  tone: z.string().optional(),
-  language: z.string().optional(),
-  reasoning: z.string().optional(),
-  suggestedFollowUp: z.string().optional(),
+  tone: z.string().nullable().optional(),
+  language: z.string().nullable().optional(),
+  reasoning: z.string().nullable().optional(),
+  suggestedFollowUp: z.string().nullable().optional(),
   mediaCategory: z.string().nullable().optional(),
   attachedMediaId: z.string().nullable().optional(),
 });
@@ -162,7 +162,7 @@ export class AiOrchestratorService {
       confidence,
       safety: postSafety,
       reasoning: parsed.data.reasoning || '',
-      suggestedFollowUp: parsed.data.suggestedFollowUp,
+      suggestedFollowUp: parsed.data.suggestedFollowUp || undefined,
       mediaCategory: parsed.data.mediaCategory || null,
       attachedMediaId: parsed.data.attachedMediaId || null,
     };

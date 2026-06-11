@@ -37,7 +37,10 @@ export class ImportPanel {
     if (personas.length === 0) {
       await ctx.editMessageText(
         '❌ *Нет активных аккаунтов*\n\nСначала создайте аккаунт (персону) в разделе «Аккаунты».',
-        { parse_mode: 'Markdown', reply_markup: new InlineKeyboard().text('🔙 Назад', 'import:menu') },
+        {
+          parse_mode: 'Markdown',
+          reply_markup: new InlineKeyboard().text('🔙 Назад', 'import:menu'),
+        },
       );
       return;
     }
@@ -94,18 +97,32 @@ export class ImportPanel {
       .row()
       .text('🔙 Назад', 'menu');
 
-    let text = `📥 *Импорт истории чатов*\n\n` +
-      `*Последние задачи импорта:*\n`;
+    let text = `📥 *Импорт истории чатов*\n\n` + `*Последние задачи импорта:*\n`;
 
     if (recent.length === 0) {
       text += `Нет недавних задач импорта.\n`;
     } else {
       for (const job of recent) {
-        const statusText = job.status === 'completed' ? 'Завершено' : job.status === 'processing' ? 'В обработке' : job.status === 'failed' ? 'Ошибка' : 'Ожидает';
-        const statusEmoji = job.status === 'completed' ? '✅' : job.status === 'processing' ? '⏳' : job.status === 'failed' ? '❌' : '⏳';
-        const statsStr = job.status === 'completed'
-          ? `(Импортировано: ${job.stats?.imported || 0} сообщений)`
-          : '';
+        const statusText =
+          job.status === 'completed'
+            ? 'Завершено'
+            : job.status === 'processing'
+              ? 'В обработке'
+              : job.status === 'failed'
+                ? 'Ошибка'
+                : 'Ожидает';
+        const statusEmoji =
+          job.status === 'completed'
+            ? '✅'
+            : job.status === 'processing'
+              ? '⏳'
+              : job.status === 'failed'
+                ? '❌'
+                : '⏳';
+        const statsStr =
+          job.status === 'completed'
+            ? `(Импортировано: ${job.stats?.imported || 0} сообщений)`
+            : '';
         text += `${statusEmoji} *${job.fileName}* — ${statusText} ${statsStr}\n`;
       }
     }

@@ -113,6 +113,8 @@ export class ContactsService {
   }
 
   async addSentMediaId(id: string, key: string): Promise<void> {
-    await this.candidateModel.findByIdAndUpdate(id, { $addToSet: { sentContentMessageIds: key } }).exec();
+    await this.candidateModel
+      .findByIdAndUpdate(id, { $addToSet: { sentContentMessageIds: key } })
+      .exec();
   }
 }

@@ -58,6 +58,21 @@ export class JunkDetectorService {
       junkCount += consecutiveRepeats - 1;
     }
 
+    // 1.5) Repeated greetings in a row (e.g. "hi", then "hello", then "hey")
+    let consecutiveGreetings = 0;
+    for (let i = inbound.length - 1; i >= 0; i--) {
+      const text = (inbound[i].normalizedText || '').trim();
+      if (text && this.isGreetingOnly(text)) {
+        consecutiveGreetings++;
+      } else {
+        break;
+      }
+    }
+    if (consecutiveGreetings >= 2) {
+      reasons.add('repeat');
+      junkCount += consecutiveGreetings - 1;
+    }
+
     // 2) Per-message junk classification across the window
     for (const text of inbound.map((m) => (m.normalizedText || '').trim())) {
       if (!text) continue;
@@ -73,7 +88,10 @@ export class JunkDetectorService {
     // The last message itself must be junk OR a repeat to trigger a reaction —
     // otherwise a single old junk message shouldn't make the bot rude.
     const lastIsJunk =
-      this.isDigitsOrCode(lastText) || this.isGibberish(lastText) || consecutiveRepeats >= 2;
+      this.isDigitsOrCode(lastText) ||
+      this.isGibberish(lastText) ||
+      consecutiveRepeats >= 2 ||
+      consecutiveGreetings >= 2;
 
     if (!lastIsJunk || reasons.size === 0) {
       return { isJunk: false, level: 0, reasons: [] };
@@ -134,5 +152,18 @@ export class JunkDetectorService {
     // Long run of the same character (e.g. "ааааааа", "ggggggg")
     if (/(.)\1{4,}/.test(lower)) return true;
     return false;
+  }
+
+  private isGreetingOnly(text: string): boolean {
+    const norm = text
+      .toLowerCase()
+      .replace(/[^\p{L}\s]/gu, '') // Keep letters and spaces, remove punctuation/emojis
+      .trim();
+    if (!norm) return false;
+
+    const greetingRegex =
+      /^(hi(ya|ii+|\sthere)?|hello(\sthere)?|hey+y*|hola|yo|привет(ик|ики)?|привіт(ик)?|хай|хелл?о|ку|здравствуй(те)?|здарова?|добрый\s+день|добрый\s+вечер|доброе\s+утро|добрий\s+день|добрий\s+вечір|доброго\s+ранку)$/i;
+
+    return greetingRegex.test(norm);
   }
 }

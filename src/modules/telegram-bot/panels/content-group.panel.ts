@@ -40,10 +40,10 @@ export class ContentGroupPanel {
     const ws = await this.settingsService.getOrCreateDefault();
     const groupId = ws.contentGroupId || '2183482722';
     const config = await this.contentGroupService.getOrCreateConfig(groupId);
-    
+
     const totalTopics = config.topicMappings?.length || 0;
-    const enabledTopics = config.topicMappings?.filter(t => t.enabled).length || 0;
-    const lastSync = config.lastSyncedAt 
+    const enabledTopics = config.topicMappings?.filter((t) => t.enabled).length || 0;
+    const lastSync = config.lastSyncedAt
       ? config.lastSyncedAt.toLocaleString('ru-RU', { timeZone: 'Europe/Kiev' })
       : 'Ни разу';
 
@@ -81,10 +81,12 @@ export class ContentGroupPanel {
     const groupId = ws.contentGroupId || '2183482722';
 
     try {
-      await ctx.editMessageText('⏳ *Синхронизация топиков...*\nПожалуйста, подождите.', { parse_mode: 'Markdown' });
-      
+      await ctx.editMessageText('⏳ *Синхронизация топиков...*\nПожалуйста, подождите.', {
+        parse_mode: 'Markdown',
+      });
+
       const result = await this.contentGroupService.syncTopics(groupId, persona._id.toString());
-      
+
       await ctx.answerCallbackQuery({
         text: `✅ Синхронизация успешна! Добавлено/обновлено топиков: ${result.synced}, исключено: ${result.excluded}`,
         show_alert: true,
@@ -111,10 +113,10 @@ export class ContentGroupPanel {
         .text('🔄 Синхронизировать сейчас', 'content_group:sync')
         .row()
         .text('🔙 Назад', 'content_group:menu');
-      
+
       await ctx.editMessageText(
         '⚠️ *Список топиков пуст.*\n\nСначала выполните синхронизацию топиков из группы Telegram.',
-        { parse_mode: 'Markdown', reply_markup: keyboard }
+        { parse_mode: 'Markdown', reply_markup: keyboard },
       );
       return;
     }
@@ -130,10 +132,12 @@ export class ContentGroupPanel {
     for (const t of pageTopics) {
       const statusEmoji = t.enabled ? '🟢' : '🔴';
       const matureSuffix = t.mature ? ' 🔞' : '';
-      keyboard.text(
-        `${statusEmoji} ${t.topicTitle} [${t.category}]${matureSuffix}`,
-        `content_group:toggle:${t.topicId}:${currentPage}`
-      ).row();
+      keyboard
+        .text(
+          `${statusEmoji} ${t.topicTitle} [${t.category}]${matureSuffix}`,
+          `content_group:toggle:${t.topicId}:${currentPage}`,
+        )
+        .row();
     }
 
     // Pagination row
@@ -163,12 +167,14 @@ export class ContentGroupPanel {
     const ws = await this.settingsService.getOrCreateDefault();
     const groupId = ws.contentGroupId || '2183482722';
     const config = await this.contentGroupService.getOrCreateConfig(groupId);
-    const topic = config.topicMappings.find(t => t.topicId === topicId);
+    const topic = config.topicMappings.find((t) => t.topicId === topicId);
 
     if (topic) {
       const newStatus = !topic.enabled;
       await this.contentGroupService.setTopicEnabled(groupId, topicId, newStatus);
-      await ctx.answerCallbackQuery(`Топик "${topic.topicTitle}" теперь ${newStatus ? 'включен' : 'выключен'}`);
+      await ctx.answerCallbackQuery(
+        `Топик "${topic.topicTitle}" теперь ${newStatus ? 'включен' : 'выключен'}`,
+      );
     } else {
       await ctx.answerCallbackQuery('Топик не найден.');
     }
@@ -181,8 +187,8 @@ export class ContentGroupPanel {
     const keyboard = new InlineKeyboard().text('🔙 Отмена', 'content_group:menu');
     await ctx.editMessageText(
       '✏️ *Изменение ID контент-группы*\n\n' +
-      'Введите новый ID Telegram супергруппы (числовой ID, например `2183482722`):',
-      { parse_mode: 'Markdown', reply_markup: keyboard }
+        'Введите новый ID Telegram супергруппы (числовой ID, например `2183482722`):',
+      { parse_mode: 'Markdown', reply_markup: keyboard },
     );
   }
 
@@ -197,12 +203,14 @@ export class ContentGroupPanel {
       await this.settingsService.updateContentGroupId(cleanId);
       ctx.session.awaitingInput = undefined;
 
-      const keyboard = new InlineKeyboard().text('📂 Открыть панель контент-группы', 'content_group:menu');
-      await ctx.reply(
-        `✅ *ID контент-группы успешно обновлен!*\n\n` +
-        `Новый ID: \`${cleanId}\``,
-        { parse_mode: 'Markdown', reply_markup: keyboard }
+      const keyboard = new InlineKeyboard().text(
+        '📂 Открыть панель контент-группы',
+        'content_group:menu',
       );
+      await ctx.reply(`✅ *ID контент-группы успешно обновлен!*\n\n` + `Новый ID: \`${cleanId}\``, {
+        parse_mode: 'Markdown',
+        reply_markup: keyboard,
+      });
     } catch (err: any) {
       this.logger.error(`Failed to update content group ID: ${err.message}`);
       ctx.session.awaitingInput = undefined;

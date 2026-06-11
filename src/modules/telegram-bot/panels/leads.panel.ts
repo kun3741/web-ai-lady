@@ -11,7 +11,7 @@ export class LeadsPanel {
   constructor(
     @InjectModel(Candidate.name) private readonly candidateModel: Model<Candidate>,
     @InjectModel(Persona.name) private readonly personaModel: Model<Persona>,
-  ) {}
+  ) { }
 
   async render(ctx: BotContext, params: string[]): Promise<void> {
     const pageStr = params[1] || '1';
@@ -37,12 +37,23 @@ export class LeadsPanel {
 
     // List leads as buttons
     for (const lead of leads) {
-      const lastMsgDate = lead.lastMessageAt ? new Date(lead.lastMessageAt).toLocaleDateString() : 'N/A';
-      const statusEmoji = lead.status === 'active' ? '🟢' : lead.status === 'paused' ? '⏸' : lead.status === 'blocked' ? '🚫' : '📁';
-      keyboard.text(
-        `${statusEmoji} ${lead.displayName || 'Unknown'} [${lastMsgDate}]`,
-        `lead:${lead._id}`,
-      ).row();
+      const lastMsgDate = lead.lastMessageAt
+        ? new Date(lead.lastMessageAt).toLocaleDateString()
+        : 'N/A';
+      const statusEmoji =
+        lead.status === 'active'
+          ? '🟢'
+          : lead.status === 'paused'
+            ? '⏸'
+            : lead.status === 'blocked'
+              ? '🚫'
+              : '📁';
+      keyboard
+        .text(
+          `${statusEmoji} ${lead.displayName || 'Unknown'} [${lastMsgDate}]`,
+          `lead:${lead._id}`,
+        )
+        .row();
     }
 
     // Pagination row
@@ -55,8 +66,7 @@ export class LeadsPanel {
     }
     keyboard.row();
 
-    keyboard.text('➕ Новый лид', 'leads:create')
-      .text('🔙 Меню', 'menu');
+    keyboard.text('➕ Новый лид', 'leads:create').text('🔙 Меню', 'menu');
 
     let text = `👨 *Список лидов (Всего: ${total})*\n\n`;
     if (leads.length === 0) {
@@ -82,7 +92,7 @@ export class LeadsPanel {
 
       await ctx.editMessageText(
         '⚠️ *Нет активных аккаунтов*\n\n' +
-          'Для создания лида сначала необходимо создать аккаунт (персону).',
+        'Для создания лида сначала необходимо создать аккаунт (персону).',
         { parse_mode: 'Markdown', reply_markup: keyboard },
       );
       return;
@@ -102,8 +112,7 @@ export class LeadsPanel {
     keyboard.text('🔙 Назад', 'leads:list:1');
 
     await ctx.editMessageText(
-      '👤 *Выберите аккаунт для нового лида:*\n\n' +
-        'К какому аккаунту будет привязан кандидат?',
+      '👤 *Выберите аккаунт для нового лида:*\n\n' + 'К какому аккаунту будет привязан кандидат?',
       { parse_mode: 'Markdown', reply_markup: keyboard },
     );
   }
@@ -125,14 +134,12 @@ export class LeadsPanel {
 
     try {
       await ctx.editMessageText(
-        '✏️ *Создание нового лида*\n\n' +
-          'Введите *имя* кандидата (отобразится в списке лидов):',
+        '✏️ *Создание нового лида*\n\n' + 'Введите *имя* кандидата (отобразится в списке лидов):',
         { parse_mode: 'Markdown', reply_markup: keyboard },
       );
     } catch (_) {
       await ctx.reply(
-        '✏️ *Создание нового лида*\n\n' +
-          'Введите *имя* кандидата (отобразится в списке лидов):',
+        '✏️ *Создание нового лида*\n\n' + 'Введите *имя* кандидата (отобразится в списке лидов):',
         { parse_mode: 'Markdown', reply_markup: keyboard },
       );
     }

@@ -7,9 +7,7 @@ import { MtprotoBridgeService } from './mtproto-bridge.service';
 @Module({
   imports: [
     ConfigModule,
-    MongooseModule.forFeature([
-      { name: Persona.name, schema: PersonaSchema },
-    ]),
+    MongooseModule.forFeature([{ name: Persona.name, schema: PersonaSchema }]),
   ],
   providers: [MtprotoBridgeService],
   exports: [MtprotoBridgeService, MongooseModule],

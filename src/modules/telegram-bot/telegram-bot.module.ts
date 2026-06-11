@@ -35,9 +35,15 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { Persona, PersonaSchema } from '@modules/telegram-accounts/schemas/persona.schema';
 import { Candidate, CandidateSchema } from '@modules/contacts/schemas/candidate.schema';
 import { Message, MessageSchema } from '@modules/messages/schemas/message.schema';
-import { Conversation, ConversationSchema } from '@modules/conversations/schemas/conversation.schema';
+import {
+  Conversation,
+  ConversationSchema,
+} from '@modules/conversations/schemas/conversation.schema';
 import { MemoryItem, MemoryItemSchema } from '@modules/memory/schemas/memory-item.schema';
-import { FunnelStageState, FunnelStageStateSchema } from '@modules/funnel/schemas/funnel-stage-state.schema';
+import {
+  FunnelStageState,
+  FunnelStageStateSchema,
+} from '@modules/funnel/schemas/funnel-stage-state.schema';
 
 @Module({
   imports: [

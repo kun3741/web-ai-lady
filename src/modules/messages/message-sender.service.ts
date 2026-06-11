@@ -41,7 +41,9 @@ export class MessageSenderService {
           clearTimeout(pending.readTimeoutId);
         }
         InboundPipelineService.pendingAutosends.delete(candId);
-        this.logger.log(`Cancelled scheduled autopilot send for candidate ${candId} because message ${messageId} was sent manually/immediately`);
+        this.logger.log(
+          `Cancelled scheduled autopilot send for candidate ${candId} because message ${messageId} was sent manually/immediately`,
+        );
         break;
       }
     }
@@ -65,13 +67,17 @@ export class MessageSenderService {
     const isConnected = this.bridgeService.isConnected(personaId);
 
     if (!isConnected) {
-      this.logger.warn(`Bridge not connected for persona ${personaId}, cannot send message ${messageId} automatically`);
+      this.logger.warn(
+        `Bridge not connected for persona ${personaId}, cannot send message ${messageId} automatically`,
+      );
       throw new Error('BRIDGE_NOT_CONNECTED');
     }
 
     // Mark chat history as read right before we start typing
     await this.bridgeService.readHistory(personaId, candidate.telegramUserId).catch((err) => {
-      this.logger.warn(`Failed to mark history as read for candidate ${candidate.telegramUserId}: ${err.message}`);
+      this.logger.warn(
+        `Failed to mark history as read for candidate ${candidate.telegramUserId}: ${err.message}`,
+      );
     });
 
     const textToSend = message.normalizedText;
@@ -81,13 +87,19 @@ export class MessageSenderService {
 
     // Simulate human typing delay to avoid looking like a bot
     const typingTimeMs = Math.min(15000, Math.max(4000, textToSend.length * 60));
-    this.logger.log(`Simulating typing for ${typingTimeMs}ms to candidate ${candidate.telegramUserId} (${candidate.displayName})`);
-    
+    this.logger.log(
+      `Simulating typing for ${typingTimeMs}ms to candidate ${candidate.telegramUserId} (${candidate.displayName})`,
+    );
+
     const start = Date.now();
     while (Date.now() - start < typingTimeMs) {
-      await this.bridgeService.sendTypingAction(personaId, candidate.telegramUserId).catch((err) => {
-        this.logger.warn(`Failed to send typing action to candidate ${candidate.telegramUserId}: ${err.message}`);
-      });
+      await this.bridgeService
+        .sendTypingAction(personaId, candidate.telegramUserId)
+        .catch((err) => {
+          this.logger.warn(
+            `Failed to send typing action to candidate ${candidate.telegramUserId}: ${err.message}`,
+          );
+        });
       const remaining = typingTimeMs - (Date.now() - start);
       const sleepTime = Math.min(4000, remaining);
       if (sleepTime > 0) {
@@ -114,9 +126,15 @@ export class MessageSenderService {
               },
             );
             mediaSent = true;
-            message.mediaType = content.isVoice ? 'voice' : content.isRoundVideo ? 'video_note' : content.mimeType.startsWith('image') ? 'photo' : 'video';
+            message.mediaType = content.isVoice
+              ? 'voice'
+              : content.isRoundVideo
+                ? 'video_note'
+                : content.mimeType.startsWith('image')
+                  ? 'photo'
+                  : 'video';
             message.mediaCategory = content.category;
-            
+
             // Save to candidate's sentContentMessageIds
             const key = `${mediaItem.groupId}:${mediaItem.messageId}`;
             await this.contactsService.addSentMediaId(candidate._id.toString(), key);
@@ -144,7 +162,10 @@ export class MessageSenderService {
       try {
         const ws = await this.settingsService.getOrCreateDefault();
         const groupId = ws.contentGroupId || '2183482722';
-        const funnelState = await this.funnelService.getOrCreate(candidate._id.toString(), personaId);
+        const funnelState = await this.funnelService.getOrCreate(
+          candidate._id.toString(),
+          personaId,
+        );
 
         // Pass candidateId to skip duplicate media
         const content = await this.contentGroupService.fetchContentByCategory(
@@ -168,11 +189,20 @@ export class MessageSenderService {
             },
           );
           mediaSent = true;
-          message.mediaType = content.isVoice ? 'voice' : content.isRoundVideo ? 'video_note' : content.mimeType.startsWith('image') ? 'photo' : 'video';
-          
+          message.mediaType = content.isVoice
+            ? 'voice'
+            : content.isRoundVideo
+              ? 'video_note'
+              : content.mimeType.startsWith('image')
+                ? 'photo'
+                : 'video';
+
           // Save to candidate's sentContentMessageIds
           if (content.messageId) {
-            await this.contactsService.addSentMediaId(candidate._id.toString(), `${groupId}:${content.messageId}`);
+            await this.contactsService.addSentMediaId(
+              candidate._id.toString(),
+              `${groupId}:${content.messageId}`,
+            );
           }
 
           this.logger.log(
@@ -206,16 +236,18 @@ export class MessageSenderService {
     // Actually, createMessage does this, but since we are modifying an existing draft,
     // we should manually update contact & conversation lastMessage time.
     await this.contactsService.updateLastMessage(candidate._id.toString(), 'outbound');
-    
+
     // Log audit event
-    await this.auditService.log({
-      workspaceId: persona.workspaceId?.toString() || '',
-      personaId,
-      candidateId: candidate._id.toString(),
-      action: 'message_sent_bridge',
-      actor: 'admin',
-      details: { messageId, textLength: textToSend.length },
-    }).catch(err => this.logger.error(`Failed to log audit event: ${err.message}`));
+    await this.auditService
+      .log({
+        workspaceId: persona.workspaceId?.toString() || '',
+        personaId,
+        candidateId: candidate._id.toString(),
+        action: 'message_sent_bridge',
+        actor: 'admin',
+        details: { messageId, textLength: textToSend.length },
+      })
+      .catch((err) => this.logger.error(`Failed to log audit event: ${err.message}`));
 
     this.logger.log(`Successfully sent message ${messageId} via bridge for persona ${personaId}`);
     return updatedMessage;

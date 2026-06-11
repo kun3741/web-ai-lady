@@ -24,10 +24,9 @@ export class AnalyticsService {
     }
 
     // 1. Leads by status
-    const statusCounts = await this.candidateModel.aggregate([
-      { $match: filter },
-      { $group: { _id: '$status', count: { $sum: 1 } } },
-    ]).exec();
+    const statusCounts = await this.candidateModel
+      .aggregate([{ $match: filter }, { $group: { _id: '$status', count: { $sum: 1 } } }])
+      .exec();
 
     const leadsByStatus = { active: 0, paused: 0, archived: 0, blocked: 0 };
     for (const group of statusCounts) {
@@ -37,10 +36,9 @@ export class AnalyticsService {
     }
 
     // 2. Funnel stage distribution
-    const funnelCounts = await this.funnelModel.aggregate([
-      { $match: filter },
-      { $group: { _id: '$stage', count: { $sum: 1 } } },
-    ]).exec();
+    const funnelCounts = await this.funnelModel
+      .aggregate([{ $match: filter }, { $group: { _id: '$stage', count: { $sum: 1 } } }])
+      .exec();
 
     const funnelDistribution: Record<string, number> = {};
     for (const group of funnelCounts) {
@@ -53,10 +51,9 @@ export class AnalyticsService {
       messageFilter.personaId = new Types.ObjectId(personaId);
     }
 
-    const messageDirectionCounts = await this.messageModel.aggregate([
-      { $match: messageFilter },
-      { $group: { _id: '$direction', count: { $sum: 1 } } },
-    ]).exec();
+    const messageDirectionCounts = await this.messageModel
+      .aggregate([{ $match: messageFilter }, { $group: { _id: '$direction', count: { $sum: 1 } } }])
+      .exec();
 
     const messages = { inbound: 0, outbound: 0 };
     for (const group of messageDirectionCounts) {
@@ -81,7 +78,11 @@ export class AnalyticsService {
 
     return {
       leads: {
-        total: leadsByStatus.active + leadsByStatus.paused + leadsByStatus.archived + leadsByStatus.blocked,
+        total:
+          leadsByStatus.active +
+          leadsByStatus.paused +
+          leadsByStatus.archived +
+          leadsByStatus.blocked,
         ...leadsByStatus,
       },
       funnel: funnelDistribution,
@@ -106,10 +107,12 @@ export class AnalyticsService {
     }
 
     // New leads today
-    const newLeads = await this.candidateModel.countDocuments({
-      ...filter,
-      createdAt: { $gte: todayStart },
-    }).exec();
+    const newLeads = await this.candidateModel
+      .countDocuments({
+        ...filter,
+        createdAt: { $gte: todayStart },
+      })
+      .exec();
 
     // Messages sent today (inbound + outbound)
     const messageFilter: any = { isDraft: false, sentAt: { $gte: todayStart } };
@@ -117,21 +120,27 @@ export class AnalyticsService {
       messageFilter.personaId = new Types.ObjectId(personaId);
     }
 
-    const inboundToday = await this.messageModel.countDocuments({
-      ...messageFilter,
-      direction: 'inbound',
-    }).exec();
+    const inboundToday = await this.messageModel
+      .countDocuments({
+        ...messageFilter,
+        direction: 'inbound',
+      })
+      .exec();
 
-    const outboundToday = await this.messageModel.countDocuments({
-      ...messageFilter,
-      direction: 'outbound',
-    }).exec();
+    const outboundToday = await this.messageModel
+      .countDocuments({
+        ...messageFilter,
+        direction: 'outbound',
+      })
+      .exec();
 
-    const draftsCreatedToday = await this.messageModel.countDocuments({
-      ...filter,
-      isDraft: true,
-      createdAt: { $gte: todayStart },
-    }).exec();
+    const draftsCreatedToday = await this.messageModel
+      .countDocuments({
+        ...filter,
+        isDraft: true,
+        createdAt: { $gte: todayStart },
+      })
+      .exec();
 
     // Average latency today
     const avgLatencyMinutes = await this.calculateAverageLatency(personaId, todayStart);

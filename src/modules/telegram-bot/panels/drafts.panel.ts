@@ -44,13 +44,12 @@ export class DraftsPanel {
       for (const d of drafts) {
         const candidate = await this.candidateModel.findById(d.candidateId).exec();
         const leadName = candidate ? candidate.displayName : 'Unknown';
-        const txtSnippet = d.normalizedText.substring(0, 20) + (d.normalizedText.length > 20 ? '...' : '');
+        const txtSnippet =
+          d.normalizedText.substring(0, 20) + (d.normalizedText.length > 20 ? '...' : '');
         keyboard.text(`📝 ${leadName}: ${txtSnippet}`, `draft:view:${d._id}`).row();
       }
 
-      keyboard.text('🔄 Обновить', 'drafts:list')
-        .row()
-        .text('🔙 Назад', 'menu');
+      keyboard.text('🔄 Обновить', 'drafts:list').row().text('🔙 Назад', 'menu');
 
       let text = `📝 *Список active-черновиков (Всего: ${drafts.length})*\n\n`;
       if (drafts.length === 0) {
@@ -113,8 +112,13 @@ export class DraftsPanel {
         .row()
         .text('🔙 Назад', 'drafts:list');
 
-      const safetyStatusEmoji = draft.safetyStatus === 'safe' ? '✅ Safe' : draft.safetyStatus === 'review' ? '⚠️ Review Required' : '🚫 Blocked';
-      
+      const safetyStatusEmoji =
+        draft.safetyStatus === 'safe'
+          ? '✅ Safe'
+          : draft.safetyStatus === 'review'
+            ? '⚠️ Review Required'
+            : '🚫 Blocked';
+
       let mediaAttachedText = '';
       if (draft.mediaItemId) {
         try {
@@ -133,11 +137,11 @@ export class DraftsPanel {
       }
 
       const text =
-          `📝 *Просмотр черновика*\n\n` +
-          `*Получатель:* ${leadName}\n` +
-          `*Уверенность AI:* \`${Math.round(draft.confidence * 100)}%\` (${safetyStatusEmoji})\n` +
-          `*Тон:* \`${draft.draftTone || 'Не указан'}\`${mediaAttachedText}\n\n` +
-          `💬 *Текст сообщения:*\n_${draft.normalizedText}_`;
+        `📝 *Просмотр черновика*\n\n` +
+        `*Получатель:* ${leadName}\n` +
+        `*Уверенность AI:* \`${Math.round(draft.confidence * 100)}%\` (${safetyStatusEmoji})\n` +
+        `*Тон:* \`${draft.draftTone || 'Не указан'}\`${mediaAttachedText}\n\n` +
+        `💬 *Текст сообщения:*\n_${draft.normalizedText}_`;
 
       await ctx.editMessageText(text, { parse_mode: 'Markdown', reply_markup: keyboard });
       return;
@@ -145,7 +149,7 @@ export class DraftsPanel {
 
     if (action === 'send') {
       const ws = await this.settingsService.getOrCreateDefault();
-      
+
       // Answer callback query immediately to prevent "query is too old" errors from slow typing simulations
       await ctx.answerCallbackQuery('Отправляю...').catch(() => {});
 
@@ -169,9 +173,9 @@ export class DraftsPanel {
           const keyboard = new InlineKeyboard().text('🔙 К черновикам', 'drafts:list');
           await ctx.editMessageText(
             `⚠️ *Bridge не подключен!*\n\n` +
-            `Черновик одобрен и сохранён как отправленный в системе.\n` +
-            `Скопируйте текст сообщения ниже для ручной отправки:\n\n` +
-            `\`${draft.normalizedText}\``,
+              `Черновик одобрен и сохранён как отправленный в системе.\n` +
+              `Скопируйте текст сообщения ниже для ручной отправки:\n\n` +
+              `\`${draft.normalizedText}\``,
             { parse_mode: 'Markdown', reply_markup: keyboard },
           );
         } else {
@@ -184,7 +188,7 @@ export class DraftsPanel {
 
     if (action === 'reject') {
       const ws = await this.settingsService.getOrCreateDefault();
-      
+
       // Clear any pending automated timeouts for this candidate/message if rejected
       for (const [candId, pending] of InboundPipelineService.pendingAutosends.entries()) {
         if (pending.msgId === draftId) {
@@ -193,7 +197,9 @@ export class DraftsPanel {
             clearTimeout(pending.readTimeoutId);
           }
           InboundPipelineService.pendingAutosends.delete(candId);
-          this.logger.log(`Cancelled scheduled autopilot send for candidate ${candId} because message ${draftId} was rejected/deleted`);
+          this.logger.log(
+            `Cancelled scheduled autopilot send for candidate ${candId} because message ${draftId} was rejected/deleted`,
+          );
           break;
         }
       }
@@ -257,17 +263,19 @@ export class DraftsPanel {
       await this.handleDraftAction(ctx, ['view', draftId]);
     } catch (err) {
       this.logger.error(`Failed to rewrite draft: ${(err as Error).message}`, (err as Error).stack);
-      
+
       const keyboard = new InlineKeyboard().text('🔙 Назад', `draft:view:${draftId}`);
-      await ctx.editMessageText(
-        `❌ *Ошибка переписывания черновика*\n\n` +
-        `Не удалось связаться с AI-провайдером. Ошибка: \`${(err as Error).message}\`\n\n` +
-        `🔧 *Что проверить:*\n` +
-        `1. Убедитесь, что \`OPENAI_API_KEY\` в файле \`.env\` заполнен правильно.\n` +
-        `2. Проверьте стабильность интернет-соединения.\n` +
-        `3. Если используется Hugging Face, возможно превышен лимит бесплатных запросов.`,
-        { parse_mode: 'Markdown', reply_markup: keyboard }
-      ).catch(() => {});
+      await ctx
+        .editMessageText(
+          `❌ *Ошибка переписывания черновика*\n\n` +
+            `Не удалось связаться с AI-провайдером. Ошибка: \`${(err as Error).message}\`\n\n` +
+            `🔧 *Что проверить:*\n` +
+            `1. Убедитесь, что \`OPENAI_API_KEY\` в файле \`.env\` заполнен правильно.\n` +
+            `2. Проверьте стабильность интернет-соединения.\n` +
+            `3. Если используется Hugging Face, возможно превышен лимит бесплатных запросов.`,
+          { parse_mode: 'Markdown', reply_markup: keyboard },
+        )
+        .catch(() => {});
     }
   }
 
@@ -300,7 +308,11 @@ export class DraftsPanel {
         isDraft: true,
         normalizedText: draftResult.text,
         confidence: draftResult.confidence,
-        safetyStatus: draftResult.safety.blocked ? 'blocked' : draftResult.safety.flagged ? 'review' : 'safe',
+        safetyStatus: draftResult.safety.blocked
+          ? 'blocked'
+          : draftResult.safety.flagged
+            ? 'review'
+            : 'safe',
         draftTone: draftResult.tone,
         mediaCategory: (draftResult as any).mediaCategory || null,
         mediaItemId: draftResult.attachedMediaId || null,
@@ -309,18 +321,23 @@ export class DraftsPanel {
 
       await this.handleDraftAction(ctx, ['view', draftMsg._id.toString()]);
     } catch (err) {
-      this.logger.error(`Failed to generate draft: ${(err as Error).message}`, (err as Error).stack);
-      
+      this.logger.error(
+        `Failed to generate draft: ${(err as Error).message}`,
+        (err as Error).stack,
+      );
+
       const keyboard = new InlineKeyboard().text('🔙 Назад', `lead:${candidateId}`);
-      await ctx.editMessageText(
-        `❌ *Ошибка генерации черновика*\n\n` +
-        `Не удалось связаться с AI-провайдером. Ошибка: \`${(err as Error).message}\`\n\n` +
-        `🔧 *Что проверить:*\n` +
-        `1. Убедитесь, что \`OPENAI_API_KEY\` в файле \`.env\` заполнен правильно.\n` +
-        `2. Проверьте стабильность интернет-соединения.\n` +
-        `3. Если используется Hugging Face, возможно превышен лимит запросов.`,
-        { parse_mode: 'Markdown', reply_markup: keyboard }
-      ).catch(() => {});
+      await ctx
+        .editMessageText(
+          `❌ *Ошибка генерации черновика*\n\n` +
+            `Не удалось связаться с AI-провайдером. Ошибка: \`${(err as Error).message}\`\n\n` +
+            `🔧 *Что проверить:*\n` +
+            `1. Убедитесь, что \`OPENAI_API_KEY\` в файле \`.env\` заполнен правильно.\n` +
+            `2. Проверьте стабильность интернет-соединения.\n` +
+            `3. Если используется Hugging Face, возможно превышен лимит запросов.`,
+          { parse_mode: 'Markdown', reply_markup: keyboard },
+        )
+        .catch(() => {});
     }
   }
 }

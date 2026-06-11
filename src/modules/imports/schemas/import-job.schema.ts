@@ -26,7 +26,11 @@ export class ImportJob extends Document {
   @Prop({ default: '' })
   filePath: string;
 
-  @Prop({ type: String, enum: ['pending', 'processing', 'completed', 'failed'], default: 'pending' })
+  @Prop({
+    type: String,
+    enum: ['pending', 'processing', 'completed', 'failed'],
+    default: 'pending',
+  })
   status: string;
 
   @Prop({ type: ImportStats, default: () => ({}) })

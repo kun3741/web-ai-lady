@@ -26,7 +26,7 @@ export class BridgePanel {
     @InjectModel(Message.name) private readonly messageModel: Model<Message>,
     private readonly messagesService: MessagesService,
     private readonly conversationsService: ConversationsService,
-  ) { }
+  ) {}
 
   async handleAction(ctx: BotContext, params: string[]): Promise<void> {
     const action = params[0] || 'menu';
@@ -69,7 +69,8 @@ export class BridgePanel {
     keyboard.text('🔙 К аккаунту', `persona_select:${personaId}`);
 
     const defaultApiId = process.env.TELEGRAM_API_ID;
-    const displayApiId = persona.mtprotoApiId || (defaultApiId ? parseInt(defaultApiId, 10) : undefined);
+    const displayApiId =
+      persona.mtprotoApiId || (defaultApiId ? parseInt(defaultApiId, 10) : undefined);
 
     const text =
       `🔗 *MTProto Bridge — ${persona.name}*\n\n` +
@@ -79,9 +80,9 @@ export class BridgePanel {
       (isConnected
         ? `✅ Bridge активен. Бот может отправлять сообщения от имени этого аккаунта и принимать входящие.`
         : `⚠️ Bridge не подключен. Нажмите «🔗 Подключить аккаунт» для авторизации.\n\n` +
-        (defaultApiId
-          ? `💡 _Используются общие API ключи. Понадобится только номер телефона и код._`
-          : `💡 _Вам понадобятся api\\_id и api\\_hash с [my.telegram.org](https://my.telegram.org)_`));
+          (defaultApiId
+            ? `💡 _Используются общие API ключи. Понадобится только номер телефона и код._`
+            : `💡 _Вам понадобятся api\\_id и api\\_hash с [my.telegram.org](https://my.telegram.org)_`));
 
     try {
       await ctx.editMessageText(text, { parse_mode: 'Markdown', reply_markup: keyboard });
@@ -107,8 +108,8 @@ export class BridgePanel {
       const keyboard = new InlineKeyboard().text('❌ Отмена', `bridge:menu:${personaId}`);
       await ctx.editMessageText(
         `🔑 *Подключение MTProto Bridge*\n\n` +
-        `Используются общие API ключи.\n\n` +
-        `*Шаг 1 из 2:* Введите номер телефона аккаунта (в международном формате, например: \`+380XXXXXXXXX\`)`,
+          `Используются общие API ключи.\n\n` +
+          `*Шаг 1 из 2:* Введите номер телефона аккаунта (в международном формате, например: \`+380XXXXXXXXX\`)`,
         { parse_mode: 'Markdown', reply_markup: keyboard },
       );
       return;
@@ -118,8 +119,8 @@ export class BridgePanel {
     const keyboard = new InlineKeyboard().text('❌ Отмена', `bridge:menu:${personaId}`);
     await ctx.editMessageText(
       `🔑 *Подключение MTProto Bridge*\n\n` +
-      `*Шаг 1 из 4:* Введите \`api_id\` (число)\n\n` +
-      `💡 _Получите api_id на [my.telegram.org](https://my.telegram.org) → API development tools_`,
+        `*Шаг 1 из 4:* Введите \`api_id\` (число)\n\n` +
+        `💡 _Получите api_id на [my.telegram.org](https://my.telegram.org) → API development tools_`,
       { parse_mode: 'Markdown', reply_markup: keyboard },
     );
   }
@@ -138,8 +139,7 @@ export class BridgePanel {
     ctx.session.awaitingInput = 'bridge_api_hash';
 
     await ctx.reply(
-      `✅ API ID: \`${apiId}\`\n\n` +
-      `*Шаг 2 из 4:* Введите \`api_hash\` (строка из 32 символов)`,
+      `✅ API ID: \`${apiId}\`\n\n` + `*Шаг 2 из 4:* Введите \`api_hash\` (строка из 32 символов)`,
       { parse_mode: 'Markdown' },
     );
   }
@@ -149,7 +149,9 @@ export class BridgePanel {
    */
   async handleApiHashInput(ctx: BotContext, apiHash: string): Promise<void> {
     if (!apiHash || apiHash.length < 10) {
-      await ctx.reply('❌ API Hash выглядит некорректно. Должен быть 32 символа. Попробуйте снова:');
+      await ctx.reply(
+        '❌ API Hash выглядит некорректно. Должен быть 32 символа. Попробуйте снова:',
+      );
       return;
     }
 
@@ -158,7 +160,7 @@ export class BridgePanel {
 
     await ctx.reply(
       `✅ API Hash сохранён.\n\n` +
-      `*Шаг 3 из 4:* Введите номер телефона аккаунта (в международном формате, например: \`+380XXXXXXXXX\`)`,
+        `*Шаг 3 из 4:* Введите номер телефона аккаунта (в международном формате, например: \`+380XXXXXXXXX\`)`,
       { parse_mode: 'Markdown' },
     );
   }
@@ -179,7 +181,9 @@ export class BridgePanel {
 
     const phoneClean = phone.trim().replace(/\s/g, '');
     if (!phoneClean.startsWith('+') || phoneClean.length < 10) {
-      await ctx.reply('❌ Номер должен начинаться с + и содержать не менее 10 цифр. Попробуйте снова:');
+      await ctx.reply(
+        '❌ Номер должен начинаться с + и содержать не менее 10 цифр. Попробуйте снова:',
+      );
       return;
     }
 
@@ -189,18 +193,15 @@ export class BridgePanel {
       await ctx.reply('⏳ Отправляю код подтверждения...');
 
       // Save API credentials to persona
-      await this.personaModel.findByIdAndUpdate(personaId, {
-        mtprotoApiId: apiId,
-        mtprotoApiHash: apiHash,
-        mtprotoPhone: phoneClean,
-      }).exec();
+      await this.personaModel
+        .findByIdAndUpdate(personaId, {
+          mtprotoApiId: apiId,
+          mtprotoApiHash: apiHash,
+          mtprotoPhone: phoneClean,
+        })
+        .exec();
 
-      const { phoneCodeHash } = await this.bridge.startAuth(
-        personaId,
-        apiId,
-        apiHash,
-        phoneClean,
-      );
+      const { phoneCodeHash } = await this.bridge.startAuth(personaId, apiId, apiHash, phoneClean);
 
       this.pendingCodeHashes.set(personaId, phoneCodeHash);
       ctx.session.awaitingInput = 'bridge_code';
@@ -211,7 +212,7 @@ export class BridgePanel {
 
       await ctx.reply(
         `📲 *Код отправлен на ${phoneClean}*\n\n` +
-        `*${stepText}:* Введите код подтверждения из Telegram`,
+          `*${stepText}:* Введите код подтверждения из Telegram`,
         { parse_mode: 'Markdown' },
       );
     } catch (err) {
@@ -244,12 +245,7 @@ export class BridgePanel {
     try {
       await ctx.reply('⏳ Проверяю код...');
 
-      await this.bridge.completeAuth(
-        personaId,
-        phone,
-        code.trim(),
-        phoneCodeHash,
-      );
+      await this.bridge.completeAuth(personaId, phone, code.trim(), phoneCodeHash);
 
       // Clean up
       this.pendingCodeHashes.delete(personaId);
@@ -269,9 +265,9 @@ export class BridgePanel {
 
       await ctx.reply(
         `✅ *MTProto Bridge подключён!*\n\n` +
-        `Аккаунт успешно авторизован. Бот теперь может:\n` +
-        `• Отправлять сообщения от имени этого аккаунта\n` +
-        `• Принимать входящие сообщения`,
+          `Аккаунт успешно авторизован. Бот теперь может:\n` +
+          `• Отправлять сообщения от имени этого аккаунта\n` +
+          `• Принимать входящие сообщения`,
         { parse_mode: 'Markdown', reply_markup: keyboard },
       );
     } catch (err) {
@@ -338,10 +334,10 @@ export class BridgePanel {
         .row()
         .text('🔙 Меню', 'menu');
 
-      await ctx.reply(
-        `✅ *MTProto Bridge подключён!*\n\nАккаунт успешно авторизован с 2FA.`,
-        { parse_mode: 'Markdown', reply_markup: keyboard },
-      );
+      await ctx.reply(`✅ *MTProto Bridge подключён!*\n\nАккаунт успешно авторизован с 2FA.`, {
+        parse_mode: 'Markdown',
+        reply_markup: keyboard,
+      });
     } catch (err) {
       this.logger.error(`Bridge 2FA failed: ${(err as Error).message}`);
       ctx.session.awaitingInput = undefined;
@@ -377,7 +373,9 @@ export class BridgePanel {
    */
   async handleSync(ctx: BotContext, personaId: string): Promise<void> {
     try {
-      const syncStatusMsg = await ctx.reply('⏳ Получаю список последних чатов и сообщений из Telegram...');
+      const syncStatusMsg = await ctx.reply(
+        '⏳ Получаю список последних чатов и сообщений из Telegram...',
+      );
 
       const client = this.bridge.getClient(personaId);
       if (!client) {
@@ -397,24 +395,23 @@ export class BridgePanel {
         if (myId && d.id === myId) continue;
 
         // Create lead
-        const candidate = await this.contactsService.findOrCreate(
-          personaId,
-          d.id,
-          d.name,
-        );
+        const candidate = await this.contactsService.findOrCreate(personaId, d.id, d.name);
 
         // Fetch recent messages from Telegram for this dialog to populate database history
         try {
           const idVal = /^-?\d+$/.test(d.id) ? BigInt(d.id) : d.id;
           const messages = await client.getMessages(idVal as any, { limit: 100 });
-          const conv = await this.conversationsService.findOrCreate(personaId, candidate._id.toString());
-          
+          const conv = await this.conversationsService.findOrCreate(
+            personaId,
+            candidate._id.toString(),
+          );
+
           let importCount = 0;
           for (const msg of messages) {
             // Save messages if they don't exist yet
             const exists = await this.messageModel.exists({
               conversationId: conv._id,
-              telegramMessageId: msg.id
+              telegramMessageId: msg.id,
             });
             if (!exists) {
               await this.messagesService.createMessage({
@@ -450,9 +447,9 @@ export class BridgePanel {
 
       await ctx.reply(
         `✅ *Синхронизация завершена!*\n\n` +
-        `• Импортировано контактов: *${count}*\n` +
-        `• Загружено исторических сообщений: *${totalMessagesSynced}*\n\n` +
-        `Все диалоги успешно добавлены в список лидов бота с полной историей переписки (до 100 последних сообщений на чат).`,
+          `• Импортировано контактов: *${count}*\n` +
+          `• Загружено исторических сообщений: *${totalMessagesSynced}*\n\n` +
+          `Все диалоги успешно добавлены в список лидов бота с полной историей переписки (до 100 последних сообщений на чат).`,
         { parse_mode: 'Markdown', reply_markup: keyboard },
       );
     } catch (err) {

@@ -1,0 +1,1341 @@
+{
+ "name": "Eitan41 Израиль/Дубай",
+ "type": "personal_chat",
+ "id": 6465987899,
+ "messages": [
+  {
+   "id": 259607,
+   "type": "message",
+   "date": "2026-04-15T15:03:43",
+   "date_unixtime": "1776254623",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I don't mind seeing you \n\nAnd do you think I want to steal something or do you really want to see me?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I don't mind seeing you \n\nAnd do you think I want to steal something or do you really want to see me?)"
+    }
+   ]
+  },
+  {
+   "id": 259614,
+   "type": "message",
+   "date": "2026-04-15T15:17:40",
+   "date_unixtime": "1776255460",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "You said we meet at 28 January",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You said we meet at 28 January"
+    }
+   ]
+  },
+  {
+   "id": 259615,
+   "type": "message",
+   "date": "2026-04-15T15:17:48",
+   "date_unixtime": "1776255468",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "but you never wrote smth again",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "but you never wrote smth again"
+    }
+   ]
+  },
+  {
+   "id": 259616,
+   "type": "message",
+   "date": "2026-04-15T15:18:02",
+   "date_unixtime": "1776255482",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "I want to see you yes",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I want to see you yes"
+    }
+   ]
+  },
+  {
+   "id": 259621,
+   "type": "message",
+   "date": "2026-04-15T15:20:07",
+   "date_unixtime": "1776255607",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "You know why this happened, and you didn't behave very respectfully towards me. \nIf you don't mind trying again, then I don't mind either",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You know why this happened, and you didn't behave very respectfully towards me. \nIf you don't mind trying again, then I don't mind either"
+    }
+   ]
+  },
+  {
+   "id": 259623,
+   "type": "message",
+   "date": "2026-04-15T15:20:28",
+   "date_unixtime": "1776255628",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "We can meet in Warsaw if you want? We can call each other in the evening",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "We can meet in Warsaw if you want? We can call each other in the evening"
+    }
+   ]
+  },
+  {
+   "id": 259652,
+   "type": "message",
+   "date": "2026-04-15T15:56:14",
+   "date_unixtime": "1776257774",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Yes Warsaw is good",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes Warsaw is good"
+    }
+   ]
+  },
+  {
+   "id": 259653,
+   "type": "message",
+   "date": "2026-04-15T15:56:18",
+   "date_unixtime": "1776257778",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "or Prague",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "or Prague"
+    }
+   ]
+  },
+  {
+   "id": 259685,
+   "type": "message",
+   "date": "2026-04-15T20:14:38",
+   "date_unixtime": "1776273278",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Great!) I like it.  \nOn what dates?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Great!) I like it.  \nOn what dates?"
+    }
+   ]
+  },
+  {
+   "id": 259698,
+   "type": "message",
+   "date": "2026-04-15T21:00:48",
+   "date_unixtime": "1776276048",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "26-30",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "26-30"
+    }
+   ]
+  },
+  {
+   "id": 259707,
+   "type": "message",
+   "date": "2026-04-15T21:25:50",
+   "date_unixtime": "1776277550",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "26-30 of what? April?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "26-30 of what? April?"
+    }
+   ]
+  },
+  {
+   "id": 259777,
+   "type": "message",
+   "date": "2026-04-15T21:55:16",
+   "date_unixtime": "1776279316",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "yes",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "yes"
+    }
+   ]
+  },
+  {
+   "id": 259791,
+   "type": "message",
+   "date": "2026-04-15T22:13:59",
+   "date_unixtime": "1776280439",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "video.mp4",
+   "file_size": 5173009,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 19224,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 37,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 259792,
+   "type": "message",
+   "date": "2026-04-15T22:14:31",
+   "date_unixtime": "1776280471",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "video.mp4",
+   "file_size": 2988050,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 18473,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 21,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 259860,
+   "type": "service",
+   "date": "2026-04-15T22:30:33",
+   "date_unixtime": "1776281433",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "discard_reason": "missed",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 259887,
+   "type": "message",
+   "date": "2026-04-15T22:38:49",
+   "date_unixtime": "1776281929",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "So u have the bus done?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "So u have the bus done?"
+    }
+   ]
+  },
+  {
+   "id": 259892,
+   "type": "message",
+   "date": "2026-04-15T22:39:20",
+   "date_unixtime": "1776281960",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I didn't understand your question. Do you want to talk? Or what?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I didn't understand your question. Do you want to talk? Or what?"
+    }
+   ]
+  },
+  {
+   "id": 259893,
+   "type": "message",
+   "date": "2026-04-15T22:39:40",
+   "date_unixtime": "1776281980",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Yes",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes"
+    }
+   ]
+  },
+  {
+   "id": 259895,
+   "type": "message",
+   "date": "2026-04-15T22:39:47",
+   "date_unixtime": "1776281987",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "I want you to come",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I want you to come"
+    }
+   ]
+  },
+  {
+   "id": 259897,
+   "type": "message",
+   "date": "2026-04-15T22:40:01",
+   "date_unixtime": "1776282001",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Bcz I still want to be with you",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bcz I still want to be with you"
+    }
+   ]
+  },
+  {
+   "id": 259899,
+   "type": "message",
+   "date": "2026-04-15T22:40:23",
+   "date_unixtime": "1776282023",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Call me in 10 minutes and we'll discuss everything",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Call me in 10 minutes and we'll discuss everything"
+    }
+   ]
+  },
+  {
+   "id": 259900,
+   "type": "message",
+   "date": "2026-04-15T22:40:39",
+   "date_unixtime": "1776282039",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "We can tomorrow my dear",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "We can tomorrow my dear"
+    }
+   ]
+  },
+  {
+   "id": 259901,
+   "type": "message",
+   "date": "2026-04-15T22:40:44",
+   "date_unixtime": "1776282044",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "im already sleeping",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "im already sleeping"
+    }
+   ]
+  },
+  {
+   "id": 259903,
+   "type": "message",
+   "date": "2026-04-15T22:40:50",
+   "date_unixtime": "1776282050",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "ok?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ok?"
+    }
+   ]
+  },
+  {
+   "id": 259905,
+   "type": "message",
+   "date": "2026-04-15T22:41:01",
+   "date_unixtime": "1776282061",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "okey",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "okey"
+    }
+   ]
+  },
+  {
+   "id": 259908,
+   "type": "message",
+   "date": "2026-04-15T22:41:53",
+   "date_unixtime": "1776282113",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "you still go gym?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "you still go gym?"
+    }
+   ]
+  },
+  {
+   "id": 259909,
+   "type": "message",
+   "date": "2026-04-15T22:42:05",
+   "date_unixtime": "1776282125",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Of course",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Of course"
+    }
+   ]
+  },
+  {
+   "id": 259910,
+   "type": "message",
+   "date": "2026-04-15T22:42:11",
+   "date_unixtime": "1776282131",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Wow)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Wow)"
+    }
+   ]
+  },
+  {
+   "id": 259911,
+   "type": "message",
+   "date": "2026-04-15T22:42:34",
+   "date_unixtime": "1776282154",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "About Prague I think its better option. so lets see will think together",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "About Prague I think its better option. so lets see will think together"
+    }
+   ]
+  },
+  {
+   "id": 259912,
+   "type": "message",
+   "date": "2026-04-15T22:42:53",
+   "date_unixtime": "1776282173",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Or we meet in Bucharest and fly from there",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Or we meet in Bucharest and fly from there"
+    }
+   ]
+  },
+  {
+   "id": 259915,
+   "type": "message",
+   "date": "2026-04-15T22:43:19",
+   "date_unixtime": "1776282199",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "but you need new bus tickets or its already payed from last time?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "but you need new bus tickets or its already payed from last time?"
+    }
+   ]
+  },
+  {
+   "id": 259920,
+   "type": "message",
+   "date": "2026-04-15T22:44:27",
+   "date_unixtime": "1776282267",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 259912,
+   "text": "I don't see the point of going through such a difficult journey just to fly with you together\nIf I can go there directly",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I don't see the point of going through such a difficult journey just to fly with you together\nIf I can go there directly"
+    }
+   ]
+  },
+  {
+   "id": 259922,
+   "type": "message",
+   "date": "2026-04-15T22:44:51",
+   "date_unixtime": "1776282291",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 259915,
+   "text": "Well, every ticket has an expiration date, so of course, I'll need bus tickets",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Well, every ticket has an expiration date, so of course, I'll need bus tickets"
+    }
+   ]
+  },
+  {
+   "id": 259923,
+   "type": "message",
+   "date": "2026-04-15T22:45:15",
+   "date_unixtime": "1776282315",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "reply_to_message_id": 259920,
+   "text": "So you will fly from where to where?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "So you will fly from where to where?"
+    }
+   ]
+  },
+  {
+   "id": 259925,
+   "type": "message",
+   "date": "2026-04-15T22:45:24",
+   "date_unixtime": "1776282324",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "reply_to_message_id": 259922,
+   "text": "Ok.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok."
+    }
+   ]
+  },
+  {
+   "id": 259927,
+   "type": "message",
+   "date": "2026-04-15T22:45:25",
+   "date_unixtime": "1776282325",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 259911,
+   "text": "I like the option with Prague, but my dates are flexible, depending on when we agree to meet",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I like the option with Prague, but my dates are flexible, depending on when we agree to meet"
+    }
+   ]
+  },
+  {
+   "id": 259928,
+   "type": "message",
+   "date": "2026-04-15T22:45:36",
+   "date_unixtime": "1776282336",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "26-30",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "26-30"
+    }
+   ]
+  },
+  {
+   "id": 259931,
+   "type": "message",
+   "date": "2026-04-15T22:45:55",
+   "date_unixtime": "1776282355",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 259923,
+   "text": "I can probably take a bus directly to Prague. I think they have such a bus service, but I'm not sure about it",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I can probably take a bus directly to Prague. I think they have such a bus service, but I'm not sure about it"
+    }
+   ]
+  },
+  {
+   "id": 259932,
+   "type": "message",
+   "date": "2026-04-15T22:46:42",
+   "date_unixtime": "1776282402",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 259928,
+   "text": "Well, it depends on when we buy the tickets, so I can arrange a long weekend at work. \nIf we buy them roughly on the 23rd, I won't be able to leave on the 26th, as there's not enough time",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Well, it depends on when we buy the tickets, so I can arrange a long weekend at work. \nIf we buy them roughly on the 23rd, I won't be able to leave on the 26th, as there's not enough time"
+    }
+   ]
+  },
+  {
+   "id": 259933,
+   "type": "message",
+   "date": "2026-04-15T22:46:56",
+   "date_unixtime": "1776282416",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I'm just trying to explain it to you \nwithout making any accusations",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I'm just trying to explain it to you \nwithout making any accusations"
+    }
+   ]
+  },
+  {
+   "id": 259937,
+   "type": "message",
+   "date": "2026-04-15T22:47:39",
+   "date_unixtime": "1776282459",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://www.omio.com/app/search-frontend/results/EDF7B736A8FCB414AB952A10C1D007492/bus?locale=en&_gl=1%2A18um7kd%2A_up%2AMQ..%2A_gs%2AMQ..&gbraid=0AAAAAoKnnizx2NasmvfHaeL7p2N0fSkIY&gclid=EAIaIQobChMIkJGrv8_wkwMVcaSDBx3tBw7TEAAYAiAAEgLqdfD_BwE"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://www.omio.com/app/search-frontend/results/EDF7B736A8FCB414AB952A10C1D007492/bus?locale=en&_gl=1%2A18um7kd%2A_up%2AMQ..%2A_gs%2AMQ..&gbraid=0AAAAAoKnnizx2NasmvfHaeL7p2N0fSkIY&gclid=EAIaIQobChMIkJGrv8_wkwMVcaSDBx3tBw7TEAAYAiAAEgLqdfD_BwE"
+    }
+   ]
+  },
+  {
+   "id": 259938,
+   "type": "message",
+   "date": "2026-04-15T22:47:51",
+   "date_unixtime": "1776282471",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "you have direct  like 25h...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "you have direct  like 25h..."
+    }
+   ]
+  },
+  {
+   "id": 259943,
+   "type": "message",
+   "date": "2026-04-15T22:49:41",
+   "date_unixtime": "1776282581",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I won't travel on such a bus for 25 hours",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I won't travel on such a bus for 25 hours"
+    }
+   ]
+  },
+  {
+   "id": 259945,
+   "type": "message",
+   "date": "2026-04-15T22:49:58",
+   "date_unixtime": "1776282598",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "And we already discussed this last time",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "And we already discussed this last time"
+    }
+   ]
+  },
+  {
+   "id": 259946,
+   "type": "message",
+   "date": "2026-04-15T22:50:03",
+   "date_unixtime": "1776282603",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "?"
+    }
+   ]
+  },
+  {
+   "id": 259947,
+   "type": "message",
+   "date": "2026-04-15T22:50:08",
+   "date_unixtime": "1776282608",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "what you mean",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "what you mean"
+    }
+   ]
+  },
+  {
+   "id": 259950,
+   "type": "message",
+   "date": "2026-04-15T22:51:22",
+   "date_unixtime": "1776282682",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Well, this isn't the best bus for such a long journey. \nI would like to travel with the same carrier as last time. \nAfter all, I want to get to the meeting and feel good, \nnot to end up with a backache on the road 😅",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Well, this isn't the best bus for such a long journey. \nI would like to travel with the same carrier as last time. \nAfter all, I want to get to the meeting and feel good, \nnot to end up with a backache on the road 😅"
+    }
+   ]
+  },
+  {
+   "id": 259951,
+   "type": "message",
+   "date": "2026-04-15T22:51:38",
+   "date_unixtime": "1776282698",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Ahhh ok!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ahhh ok!"
+    }
+   ]
+  },
+  {
+   "id": 259952,
+   "type": "message",
+   "date": "2026-04-15T22:51:42",
+   "date_unixtime": "1776282702",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "No problem",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "No problem"
+    }
+   ]
+  },
+  {
+   "id": 259954,
+   "type": "message",
+   "date": "2026-04-15T22:51:52",
+   "date_unixtime": "1776282712",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "but now I have smth better.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "but now I have smth better."
+    }
+   ]
+  },
+  {
+   "id": 259957,
+   "type": "message",
+   "date": "2026-04-15T22:52:27",
+   "date_unixtime": "1776282747",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "I have a taxi driver who will take you on VIP car. So its much better for you:)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I have a taxi driver who will take you on VIP car. So its much better for you:)"
+    }
+   ]
+  },
+  {
+   "id": 259959,
+   "type": "message",
+   "date": "2026-04-15T22:52:56",
+   "date_unixtime": "1776282776",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Like a princess",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Like a princess"
+    }
+   ]
+  },
+  {
+   "id": 259961,
+   "type": "message",
+   "date": "2026-04-15T22:53:10",
+   "date_unixtime": "1776282790",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "How can I trust some taxi driver?\nWho I don't even know",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How can I trust some taxi driver?\nWho I don't even know"
+    }
+   ]
+  },
+  {
+   "id": 259963,
+   "type": "message",
+   "date": "2026-04-15T22:53:27",
+   "date_unixtime": "1776282807",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Its a driver from company.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Its a driver from company."
+    }
+   ]
+  },
+  {
+   "id": 259964,
+   "type": "message",
+   "date": "2026-04-15T22:53:34",
+   "date_unixtime": "1776282814",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Smth real and good",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Smth real and good"
+    }
+   ]
+  },
+  {
+   "id": 259966,
+   "type": "message",
+   "date": "2026-04-15T22:53:41",
+   "date_unixtime": "1776282821",
+   "edited": "2026-04-16T19:18:44",
+   "edited_unixtime": "1776356324",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "you preffer bus?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "you preffer bus?"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-04-16T19:18:44"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 259972,
+   "type": "message",
+   "date": "2026-04-15T22:55:34",
+   "date_unixtime": "1776282934",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 259963,
+   "text": "I don't know what company it is and I haven't used their services. \nI prefer the company I've already used several times. \nAnd this is a minibus where I have a separate seat. \nImproved transportation)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I don't know what company it is and I haven't used their services. \nI prefer the company I've already used several times. \nAnd this is a minibus where I have a separate seat. \nImproved transportation)"
+    }
+   ]
+  },
+  {
+   "id": 260168,
+   "type": "message",
+   "date": "2026-04-16T19:32:32",
+   "date_unixtime": "1776357152",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "video.mp4",
+   "file_size": 8193260,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 18927,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 58,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 260169,
+   "type": "service",
+   "date": "2026-04-16T19:32:36",
+   "date_unixtime": "1776357156",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "discard_reason": "missed",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 260172,
+   "type": "message",
+   "date": "2026-04-16T20:20:00",
+   "date_unixtime": "1776360000",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "I bought tickets . but also sent you money u didnt use",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I bought tickets . but also sent you money u didnt use"
+    }
+   ]
+  },
+  {
+   "id": 260173,
+   "type": "message",
+   "date": "2026-04-16T20:20:08",
+   "date_unixtime": "1776360008",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "so u can buy and come",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "so u can buy and come"
+    }
+   ]
+  },
+  {
+   "id": 260174,
+   "type": "message",
+   "date": "2026-04-16T20:20:13",
+   "date_unixtime": "1776360013",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Im so excited",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Im so excited"
+    }
+   ]
+  },
+  {
+   "id": 260175,
+   "type": "message",
+   "date": "2026-04-16T20:20:21",
+   "date_unixtime": "1776360021",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "finally we will meet",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "finally we will meet"
+    }
+   ]
+  },
+  {
+   "id": 260176,
+   "type": "message",
+   "date": "2026-04-16T20:20:35",
+   "date_unixtime": "1776360035",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "I will bring this time bigger present for u:)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I will bring this time bigger present for u:)"
+    }
+   ]
+  },
+  {
+   "id": 260198,
+   "type": "message",
+   "date": "2026-04-16T21:44:11",
+   "date_unixtime": "1776365051",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I can't buy the tickets and come, are we going to start over again?\nOr...\nIf you keep dwelling on what happened a few months ago, we'll never get anywhere.\nIf you want to meet up, let's make plans and we'll also need to buy the tickets again",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I can't buy the tickets and come, are we going to start over again?\nOr...\nIf you keep dwelling on what happened a few months ago, we'll never get anywhere.\nIf you want to meet up, let's make plans and we'll also need to buy the tickets again"
+    }
+   ]
+  },
+  {
+   "id": 260199,
+   "type": "message",
+   "date": "2026-04-16T21:44:33",
+   "date_unixtime": "1776365073",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "If you don't want to, let's just not waste time on meaningless arguments",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "If you don't want to, let's just not waste time on meaningless arguments"
+    }
+   ]
+  },
+  {
+   "id": 260236,
+   "type": "message",
+   "date": "2026-04-16T22:24:12",
+   "date_unixtime": "1776367452",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Nooo",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Nooo"
+    }
+   ]
+  },
+  {
+   "id": 260237,
+   "type": "message",
+   "date": "2026-04-16T22:24:21",
+   "date_unixtime": "1776367461",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "no arguments bby",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "no arguments bby"
+    }
+   ]
+  },
+  {
+   "id": 260238,
+   "type": "message",
+   "date": "2026-04-16T22:24:28",
+   "date_unixtime": "1776367468",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "i want u so much to come",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "i want u so much to come"
+    }
+   ]
+  },
+  {
+   "id": 260269,
+   "type": "message",
+   "date": "2026-04-17T13:14:48",
+   "date_unixtime": "1776420888",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I'm not telling you about any arguments. I'm just telling you how I'm going to travel",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I'm not telling you about any arguments. I'm just telling you how I'm going to travel"
+    }
+   ]
+  },
+  {
+   "id": 260293,
+   "type": "message",
+   "date": "2026-04-17T13:31:49",
+   "date_unixtime": "1776421909",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Yes dear",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes dear"
+    }
+   ]
+  },
+  {
+   "id": 260294,
+   "type": "message",
+   "date": "2026-04-17T13:32:01",
+   "date_unixtime": "1776421921",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Im so so happy we are finally meeting",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Im so so happy we are finally meeting"
+    }
+   ]
+  },
+  {
+   "id": 260295,
+   "type": "message",
+   "date": "2026-04-17T13:32:12",
+   "date_unixtime": "1776421932",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "its very important for me",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "its very important for me"
+    }
+   ]
+  },
+  {
+   "id": 260296,
+   "type": "message",
+   "date": "2026-04-17T13:32:21",
+   "date_unixtime": "1776421941",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "have a nice weekend",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "have a nice weekend"
+    }
+   ]
+  },
+  {
+   "id": 260328,
+   "type": "message",
+   "date": "2026-04-17T18:00:52",
+   "date_unixtime": "1776438052",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "It's still not clear whether we'll meet or not, because we haven't spoken on the phone yet and I didn't understand anything about the tickets. \nWill you be free in the evening?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It's still not clear whether we'll meet or not, because we haven't spoken on the phone yet and I didn't understand anything about the tickets. \nWill you be free in the evening?)"
+    }
+   ]
+  },
+  {
+   "id": 260337,
+   "type": "message",
+   "date": "2026-04-17T18:14:57",
+   "date_unixtime": "1776438897",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "We can speake on Sunday ok?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "We can speake on Sunday ok?)"
+    }
+   ]
+  },
+  {
+   "id": 260338,
+   "type": "message",
+   "date": "2026-04-17T18:15:00",
+   "date_unixtime": "1776438900",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "kisd",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "kisd"
+    }
+   ]
+  },
+  {
+   "id": 260340,
+   "type": "message",
+   "date": "2026-04-17T18:25:04",
+   "date_unixtime": "1776439504",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Ok",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok"
+    }
+   ]
+  },
+  {
+   "id": 261061,
+   "type": "message",
+   "date": "2026-04-20T22:35:47",
+   "date_unixtime": "1776713747",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "video.mp4",
+   "file_size": 821476,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 19519,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 5,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 261173,
+   "type": "message",
+   "date": "2026-04-21T00:00:24",
+   "date_unixtime": "1776718824",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "Hi",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi"
+    }
+   ]
+  },
+  {
+   "id": 261174,
+   "type": "message",
+   "date": "2026-04-21T00:03:24",
+   "date_unixtime": "1776719004",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Hello, I'm going to rest now)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello, I'm going to rest now)"
+    }
+   ]
+  },
+  {
+   "id": 261319,
+   "type": "message",
+   "date": "2026-04-21T20:32:54",
+   "date_unixtime": "1776792774",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Shall we call each other tonight?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Shall we call each other tonight?)"
+    }
+   ]
+  },
+  {
+   "id": 261326,
+   "type": "message",
+   "date": "2026-04-21T20:37:32",
+   "date_unixtime": "1776793052",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "heyy. We can talk on Thursday morning. kiss",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "heyy. We can talk on Thursday morning. kiss"
+    }
+   ]
+  },
+  {
+   "id": 261331,
+   "type": "message",
+   "date": "2026-04-21T21:26:26",
+   "date_unixtime": "1776795986",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I can't do it in the morning. If you don't have time to talk, then you're not that interested in it anyway",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I can't do it in the morning. If you don't have time to talk, then you're not that interested in it anyway"
+    }
+   ]
+  },
+  {
+   "id": 261397,
+   "type": "message",
+   "date": "2026-04-21T22:25:11",
+   "date_unixtime": "1776799511",
+   "edited": "2026-04-24T21:42:47",
+   "edited_unixtime": "1777056167",
+   "from": "Eitan41 Израиль/Дубай",
+   "from_id": "user6465987899",
+   "text": "ok",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ok"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-04-24T21:42:47"
+       }
+      ]
+     }
+    ]
+  }
+ ]
+}

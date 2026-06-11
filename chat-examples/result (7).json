@@ -1,0 +1,5811 @@
+{
+ "name": "Maximo Лиссабон тргерлз",
+ "type": "personal_chat",
+ "id": 5230906346,
+ "messages": [
+  {
+   "id": 243418,
+   "type": "message",
+   "date": "2026-02-20T21:14:17",
+   "date_unixtime": "1771614857",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hello my dear",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello my dear"
+    }
+   ]
+  },
+  {
+   "id": 243419,
+   "type": "message",
+   "date": "2026-02-20T21:14:25",
+   "date_unixtime": "1771614865",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "All going smoothly?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "All going smoothly?"
+    }
+   ]
+  },
+  {
+   "id": 243420,
+   "type": "message",
+   "date": "2026-02-20T21:14:50",
+   "date_unixtime": "1771614890",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "You txt me on the travel app. My name is Máximo",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You txt me on the travel app. My name is Máximo"
+    }
+   ]
+  },
+  {
+   "id": 243421,
+   "type": "message",
+   "date": "2026-02-20T21:14:59",
+   "date_unixtime": "1771614899",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "What should I call you?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "What should I call you?"
+    }
+   ]
+  },
+  {
+   "id": 243440,
+   "type": "message",
+   "date": "2026-02-20T21:29:18",
+   "date_unixtime": "1771615758",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Hi) I’m Diana, nice to meet you ☺️😌",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi) I’m Diana, nice to meet you ☺️😌"
+    }
+   ]
+  },
+  {
+   "id": 243554,
+   "type": "message",
+   "date": "2026-02-20T22:15:00",
+   "date_unixtime": "1771618500",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hello my dear Diana",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello my dear Diana"
+    }
+   ]
+  },
+  {
+   "id": 243555,
+   "type": "message",
+   "date": "2026-02-20T22:15:15",
+   "date_unixtime": "1771618515",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Where do you live?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Where do you live?"
+    }
+   ]
+  },
+  {
+   "id": 243557,
+   "type": "message",
+   "date": "2026-02-20T22:15:53",
+   "date_unixtime": "1771618553",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "What can you tell me about you? And what's your plans for our connection?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "What can you tell me about you? And what's your plans for our connection?"
+    }
+   ]
+  },
+  {
+   "id": 243560,
+   "type": "message",
+   "date": "2026-02-20T22:16:25",
+   "date_unixtime": "1771618585",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I'm very direct and straightforward so feel free to ask me also whatever you feel like knowing",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I'm very direct and straightforward so feel free to ask me also whatever you feel like knowing"
+    }
+   ]
+  },
+  {
+   "id": 243561,
+   "type": "message",
+   "date": "2026-02-20T22:16:28",
+   "date_unixtime": "1771618588",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "😊",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😊"
+    }
+   ]
+  },
+  {
+   "id": 243620,
+   "type": "message",
+   "date": "2026-02-21T17:58:06",
+   "date_unixtime": "1771689486",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Hi, we’ve been without power all day.\nSorry, I couldn’t reply sooner.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi, we’ve been without power all day.\nSorry, I couldn’t reply sooner."
+    }
+   ]
+  },
+  {
+   "id": 243621,
+   "type": "message",
+   "date": "2026-02-21T17:58:23",
+   "date_unixtime": "1771689503",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "How’s your day? I live in Kyiv, and you?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How’s your day? I live in Kyiv, and you?)"
+    }
+   ]
+  },
+  {
+   "id": 243655,
+   "type": "message",
+   "date": "2026-02-21T18:05:14",
+   "date_unixtime": "1771689914",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Very nice to hear from you my dear",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Very nice to hear from you my dear"
+    }
+   ]
+  },
+  {
+   "id": 243656,
+   "type": "message",
+   "date": "2026-02-21T18:05:35",
+   "date_unixtime": "1771689935",
+   "edited": "2026-02-21T18:11:05",
+   "edited_unixtime": "1771690265",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "No worries I understand. Be safe it's the main",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "No worries I understand. Be safe it's the main"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-21T18:11:05"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 243659,
+   "type": "message",
+   "date": "2026-02-21T18:06:19",
+   "date_unixtime": "1771689979",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "My day is going normally, finished some tasks I needed in the morning",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "My day is going normally, finished some tasks I needed in the morning"
+    }
+   ]
+  },
+  {
+   "id": 243663,
+   "type": "message",
+   "date": "2026-02-21T18:06:45",
+   "date_unixtime": "1771690005",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Now just chilling at home. Later will go out to dinner",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Now just chilling at home. Later will go out to dinner"
+    }
+   ]
+  },
+  {
+   "id": 243666,
+   "type": "message",
+   "date": "2026-02-21T18:07:01",
+   "date_unixtime": "1771690021",
+   "edited": "2026-02-21T18:11:22",
+   "edited_unixtime": "1771690282",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I live mostly in Lisbon",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I live mostly in Lisbon"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-21T18:11:22"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 243673,
+   "type": "message",
+   "date": "2026-02-21T18:08:01",
+   "date_unixtime": "1771690081",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hope your day is going well, according to the circumstances 🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hope your day is going well, according to the circumstances 🙏"
+    }
+   ]
+  },
+  {
+   "id": 243687,
+   "type": "message",
+   "date": "2026-02-21T18:11:42",
+   "date_unixtime": "1771690302",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Everything is fine) A little work today, but I’ll be free soon))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Everything is fine) A little work today, but I’ll be free soon))"
+    }
+   ]
+  },
+  {
+   "id": 243689,
+   "type": "message",
+   "date": "2026-02-21T18:11:57",
+   "date_unixtime": "1771690317",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "voice_messages/audio_1@21-02-2026_18-11-57.ogg",
+   "file_size": 46227,
+   "media_type": "voice_message",
+   "mime_type": "audio/ogg",
+   "duration_seconds": 12,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243710,
+   "type": "message",
+   "date": "2026-02-21T18:14:44",
+   "date_unixtime": "1771690484",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "reply_to_message_id": 243687,
+   "text": "❤️❤️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "❤️❤️"
+    }
+   ]
+  },
+  {
+   "id": 243718,
+   "type": "message",
+   "date": "2026-02-21T18:15:21",
+   "date_unixtime": "1771690521",
+   "edited": "2026-02-21T18:20:22",
+   "edited_unixtime": "1771690822",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I would like to get to know a good woman and that could lead to a serious relationship",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I would like to get to know a good woman and that could lead to a serious relationship"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-21T18:20:22"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 243720,
+   "type": "message",
+   "date": "2026-02-21T18:15:29",
+   "date_unixtime": "1771690529",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Something for life",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Something for life"
+    }
+   ]
+  },
+  {
+   "id": 243724,
+   "type": "message",
+   "date": "2026-02-21T18:16:12",
+   "date_unixtime": "1771690572",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Find that one person that is the special One ❤️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Find that one person that is the special One ❤️"
+    }
+   ]
+  },
+  {
+   "id": 243727,
+   "type": "message",
+   "date": "2026-02-21T18:16:31",
+   "date_unixtime": "1771690591",
+   "edited": "2026-02-21T18:20:26",
+   "edited_unixtime": "1771690826",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "It's not easy. But nothing is impossible",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It's not easy. But nothing is impossible"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-21T18:20:26"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 243733,
+   "type": "message",
+   "date": "2026-02-21T18:18:01",
+   "date_unixtime": "1771690681",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "And you Diana? What type of man are you looking for? What type of relationship do you want?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "And you Diana? What type of man are you looking for? What type of relationship do you want?"
+    }
+   ]
+  },
+  {
+   "id": 243746,
+   "type": "message",
+   "date": "2026-02-21T18:21:07",
+   "date_unixtime": "1771690867",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 243733,
+   "text": "You know, I'm trying not to make any big plans, I'd just like to hang out with you, get to know you and then we'll see what happens😌☺️\nI mean, it'd be cool to travel, have a great time. If it doesn't work out, then okay))\nAnd if it turns into a serious relationship, cool. I mean, that's what I'm thinking for now. And then we'll see what happens",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You know, I'm trying not to make any big plans, I'd just like to hang out with you, get to know you and then we'll see what happens😌☺️\nI mean, it'd be cool to travel, have a great time. If it doesn't work out, then okay))\nAnd if it turns into a serious relationship, cool. I mean, that's what I'm thinking for now. And then we'll see what happens"
+    }
+   ]
+  },
+  {
+   "id": 243748,
+   "type": "message",
+   "date": "2026-02-21T18:21:28",
+   "date_unixtime": "1771690888",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "But I’m glad to know that you’re serious, I like that))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "But I’m glad to know that you’re serious, I like that))"
+    }
+   ]
+  },
+  {
+   "id": 243755,
+   "type": "message",
+   "date": "2026-02-21T18:23:13",
+   "date_unixtime": "1771690993",
+   "edited": "2026-02-21T18:25:36",
+   "edited_unixtime": "1771691136",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "You are very wise. Yes it's the right way of thinking. Without preconceptions or made ideas. Not always what we want is possible in that moment. And people have to give time to each other to get to know both well Without pressure",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You are very wise. Yes it's the right way of thinking. Without preconceptions or made ideas. Not always what we want is possible in that moment. And people have to give time to each other to get to know both well Without pressure"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-21T18:25:36"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 243763,
+   "type": "message",
+   "date": "2026-02-21T18:25:31",
+   "date_unixtime": "1771691131",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Many times the journey of getting to know someone with you can identify yourself is itself a wonderful history",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Many times the journey of getting to know someone with you can identify yourself is itself a wonderful history"
+    }
+   ]
+  },
+  {
+   "id": 243767,
+   "type": "message",
+   "date": "2026-02-21T18:26:01",
+   "date_unixtime": "1771691161",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "We just need to be prepared to embrace it. Then all will follow the way it has to",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "We just need to be prepared to embrace it. Then all will follow the way it has to"
+    }
+   ]
+  },
+  {
+   "id": 243846,
+   "type": "message",
+   "date": "2026-02-22T13:43:36",
+   "date_unixtime": "1771760616",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Hi, how’s your day off?\nCan I see your photos?☺️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi, how’s your day off?\nCan I see your photos?☺️"
+    }
+   ]
+  },
+  {
+   "id": 243949,
+   "type": "message",
+   "date": "2026-02-22T14:15:17",
+   "date_unixtime": "1771762517",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Good morning my dear",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Good morning my dear"
+    }
+   ]
+  },
+  {
+   "id": 243951,
+   "type": "message",
+   "date": "2026-02-22T14:15:40",
+   "date_unixtime": "1771762540",
+   "edited": "2026-02-22T14:21:23",
+   "edited_unixtime": "1771762883",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "It's all going well. I'm travelling to another city close to Lisbon",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It's all going well. I'm travelling to another city close to Lisbon"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-22T14:21:23"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 243954,
+   "type": "message",
+   "date": "2026-02-22T14:16:20",
+   "date_unixtime": "1771762580",
+   "edited": "2026-02-22T14:21:28",
+   "edited_unixtime": "1771762888",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "photo": "photos/photo_1@22-02-2026_14-16-20.jpg",
+   "photo_file_size": 236230,
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": [],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-22T14:21:28"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 243955,
+   "type": "message",
+   "date": "2026-02-22T14:16:20",
+   "date_unixtime": "1771762580",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "photo": "photos/photo_2@22-02-2026_14-16-20.jpg",
+   "photo_file_size": 117295,
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243956,
+   "type": "message",
+   "date": "2026-02-22T14:16:20",
+   "date_unixtime": "1771762580",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "photo": "photos/photo_3@22-02-2026_14-16-20.jpg",
+   "photo_file_size": 282460,
+   "width": 1280,
+   "height": 960,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243957,
+   "type": "message",
+   "date": "2026-02-22T14:16:20",
+   "date_unixtime": "1771762580",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "photo": "photos/photo_4@22-02-2026_14-16-20.jpg",
+   "photo_file_size": 138653,
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243958,
+   "type": "message",
+   "date": "2026-02-22T14:16:20",
+   "date_unixtime": "1771762580",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "photo": "photos/photo_5@22-02-2026_14-16-20.jpg",
+   "photo_file_size": 232797,
+   "width": 1280,
+   "height": 960,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243959,
+   "type": "message",
+   "date": "2026-02-22T14:16:49",
+   "date_unixtime": "1771762609",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes of course. I don't take many pictures but I have some 😀",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes of course. I don't take many pictures but I have some 😀"
+    }
+   ]
+  },
+  {
+   "id": 243960,
+   "type": "message",
+   "date": "2026-02-22T14:17:03",
+   "date_unixtime": "1771762623",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "And how are you doing?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "And how are you doing?"
+    }
+   ]
+  },
+  {
+   "id": 243975,
+   "type": "message",
+   "date": "2026-02-22T14:21:45",
+   "date_unixtime": "1771762905",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Cool photos) You smile everywhere and I like it 🥰",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Cool photos) You smile everywhere and I like it 🥰"
+    }
+   ]
+  },
+  {
+   "id": 243976,
+   "type": "message",
+   "date": "2026-02-22T14:21:58",
+   "date_unixtime": "1771762918",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 243960,
+   "text": "I’m fine, thank you)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I’m fine, thank you)"
+    }
+   ]
+  },
+  {
+   "id": 243987,
+   "type": "message",
+   "date": "2026-02-22T14:28:14",
+   "date_unixtime": "1771763294",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Thank you. You are very kind",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thank you. You are very kind"
+    }
+   ]
+  },
+  {
+   "id": 243992,
+   "type": "message",
+   "date": "2026-02-22T14:28:43",
+   "date_unixtime": "1771763323",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "It's supposed to smile on pics 😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It's supposed to smile on pics 😂"
+    }
+   ]
+  },
+  {
+   "id": 243995,
+   "type": "message",
+   "date": "2026-02-22T14:29:14",
+   "date_unixtime": "1771763354",
+   "edited": "2026-02-22T14:39:52",
+   "edited_unixtime": "1771763992",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I'm joking. Yes i'm usually joyful person",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I'm joking. Yes i'm usually joyful person"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-22T14:39:52"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 243996,
+   "type": "message",
+   "date": "2026-02-22T14:29:15",
+   "date_unixtime": "1771763355",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "👌",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "👌"
+    }
+   ]
+  },
+  {
+   "id": 243997,
+   "type": "message",
+   "date": "2026-02-22T14:29:41",
+   "date_unixtime": "1771763381",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "What will you do today?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "What will you do today?"
+    }
+   ]
+  },
+  {
+   "id": 243998,
+   "type": "message",
+   "date": "2026-02-22T14:29:55",
+   "date_unixtime": "1771763395",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "How is weather there?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How is weather there?"
+    }
+   ]
+  },
+  {
+   "id": 244002,
+   "type": "message",
+   "date": "2026-02-22T14:33:45",
+   "date_unixtime": "1771763625",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "But i guess your pictures much better then mine🙄",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "But i guess your pictures much better then mine🙄"
+    }
+   ]
+  },
+  {
+   "id": 244028,
+   "type": "message",
+   "date": "2026-02-22T14:40:19",
+   "date_unixtime": "1771764019",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "It’s cold here 🥶\nBut I hope it warms up soon))\nI’m going to visit my parents",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It’s cold here 🥶\nBut I hope it warms up soon))\nI’m going to visit my parents"
+    }
+   ]
+  },
+  {
+   "id": 244029,
+   "type": "message",
+   "date": "2026-02-22T14:40:40",
+   "date_unixtime": "1771764040",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "☺️☺️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "☺️☺️"
+    }
+   ]
+  },
+  {
+   "id": 244030,
+   "type": "message",
+   "date": "2026-02-22T14:40:40",
+   "date_unixtime": "1771764040",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "photo": "photos/photo_6@22-02-2026_14-40-40.jpg",
+   "photo_file_size": 91748,
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244031,
+   "type": "message",
+   "date": "2026-02-22T14:40:40",
+   "date_unixtime": "1771764040",
+   "edited": "2026-02-22T14:44:18",
+   "edited_unixtime": "1771764258",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "video_files/IMG_1523.MOV",
+   "file_name": "IMG_1523.MOV",
+   "file_size": 2213932,
+   "thumbnail": "video_files/IMG_1523.MOV_thumb.jpg",
+   "thumbnail_file_size": 9617,
+   "media_type": "video_file",
+   "mime_type": "video/mp4",
+   "duration_seconds": 10,
+   "width": 464,
+   "height": 848,
+   "text": "",
+   "text_entities": [],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Maximo Лиссабон тргерлз",
+        "from_id": "user5230906346",
+        "date": "2026-02-22T14:44:18"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 244032,
+   "type": "message",
+   "date": "2026-02-22T14:40:40",
+   "date_unixtime": "1771764040",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "photo": "photos/photo_7@22-02-2026_14-40-40.jpg",
+   "photo_file_size": 87808,
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244033,
+   "type": "message",
+   "date": "2026-02-22T14:40:40",
+   "date_unixtime": "1771764040",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "photo": "photos/photo_8@22-02-2026_14-40-40.jpg",
+   "photo_file_size": 68548,
+   "width": 959,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244034,
+   "type": "message",
+   "date": "2026-02-22T14:40:40",
+   "date_unixtime": "1771764040",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "photo": "photos/photo_9@22-02-2026_14-40-40.jpg",
+   "photo_file_size": 141486,
+   "width": 959,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244035,
+   "type": "message",
+   "date": "2026-02-22T14:40:40",
+   "date_unixtime": "1771764040",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "photo": "photos/photo_10@22-02-2026_14-40-40.jpg",
+   "photo_file_size": 107370,
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244036,
+   "type": "message",
+   "date": "2026-02-22T14:40:40",
+   "date_unixtime": "1771764040",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "photo": "photos/photo_11@22-02-2026_14-40-40.jpg",
+   "photo_file_size": 119703,
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244041,
+   "type": "message",
+   "date": "2026-02-22T14:42:54",
+   "date_unixtime": "1771764174",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I was more then right 😍",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I was more then right 😍"
+    }
+   ]
+  },
+  {
+   "id": 244042,
+   "type": "message",
+   "date": "2026-02-22T14:43:29",
+   "date_unixtime": "1771764209",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Uncomparable",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Uncomparable"
+    }
+   ]
+  },
+  {
+   "id": 244044,
+   "type": "message",
+   "date": "2026-02-22T14:43:49",
+   "date_unixtime": "1771764229",
+   "edited": "2026-02-22T14:53:40",
+   "edited_unixtime": "1771764820",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "You are really a beautiful woman",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You are really a beautiful woman"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🥰",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-22T14:53:40"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 244046,
+   "type": "message",
+   "date": "2026-02-22T14:44:00",
+   "date_unixtime": "1771764240",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Congratulations",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Congratulations"
+    }
+   ]
+  },
+  {
+   "id": 244053,
+   "type": "message",
+   "date": "2026-02-22T14:53:38",
+   "date_unixtime": "1771764818",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Thanks🙈🙈☺️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thanks🙈🙈☺️"
+    }
+   ]
+  },
+  {
+   "id": 244054,
+   "type": "message",
+   "date": "2026-02-22T14:55:34",
+   "date_unixtime": "1771764934",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "It's the truth. For sure you hear it all the time. You truly are very beautiful",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It's the truth. For sure you hear it all the time. You truly are very beautiful"
+    }
+   ]
+  },
+  {
+   "id": 244056,
+   "type": "message",
+   "date": "2026-02-22T14:58:11",
+   "date_unixtime": "1771765091",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "What's your hobbies? And interests in life you like?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "What's your hobbies? And interests in life you like?"
+    }
+   ]
+  },
+  {
+   "id": 244082,
+   "type": "message",
+   "date": "2026-02-22T15:51:42",
+   "date_unixtime": "1771768302",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 244054,
+   "text": "more often from colleagues at work)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "more often from colleagues at work)"
+    }
+   ]
+  },
+  {
+   "id": 244083,
+   "type": "message",
+   "date": "2026-02-22T15:52:24",
+   "date_unixtime": "1771768344",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video.mp4",
+   "file_name": "video.mp4",
+   "file_size": 7934929,
+   "thumbnail": "round_video_messages/video.mp4_thumb.jpg",
+   "thumbnail_file_size": 17736,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 59,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244086,
+   "type": "message",
+   "date": "2026-02-22T15:52:52",
+   "date_unixtime": "1771768372",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "What about you?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "What about you?)"
+    }
+   ]
+  },
+  {
+   "id": 244098,
+   "type": "message",
+   "date": "2026-02-22T15:57:48",
+   "date_unixtime": "1771768668",
+   "edited": "2026-02-22T16:14:57",
+   "edited_unixtime": "1771769697",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok. I see you have a great variety of interests. Very good. It's always good when we have the will to learn",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok. I see you have a great variety of interests. Very good. It's always good when we have the will to learn"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-22T16:14:57"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 244100,
+   "type": "message",
+   "date": "2026-02-22T15:57:55",
+   "date_unixtime": "1771768675",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "AnimatedSticker.tgs",
+   "file_size": 24897,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 4482,
+   "media_type": "sticker",
+   "sticker_emoji": "❤️",
+   "mime_type": "application/x-tgsticker",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244108,
+   "type": "message",
+   "date": "2026-02-22T15:59:49",
+   "date_unixtime": "1771768789",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "For me it's like economics also despite i studied as a construction engineer. I like also to do some trading not crypto just stocks, futures, cfd's and some commodities.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "For me it's like economics also despite i studied as a construction engineer. I like also to do some trading not crypto just stocks, futures, cfd's and some commodities."
+    }
+   ]
+  },
+  {
+   "id": 244110,
+   "type": "message",
+   "date": "2026-02-22T16:00:49",
+   "date_unixtime": "1771768849",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I enjoy trying new types of cousine, good restaurants, to travel, reading and motorbikes it's a big passion i have",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I enjoy trying new types of cousine, good restaurants, to travel, reading and motorbikes it's a big passion i have"
+    }
+   ]
+  },
+  {
+   "id": 244113,
+   "type": "message",
+   "date": "2026-02-22T16:01:20",
+   "date_unixtime": "1771768880",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I love also all related with ocean activities, sailing, beach swimming all of that",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I love also all related with ocean activities, sailing, beach swimming all of that"
+    }
+   ]
+  },
+  {
+   "id": 244114,
+   "type": "message",
+   "date": "2026-02-22T16:01:32",
+   "date_unixtime": "1771768892",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Also like a lot cycling",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Also like a lot cycling"
+    }
+   ]
+  },
+  {
+   "id": 244116,
+   "type": "message",
+   "date": "2026-02-22T16:01:56",
+   "date_unixtime": "1771768916",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "And ok it's this in resume. And already said a lot of stuff 😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "And ok it's this in resume. And already said a lot of stuff 😂"
+    }
+   ]
+  },
+  {
+   "id": 244147,
+   "type": "message",
+   "date": "2026-02-22T16:15:34",
+   "date_unixtime": "1771769734",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 244108,
+   "text": "Oh, we have something in common.\nBecause I’m also studying this now, but I’m probably not as professional as you 😅",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Oh, we have something in common.\nBecause I’m also studying this now, but I’m probably not as professional as you 😅"
+    }
+   ]
+  },
+  {
+   "id": 244148,
+   "type": "message",
+   "date": "2026-02-22T16:15:51",
+   "date_unixtime": "1771769751",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 244110,
+   "text": "Really?) Do you have a motorcycle?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Really?) Do you have a motorcycle?"
+    }
+   ]
+  },
+  {
+   "id": 244158,
+   "type": "message",
+   "date": "2026-02-22T16:19:23",
+   "date_unixtime": "1771769963",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Believe take your time to study it good. And first lesson just trade with the money you don't need. And use paper trading accounts the most you can to train",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Believe take your time to study it good. And first lesson just trade with the money you don't need. And use paper trading accounts the most you can to train"
+    }
+   ]
+  },
+  {
+   "id": 244164,
+   "type": "message",
+   "date": "2026-02-22T16:19:35",
+   "date_unixtime": "1771769975",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes i have some motorbikes",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes i have some motorbikes"
+    }
+   ]
+  },
+  {
+   "id": 244166,
+   "type": "message",
+   "date": "2026-02-22T16:19:46",
+   "date_unixtime": "1771769986",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "You like motorbikes?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You like motorbikes?"
+    }
+   ]
+  },
+  {
+   "id": 244179,
+   "type": "message",
+   "date": "2026-02-22T16:23:09",
+   "date_unixtime": "1771770189",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I’ve never driven a car before, and I don’t have a license.\nBut I love karting))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I’ve never driven a car before, and I don’t have a license.\nBut I love karting))"
+    }
+   ]
+  },
+  {
+   "id": 244237,
+   "type": "message",
+   "date": "2026-02-22T16:38:37",
+   "date_unixtime": "1771771117",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Karting don't like so much. Prefer much more really motorbikes",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Karting don't like so much. Prefer much more really motorbikes"
+    }
+   ]
+  },
+  {
+   "id": 244239,
+   "type": "message",
+   "date": "2026-02-22T16:39:23",
+   "date_unixtime": "1771771163",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "But yes it's 2 very different things. As for me motorbikes gives more emotions, more thrills",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "But yes it's 2 very different things. As for me motorbikes gives more emotions, more thrills"
+    }
+   ]
+  },
+  {
+   "id": 244249,
+   "type": "message",
+   "date": "2026-02-22T16:40:35",
+   "date_unixtime": "1771771235",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 244237,
+   "text": "Well, because you have the opportunity to ride them) and I don’t😅",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Well, because you have the opportunity to ride them) and I don’t😅"
+    }
+   ]
+  },
+  {
+   "id": 244256,
+   "type": "message",
+   "date": "2026-02-22T16:42:16",
+   "date_unixtime": "1771771336",
+   "edited": "2026-02-22T16:44:48",
+   "edited_unixtime": "1771771488",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok. It's true. But some people try and never enjoy. Others afraid. But yes i ride since I was 15 so, already many years and despite had some accidents in the past never quited riding",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok. It's true. But some people try and never enjoy. Others afraid. But yes i ride since I was 15 so, already many years and despite had some accidents in the past never quited riding"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-22T16:44:48"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 244257,
+   "type": "message",
+   "date": "2026-02-22T16:42:24",
+   "date_unixtime": "1771771344",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "You need to try",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You need to try"
+    }
+   ]
+  },
+  {
+   "id": 244259,
+   "type": "message",
+   "date": "2026-02-22T16:42:34",
+   "date_unixtime": "1771771354",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Maybe you will like it also",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Maybe you will like it also"
+    }
+   ]
+  },
+  {
+   "id": 244272,
+   "type": "message",
+   "date": "2026-02-22T16:45:37",
+   "date_unixtime": "1771771537",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I hope it’s nothing serious or too traumatic for you.\nI’d try it because I love anything adrenaline-fueled.\nBut I prefer water-related activities))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I hope it’s nothing serious or too traumatic for you.\nI’d try it because I love anything adrenaline-fueled.\nBut I prefer water-related activities))"
+    }
+   ]
+  },
+  {
+   "id": 244274,
+   "type": "message",
+   "date": "2026-02-22T16:46:04",
+   "date_unixtime": "1771771564",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "The most serious I had i broke one arm",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "The most serious I had i broke one arm"
+    }
+   ]
+  },
+  {
+   "id": 244276,
+   "type": "message",
+   "date": "2026-02-22T16:46:11",
+   "date_unixtime": "1771771571",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "🤦‍♂️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🤦‍♂️"
+    }
+   ]
+  },
+  {
+   "id": 244277,
+   "type": "message",
+   "date": "2026-02-22T16:46:37",
+   "date_unixtime": "1771771597",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Water sports are very nice also",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Water sports are very nice also"
+    }
+   ]
+  },
+  {
+   "id": 244278,
+   "type": "message",
+   "date": "2026-02-22T16:47:03",
+   "date_unixtime": "1771771623",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "It's very pleasant jetski",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It's very pleasant jetski"
+    }
+   ]
+  },
+  {
+   "id": 244280,
+   "type": "message",
+   "date": "2026-02-22T16:49:05",
+   "date_unixtime": "1771771745",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "And not so dangerous",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "And not so dangerous"
+    }
+   ]
+  },
+  {
+   "id": 244295,
+   "type": "message",
+   "date": "2026-02-22T17:11:00",
+   "date_unixtime": "1771773060",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 244274,
+   "text": "Well, it’s still unpleasant",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Well, it’s still unpleasant"
+    }
+   ]
+  },
+  {
+   "id": 244297,
+   "type": "message",
+   "date": "2026-02-22T17:12:06",
+   "date_unixtime": "1771773126",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 244277,
+   "text": "Yes, but I don’t live near water.\nSo it’s rare for me)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes, but I don’t live near water.\nSo it’s rare for me)"
+    }
+   ]
+  },
+  {
+   "id": 244299,
+   "type": "message",
+   "date": "2026-02-22T17:12:50",
+   "date_unixtime": "1771773170",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes there it's more hard",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes there it's more hard"
+    }
+   ]
+  },
+  {
+   "id": 244300,
+   "type": "message",
+   "date": "2026-02-22T17:13:16",
+   "date_unixtime": "1771773196",
+   "edited": "2026-02-22T18:19:09",
+   "edited_unixtime": "1771777149",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I live in front of river and ocean it's 20 m distance by car",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I live in front of river and ocean it's 20 m distance by car"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-22T18:19:09"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 244301,
+   "type": "message",
+   "date": "2026-02-22T17:13:42",
+   "date_unixtime": "1771773222",
+   "edited": "2026-02-22T18:19:08",
+   "edited_unixtime": "1771777148",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "So yes it's much more easy. I even have marina in my district",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "So yes it's much more easy. I even have marina in my district"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-22T18:19:08"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 244753,
+   "type": "message",
+   "date": "2026-02-23T20:58:54",
+   "date_unixtime": "1771873134",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hello my dear",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello my dear"
+    }
+   ]
+  },
+  {
+   "id": 244755,
+   "type": "message",
+   "date": "2026-02-23T20:59:04",
+   "date_unixtime": "1771873144",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hope all well with you😊",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hope all well with you😊"
+    }
+   ]
+  },
+  {
+   "id": 244756,
+   "type": "message",
+   "date": "2026-02-23T20:59:13",
+   "date_unixtime": "1771873153",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "How was your day?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How was your day?"
+    }
+   ]
+  },
+  {
+   "id": 244758,
+   "type": "message",
+   "date": "2026-02-23T20:59:49",
+   "date_unixtime": "1771873189",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Sorry didn't said you nothing today but travelled all day only now stopped 🤦‍♂️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sorry didn't said you nothing today but travelled all day only now stopped 🤦‍♂️"
+    }
+   ]
+  },
+  {
+   "id": 244834,
+   "type": "message",
+   "date": "2026-02-23T23:12:47",
+   "date_unixtime": "1771881167",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "It’s okay))\nI understand, the road is always exhausting. The main thing is that you got there and everything is okay.\n\nI hope you have a chance to rest a little now.💋",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It’s okay))\nI understand, the road is always exhausting. The main thing is that you got there and everything is okay.\n\nI hope you have a chance to rest a little now.💋"
+    }
+   ]
+  },
+  {
+   "id": 244850,
+   "type": "message",
+   "date": "2026-02-23T23:22:07",
+   "date_unixtime": "1771881727",
+   "edited": "2026-02-23T23:23:02",
+   "edited_unixtime": "1771881782",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Thank you my dear. You are very kind",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thank you my dear. You are very kind"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-23T23:23:02"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 244851,
+   "type": "message",
+   "date": "2026-02-23T23:22:24",
+   "date_unixtime": "1771881744",
+   "edited": "2026-02-23T23:23:03",
+   "edited_unixtime": "1771881783",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes a bit tiring day. Many hours driving",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes a bit tiring day. Many hours driving"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-23T23:23:03"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 244852,
+   "type": "message",
+   "date": "2026-02-23T23:22:29",
+   "date_unixtime": "1771881749",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "🤦‍♂️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🤦‍♂️"
+    }
+   ]
+  },
+  {
+   "id": 244854,
+   "type": "message",
+   "date": "2026-02-23T23:23:32",
+   "date_unixtime": "1771881812",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Let’s call tomorrow if you’re free)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Let’s call tomorrow if you’re free)"
+    }
+   ]
+  },
+  {
+   "id": 244877,
+   "type": "message",
+   "date": "2026-02-24T00:12:06",
+   "date_unixtime": "1771884726",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes for sure. When you want tell me something",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes for sure. When you want tell me something"
+    }
+   ]
+  },
+  {
+   "id": 244879,
+   "type": "message",
+   "date": "2026-02-24T00:12:21",
+   "date_unixtime": "1771884741",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Sweet dreams. Good night 😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sweet dreams. Good night 😘"
+    }
+   ]
+  },
+  {
+   "id": 244884,
+   "type": "message",
+   "date": "2026-02-24T00:14:24",
+   "date_unixtime": "1771884864",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Good night 💋",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Good night 💋"
+    }
+   ]
+  },
+  {
+   "id": 244885,
+   "type": "message",
+   "date": "2026-02-24T00:14:46",
+   "date_unixtime": "1771884886",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 244877,
+   "text": "I would like to talk about whether we can meet or what?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I would like to talk about whether we can meet or what?)"
+    }
+   ]
+  },
+  {
+   "id": 244892,
+   "type": "message",
+   "date": "2026-02-24T00:31:23",
+   "date_unixtime": "1771885883",
+   "edited": "2026-02-24T07:49:25",
+   "edited_unixtime": "1771912165",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "For sure. When you want. Tomorrow if you can. We discuss it",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "For sure. When you want. Tomorrow if you can. We discuss it"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-24T07:49:25"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 244893,
+   "type": "message",
+   "date": "2026-02-24T00:31:33",
+   "date_unixtime": "1771885893",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "It would be good",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It would be good"
+    }
+   ]
+  },
+  {
+   "id": 244912,
+   "type": "message",
+   "date": "2026-02-24T07:49:29",
+   "date_unixtime": "1771912169",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Good morning ☀️\nHave a nice day)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Good morning ☀️\nHave a nice day)"
+    }
+   ]
+  },
+  {
+   "id": 244945,
+   "type": "message",
+   "date": "2026-02-24T09:55:53",
+   "date_unixtime": "1771919753",
+   "edited": "2026-02-24T09:57:30",
+   "edited_unixtime": "1771919850",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Good morning",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Good morning"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-24T09:57:30"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 244948,
+   "type": "message",
+   "date": "2026-02-24T09:56:47",
+   "date_unixtime": "1771919807",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "You too my dear. Enjoy your day. In a while I will have some free time if you can let's talk a bit",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You too my dear. Enjoy your day. In a while I will have some free time if you can let's talk a bit"
+    }
+   ]
+  },
+  {
+   "id": 244949,
+   "type": "message",
+   "date": "2026-02-24T09:57:50",
+   "date_unixtime": "1771919870",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I might be able to do it at lunchtime or in the evening, but I can’t promise anything yet)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I might be able to do it at lunchtime or in the evening, but I can’t promise anything yet)"
+    }
+   ]
+  },
+  {
+   "id": 244953,
+   "type": "message",
+   "date": "2026-02-24T10:04:00",
+   "date_unixtime": "1771920240",
+   "edited": "2026-02-24T20:15:03",
+   "edited_unixtime": "1771956903",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok. No problem. If you can when you see you are free say me something if I can also we do it",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok. No problem. If you can when you see you are free say me something if I can also we do it"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-24T20:15:03"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 244954,
+   "type": "message",
+   "date": "2026-02-24T10:04:05",
+   "date_unixtime": "1771920245",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "😍",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😍"
+    }
+   ]
+  },
+  {
+   "id": 245090,
+   "type": "message",
+   "date": "2026-02-24T20:15:29",
+   "date_unixtime": "1771956929",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (1).mp4",
+   "file_name": "video.mp4",
+   "file_size": 964579,
+   "thumbnail": "round_video_messages/video (1).mp4_thumb.jpg",
+   "thumbnail_file_size": 14658,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 6,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245092,
+   "type": "service",
+   "date": "2026-02-24T20:22:03",
+   "date_unixtime": "1771957323",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "duration_seconds": 370,
+   "discard_reason": "hangup",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245093,
+   "type": "message",
+   "date": "2026-02-24T20:29:46",
+   "date_unixtime": "1771957786",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Thank you for our conversation ☺️☺️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thank you for our conversation ☺️☺️"
+    }
+   ]
+  },
+  {
+   "id": 245094,
+   "type": "message",
+   "date": "2026-02-24T20:36:35",
+   "date_unixtime": "1771958195",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Thank you also. It was very good to see you",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thank you also. It was very good to see you"
+    }
+   ]
+  },
+  {
+   "id": 245095,
+   "type": "message",
+   "date": "2026-02-24T20:36:41",
+   "date_unixtime": "1771958201",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "😍",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😍"
+    }
+   ]
+  },
+  {
+   "id": 245096,
+   "type": "message",
+   "date": "2026-02-24T20:36:53",
+   "date_unixtime": "1771958213",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "You are very sweet",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You are very sweet"
+    }
+   ]
+  },
+  {
+   "id": 245097,
+   "type": "message",
+   "date": "2026-02-24T20:37:36",
+   "date_unixtime": "1771958256",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hope we can do it again soon😊",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hope we can do it again soon😊"
+    }
+   ]
+  },
+  {
+   "id": 245113,
+   "type": "message",
+   "date": "2026-02-24T21:53:51",
+   "date_unixtime": "1771962831",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Can I send you a link to the carrier with tickets so you can buy them online?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Can I send you a link to the carrier with tickets so you can buy them online?)"
+    }
+   ]
+  },
+  {
+   "id": 245120,
+   "type": "message",
+   "date": "2026-02-24T22:10:44",
+   "date_unixtime": "1771963844",
+   "edited": "2026-02-24T22:20:44",
+   "edited_unixtime": "1771964444",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes. 👍",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes. 👍"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🥰",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-24T22:20:44"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 245122,
+   "type": "message",
+   "date": "2026-02-24T22:20:54",
+   "date_unixtime": "1771964454",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://easytrip.com.ua/"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://easytrip.com.ua/"
+    }
+   ]
+  },
+  {
+   "id": 245124,
+   "type": "message",
+   "date": "2026-02-24T22:23:04",
+   "date_unixtime": "1771964584",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "+380 75 505 2802",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "+380 75 505 2802"
+    }
+   ]
+  },
+  {
+   "id": 245125,
+   "type": "message",
+   "date": "2026-02-24T22:23:18",
+   "date_unixtime": "1771964598",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Their WhatsApp number, just in case",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Their WhatsApp number, just in case"
+    }
+   ]
+  },
+  {
+   "id": 245126,
+   "type": "message",
+   "date": "2026-02-24T22:23:51",
+   "date_unixtime": "1771964631",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok my dear no problem. Tomorrow morning I can do it. I'm still travelling today",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok my dear no problem. Tomorrow morning I can do it. I'm still travelling today"
+    }
+   ]
+  },
+  {
+   "id": 245128,
+   "type": "message",
+   "date": "2026-02-24T22:24:07",
+   "date_unixtime": "1771964647",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Of course, thanks🥰",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Of course, thanks🥰"
+    }
+   ]
+  },
+  {
+   "id": 245129,
+   "type": "message",
+   "date": "2026-02-24T22:24:14",
+   "date_unixtime": "1771964654",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "No problem",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "No problem"
+    }
+   ]
+  },
+  {
+   "id": 245130,
+   "type": "message",
+   "date": "2026-02-24T22:24:17",
+   "date_unixtime": "1771964657",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😘"
+    }
+   ]
+  },
+  {
+   "id": 245263,
+   "type": "message",
+   "date": "2026-02-25T16:01:44",
+   "date_unixtime": "1772028104",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Hi) How is your day?) How are you?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi) How is your day?) How are you?"
+    }
+   ]
+  },
+  {
+   "id": 245264,
+   "type": "message",
+   "date": "2026-02-25T16:01:59",
+   "date_unixtime": "1772028119",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "You don’t write anything in the morning, have you changed your mind about the meeting?🙈",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You don’t write anything in the morning, have you changed your mind about the meeting?🙈"
+    }
+   ]
+  },
+  {
+   "id": 245281,
+   "type": "message",
+   "date": "2026-02-25T16:34:37",
+   "date_unixtime": "1772030077",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hi my dear. No sorry I had to get out of home unexpectedly.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi my dear. No sorry I had to get out of home unexpectedly."
+    }
+   ]
+  },
+  {
+   "id": 245282,
+   "type": "message",
+   "date": "2026-02-25T16:35:36",
+   "date_unixtime": "1772030136",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "And didn't had time to book your ticket. Do you have revolut or wise or something else, maybe I send you the money and you book already today?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "And didn't had time to book your ticket. Do you have revolut or wise or something else, maybe I send you the money and you book already today?"
+    }
+   ]
+  },
+  {
+   "id": 245283,
+   "type": "message",
+   "date": "2026-02-25T16:35:52",
+   "date_unixtime": "1772030152",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "If not only tomorrow morning I can do it myself",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "If not only tomorrow morning I can do it myself"
+    }
+   ]
+  },
+  {
+   "id": 245284,
+   "type": "message",
+   "date": "2026-02-25T16:36:06",
+   "date_unixtime": "1772030166",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Tell me what's better for you my dear",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Tell me what's better for you my dear"
+    }
+   ]
+  },
+  {
+   "id": 245286,
+   "type": "message",
+   "date": "2026-02-25T16:38:39",
+   "date_unixtime": "1772030319",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Whatever you prefer, I have PayPal, and that will really be faster.\nBecause your transfer to them directly will go through the bank within three business days",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Whatever you prefer, I have PayPal, and that will really be faster.\nBecause your transfer to them directly will go through the bank within three business days"
+    }
+   ]
+  },
+  {
+   "id": 245291,
+   "type": "message",
+   "date": "2026-02-25T16:46:13",
+   "date_unixtime": "1772030773",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok how it's more convenient to you",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok how it's more convenient to you"
+    }
+   ]
+  },
+  {
+   "id": 245292,
+   "type": "message",
+   "date": "2026-02-25T16:47:20",
+   "date_unixtime": "1772030840",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Do you have PayPal?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Do you have PayPal?"
+    }
+   ]
+  },
+  {
+   "id": 245293,
+   "type": "message",
+   "date": "2026-02-25T16:47:22",
+   "date_unixtime": "1772030842",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Just tell me what you prefer. Also i would need the date and probably copy of your passport or something if it's for me to do it tomorrow to put in the ticket your data",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Just tell me what you prefer. Also i would need the date and probably copy of your passport or something if it's for me to do it tomorrow to put in the ticket your data"
+    }
+   ]
+  },
+  {
+   "id": 245294,
+   "type": "message",
+   "date": "2026-02-25T16:48:09",
+   "date_unixtime": "1772030889",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes. I don't use often but yes i have",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes. I don't use often but yes i have"
+    }
+   ]
+  },
+  {
+   "id": 245295,
+   "type": "message",
+   "date": "2026-02-25T16:48:17",
+   "date_unixtime": "1772030897",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "It’s faster and more convenient for me if you translate for me, of course.\nBut I can’t insist on it.\nYou don’t need a passport to buy bus tickets, but I can send you one)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It’s faster and more convenient for me if you translate for me, of course.\nBut I can’t insist on it.\nYou don’t need a passport to buy bus tickets, but I can send you one)"
+    }
+   ]
+  },
+  {
+   "id": 245296,
+   "type": "message",
+   "date": "2026-02-25T16:48:36",
+   "date_unixtime": "1772030916",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 245294,
+   "text": "Would it be convenient for you to send it to PayPal then?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Would it be convenient for you to send it to PayPal then?"
+    }
+   ]
+  },
+  {
+   "id": 245297,
+   "type": "message",
+   "date": "2026-02-25T16:48:52",
+   "date_unixtime": "1772030932",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok. Maybe it's more easy i send you",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok. Maybe it's more easy i send you"
+    }
+   ]
+  },
+  {
+   "id": 245298,
+   "type": "message",
+   "date": "2026-02-25T16:49:01",
+   "date_unixtime": "1772030941",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "reply_to_message_id": 245296,
+   "text": "👍",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "👍"
+    }
+   ]
+  },
+  {
+   "id": 245299,
+   "type": "message",
+   "date": "2026-02-25T16:49:24",
+   "date_unixtime": "1772030964",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": [
+    {
+     "type": "email",
+     "text": "dianacutenice7@gmail.com"
+    },
+    " \nMy PayPal"
+   ],
+   "text_entities": [
+    {
+     "type": "email",
+     "text": "dianacutenice7@gmail.com"
+    },
+    {
+     "type": "plain",
+     "text": " \nMy PayPal"
+    }
+   ]
+  },
+  {
+   "id": 245300,
+   "type": "message",
+   "date": "2026-02-25T16:49:39",
+   "date_unixtime": "1772030979",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Like that when I get out from here can do it to you already this afternoon",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Like that when I get out from here can do it to you already this afternoon"
+    }
+   ]
+  },
+  {
+   "id": 245301,
+   "type": "message",
+   "date": "2026-02-25T16:49:42",
+   "date_unixtime": "1772030982",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok"
+    }
+   ]
+  },
+  {
+   "id": 245302,
+   "type": "message",
+   "date": "2026-02-25T16:49:50",
+   "date_unixtime": "1772030990",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "How much is the ticket?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How much is the ticket?"
+    }
+   ]
+  },
+  {
+   "id": 245303,
+   "type": "message",
+   "date": "2026-02-25T16:50:18",
+   "date_unixtime": "1772031018",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Then also you need to tell for what date you buy for me to check flights for me also",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Then also you need to tell for what date you buy for me to check flights for me also"
+    }
+   ]
+  },
+  {
+   "id": 245304,
+   "type": "message",
+   "date": "2026-02-25T16:51:38",
+   "date_unixtime": "1772031098",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "What dates are convenient for you?\nAny are fine for me if I book in advance😌",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "What dates are convenient for you?\nAny are fine for me if I book in advance😌"
+    }
+   ]
+  },
+  {
+   "id": 245305,
+   "type": "message",
+   "date": "2026-02-25T16:52:01",
+   "date_unixtime": "1772031121",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I need to buy tickets by the end of the month, well, it’s important for my work",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I need to buy tickets by the end of the month, well, it’s important for my work"
+    }
+   ]
+  },
+  {
+   "id": 245306,
+   "type": "message",
+   "date": "2026-02-25T16:52:55",
+   "date_unixtime": "1772031175",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 245302,
+   "text": "The price is listed on the website, but if you want to buy it yourself, you need to write to them on WhatsApp)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "The price is listed on the website, but if you want to buy it yourself, you need to write to them on WhatsApp)"
+    }
+   ]
+  },
+  {
+   "id": 245307,
+   "type": "message",
+   "date": "2026-02-25T16:53:23",
+   "date_unixtime": "1772031203",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Did we discuss the beginning or the end of March?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Did we discuss the beginning or the end of March?"
+    }
+   ]
+  },
+  {
+   "id": 245318,
+   "type": "message",
+   "date": "2026-02-25T17:19:06",
+   "date_unixtime": "1772032746",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes sorry didn't notice. It has the price 210€ each way. We talked end of March",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes sorry didn't notice. It has the price 210€ each way. We talked end of March"
+    }
+   ]
+  },
+  {
+   "id": 245319,
+   "type": "message",
+   "date": "2026-02-25T17:20:33",
+   "date_unixtime": "1772032833",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "For me it's ok. I suggest for example around 25 of March",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "For me it's ok. I suggest for example around 25 of March"
+    }
+   ]
+  },
+  {
+   "id": 245320,
+   "type": "message",
+   "date": "2026-02-25T17:21:33",
+   "date_unixtime": "1772032893",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "In this case my dear i think it's easier I send you the money and you book for around that date 25 if it's ok for you",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "In this case my dear i think it's easier I send you the money and you book for around that date 25 if it's ok for you"
+    }
+   ]
+  },
+  {
+   "id": 245321,
+   "type": "message",
+   "date": "2026-02-25T17:21:53",
+   "date_unixtime": "1772032913",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Also say me how many days you want to stay there",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Also say me how many days you want to stay there"
+    }
+   ]
+  },
+  {
+   "id": 245322,
+   "type": "message",
+   "date": "2026-02-25T17:27:20",
+   "date_unixtime": "1772033240",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Diana Shuvalova it's correct? It's what shows on Paypal",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Diana Shuvalova it's correct? It's what shows on Paypal"
+    }
+   ]
+  },
+  {
+   "id": 245323,
+   "type": "message",
+   "date": "2026-02-25T17:27:56",
+   "date_unixtime": "1772033276",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 245322,
+   "text": "Yes, of course",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes, of course"
+    }
+   ]
+  },
+  {
+   "id": 245324,
+   "type": "message",
+   "date": "2026-02-25T17:28:10",
+   "date_unixtime": "1772033290",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 245319,
+   "text": "Good, perfect for me🥰",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Good, perfect for me🥰"
+    }
+   ]
+  },
+  {
+   "id": 245326,
+   "type": "message",
+   "date": "2026-02-25T17:31:30",
+   "date_unixtime": "1772033490",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok I send you now some value. Confirm me just you receive.  following up your confirmation I send all the money",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok I send you now some value. Confirm me just you receive.  following up your confirmation I send all the money"
+    }
+   ]
+  },
+  {
+   "id": 245327,
+   "type": "message",
+   "date": "2026-02-25T17:35:13",
+   "date_unixtime": "1772033713",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok my dear confirm if you received in your PayPal 50€. If you received ok I send you the rest the same way",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok my dear confirm if you received in your PayPal 50€. If you received ok I send you the rest the same way"
+    }
+   ]
+  },
+  {
+   "id": 245328,
+   "type": "message",
+   "date": "2026-02-25T18:04:47",
+   "date_unixtime": "1772035487",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "photo": "photos/photo_12@25-02-2026_18-04-47.jpg",
+   "photo_file_size": 57445,
+   "width": 1280,
+   "height": 441,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245329,
+   "type": "message",
+   "date": "2026-02-25T18:05:05",
+   "date_unixtime": "1772035505",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Sorry, I’m at work and couldn’t respond quickly.\nI received)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sorry, I’m at work and couldn’t respond quickly.\nI received)"
+    }
+   ]
+  },
+  {
+   "id": 245332,
+   "type": "message",
+   "date": "2026-02-25T18:13:01",
+   "date_unixtime": "1772035981",
+   "edited": "2026-02-25T18:20:24",
+   "edited_unixtime": "1772036424",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "No worries my dear. Ok I sent you the rest. Next days when you buy the tickets confirm me the dates for me to book flights",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "No worries my dear. Ok I sent you the rest. Next days when you buy the tickets confirm me the dates for me to book flights"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-25T18:20:24"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 245333,
+   "type": "message",
+   "date": "2026-02-25T18:13:30",
+   "date_unixtime": "1772036010",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "👌",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "👌"
+    }
+   ]
+  },
+  {
+   "id": 245335,
+   "type": "message",
+   "date": "2026-02-25T18:15:25",
+   "date_unixtime": "1772036125",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Busy day?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Busy day?"
+    }
+   ]
+  },
+  {
+   "id": 245338,
+   "type": "message",
+   "date": "2026-02-25T18:20:42",
+   "date_unixtime": "1772036442",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I’m at work) I have a client\nI received everything, thank you 💋",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I’m at work) I have a client\nI received everything, thank you 💋"
+    }
+   ]
+  },
+  {
+   "id": 245351,
+   "type": "message",
+   "date": "2026-02-25T18:33:42",
+   "date_unixtime": "1772037222",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "reply_to_message_id": 245338,
+   "text": "❤️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "❤️"
+    }
+   ]
+  },
+  {
+   "id": 245535,
+   "type": "message",
+   "date": "2026-02-26T14:00:43",
+   "date_unixtime": "1772107243",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Good morning my dear",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Good morning my dear"
+    }
+   ]
+  },
+  {
+   "id": 245536,
+   "type": "message",
+   "date": "2026-02-26T14:01:12",
+   "date_unixtime": "1772107272",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "How are you today? Hope all going smoothly and safe with you😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How are you today? Hope all going smoothly and safe with you😘"
+    }
+   ]
+  },
+  {
+   "id": 245542,
+   "type": "message",
+   "date": "2026-02-26T15:48:12",
+   "date_unixtime": "1772113692",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Hi💋\nnot so much.\nSomething was loud this morning, around 4 a.m.\nI was a little scared, and then there was no power.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi💋\nnot so much.\nSomething was loud this morning, around 4 a.m.\nI was a little scared, and then there was no power."
+    }
+   ]
+  },
+  {
+   "id": 245551,
+   "type": "message",
+   "date": "2026-02-26T15:58:21",
+   "date_unixtime": "1772114301",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok. Sorry to hear. Try to rest now if you can. Stay safe. 🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok. Sorry to hear. Try to rest now if you can. Stay safe. 🙏"
+    }
+   ]
+  },
+  {
+   "id": 245552,
+   "type": "message",
+   "date": "2026-02-26T16:01:46",
+   "date_unixtime": "1772114506",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I’m fine) and already at work.\nJust sharing with you.\nI wrote to the company and am waiting for a ticket for March 25th. 😌",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I’m fine) and already at work.\nJust sharing with you.\nI wrote to the company and am waiting for a ticket for March 25th. 😌"
+    }
+   ]
+  },
+  {
+   "id": 245596,
+   "type": "message",
+   "date": "2026-02-26T16:21:51",
+   "date_unixtime": "1772115711",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok my dear. And what return date it's convenient to you? How many days you want to stay in Warsaw?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok my dear. And what return date it's convenient to you? How many days you want to stay in Warsaw?"
+    }
+   ]
+  },
+  {
+   "id": 245597,
+   "type": "message",
+   "date": "2026-02-26T16:22:46",
+   "date_unixtime": "1772115766",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "And also if you just want to stay in Warsaw or want to visit other places?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "And also if you just want to stay in Warsaw or want to visit other places?"
+    }
+   ]
+  },
+  {
+   "id": 245598,
+   "type": "message",
+   "date": "2026-02-26T16:23:09",
+   "date_unixtime": "1772115789",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Stay safe. Hope your day goes smoothly 😊😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Stay safe. Hope your day goes smoothly 😊😘"
+    }
+   ]
+  },
+  {
+   "id": 245601,
+   "type": "message",
+   "date": "2026-02-26T16:35:39",
+   "date_unixtime": "1772116539",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 245596,
+   "text": "Well, I think a few days will be good for a first meeting?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Well, I think a few days will be good for a first meeting?)"
+    }
+   ]
+  },
+  {
+   "id": 245602,
+   "type": "message",
+   "date": "2026-02-26T16:36:10",
+   "date_unixtime": "1772116570",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 245597,
+   "text": "I’m thinking of staying in Warsaw and spending more time getting to know each other. I think we’ll find something to do there)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I’m thinking of staying in Warsaw and spending more time getting to know each other. I think we’ll find something to do there)"
+    }
+   ]
+  },
+  {
+   "id": 245612,
+   "type": "message",
+   "date": "2026-02-26T16:42:06",
+   "date_unixtime": "1772116926",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok. My dear i agree with you. I will check also flights and next days when we can we agree on the number of days. City it's-+ big so yes for sure it will be interesting stuff to do and enjoy the trip😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok. My dear i agree with you. I will check also flights and next days when we can we agree on the number of days. City it's-+ big so yes for sure it will be interesting stuff to do and enjoy the trip😘"
+    }
+   ]
+  },
+  {
+   "id": 245623,
+   "type": "message",
+   "date": "2026-02-26T16:48:31",
+   "date_unixtime": "1772117311",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 245612,
+   "text": "Great, I agree ☺️ \nHow’s your day today?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Great, I agree ☺️ \nHow’s your day today?"
+    }
+   ]
+  },
+  {
+   "id": 245659,
+   "type": "message",
+   "date": "2026-02-26T17:20:20",
+   "date_unixtime": "1772119220",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "photo": "photos/photo_13@26-02-2026_17-20-20.jpg",
+   "photo_file_size": 224525,
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245661,
+   "type": "message",
+   "date": "2026-02-26T17:20:30",
+   "date_unixtime": "1772119230",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Cooked fish for lunch",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Cooked fish for lunch"
+    }
+   ]
+  },
+  {
+   "id": 245662,
+   "type": "message",
+   "date": "2026-02-26T17:20:35",
+   "date_unixtime": "1772119235",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Wow🤤🤤",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Wow🤤🤤"
+    }
+   ]
+  },
+  {
+   "id": 245664,
+   "type": "message",
+   "date": "2026-02-26T17:20:48",
+   "date_unixtime": "1772119248",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Now I go to a tourism fair here in my neighborhood",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Now I go to a tourism fair here in my neighborhood"
+    }
+   ]
+  },
+  {
+   "id": 245665,
+   "type": "message",
+   "date": "2026-02-26T17:21:01",
+   "date_unixtime": "1772119261",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "It's all ok. Just going out now",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It's all ok. Just going out now"
+    }
+   ]
+  },
+  {
+   "id": 245666,
+   "type": "message",
+   "date": "2026-02-26T17:21:07",
+   "date_unixtime": "1772119267",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "You like fish?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You like fish?"
+    }
+   ]
+  },
+  {
+   "id": 245667,
+   "type": "message",
+   "date": "2026-02-26T17:21:15",
+   "date_unixtime": "1772119275",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "This one is seabass",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "This one is seabass"
+    }
+   ]
+  },
+  {
+   "id": 245668,
+   "type": "message",
+   "date": "2026-02-26T17:21:34",
+   "date_unixtime": "1772119294",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I like to cook sometimes I find it relaxing",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I like to cook sometimes I find it relaxing"
+    }
+   ]
+  },
+  {
+   "id": 245669,
+   "type": "message",
+   "date": "2026-02-26T17:21:46",
+   "date_unixtime": "1772119306",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "How is your day going?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How is your day going?"
+    }
+   ]
+  },
+  {
+   "id": 245674,
+   "type": "message",
+   "date": "2026-02-26T17:25:46",
+   "date_unixtime": "1772119546",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Yes, I really love fish and seafood.\nBut I’m wary of salmon.\nI once choked on a salmon bone and was very scared😅",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes, I really love fish and seafood.\nBut I’m wary of salmon.\nI once choked on a salmon bone and was very scared😅"
+    }
+   ]
+  },
+  {
+   "id": 245675,
+   "type": "message",
+   "date": "2026-02-26T17:26:05",
+   "date_unixtime": "1772119565",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 245668,
+   "text": "I would like to try what you cook)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I would like to try what you cook)"
+    }
+   ]
+  },
+  {
+   "id": 245676,
+   "type": "message",
+   "date": "2026-02-26T17:26:19",
+   "date_unixtime": "1772119579",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 245669,
+   "text": "I’m at work, so it’s not as nice as yours)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I’m at work, so it’s not as nice as yours)"
+    }
+   ]
+  },
+  {
+   "id": 245679,
+   "type": "message",
+   "date": "2026-02-26T17:51:10",
+   "date_unixtime": "1772121070",
+   "edited": "2026-02-26T17:54:02",
+   "edited_unixtime": "1772121242",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I will cook for you.😊 You need to be careful every fish has bones. Needs a bit of training to know where they are and remove it",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I will cook for you.😊 You need to be careful every fish has bones. Needs a bit of training to know where they are and remove it"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-02-26T17:54:02"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 245680,
+   "type": "message",
+   "date": "2026-02-26T17:51:50",
+   "date_unixtime": "1772121110",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok. Hope the work at least will go easily",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok. Hope the work at least will go easily"
+    }
+   ]
+  },
+  {
+   "id": 245682,
+   "type": "message",
+   "date": "2026-02-26T17:52:10",
+   "date_unixtime": "1772121130",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Here the weather started to be good finally",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Here the weather started to be good finally"
+    }
+   ]
+  },
+  {
+   "id": 245683,
+   "type": "message",
+   "date": "2026-02-26T17:52:41",
+   "date_unixtime": "1772121161",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "file": "(File exceeds maximum size. Change data exporting settings to download.)",
+   "file_size": 9984889,
+   "thumbnail": "(File exceeds maximum size. Change data exporting settings to download.)",
+   "thumbnail_file_size": 18905,
+   "media_type": "video_file",
+   "mime_type": "video/mp4",
+   "duration_seconds": 24,
+   "width": 720,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245684,
+   "type": "message",
+   "date": "2026-02-26T17:52:55",
+   "date_unixtime": "1772121175",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Talk later. Have a productive working afternoon",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Talk later. Have a productive working afternoon"
+    }
+   ]
+  },
+  {
+   "id": 245685,
+   "type": "message",
+   "date": "2026-02-26T17:53:03",
+   "date_unixtime": "1772121183",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😘"
+    }
+   ]
+  },
+  {
+   "id": 245689,
+   "type": "message",
+   "date": "2026-02-26T17:54:26",
+   "date_unixtime": "1772121266",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "You have wonderful weather, but we’re still cold.\n\nSo enjoy it for both of us 🥰",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You have wonderful weather, but we’re still cold.\n\nSo enjoy it for both of us 🥰"
+    }
+   ]
+  },
+  {
+   "id": 245706,
+   "type": "message",
+   "date": "2026-02-26T18:10:13",
+   "date_unixtime": "1772122213",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "reply_to_message_id": 245689,
+   "text": "❤️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "❤️"
+    }
+   ]
+  },
+  {
+   "id": 246057,
+   "type": "message",
+   "date": "2026-02-27T21:23:36",
+   "date_unixtime": "1772220216",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (2).mp4",
+   "file_name": "video.mp4",
+   "file_size": 2030109,
+   "thumbnail": "round_video_messages/video (2).mp4_thumb.jpg",
+   "thumbnail_file_size": 13971,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 14,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 246059,
+   "type": "message",
+   "date": "2026-02-27T21:23:49",
+   "date_unixtime": "1772220229",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (3).mp4",
+   "file_name": "video.mp4",
+   "file_size": 1356757,
+   "thumbnail": "round_video_messages/video (3).mp4_thumb.jpg",
+   "thumbnail_file_size": 12508,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 9,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 246115,
+   "type": "message",
+   "date": "2026-02-27T23:46:44",
+   "date_unixtime": "1772228804",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hi my dear. Sorry for my late reply 🤦‍♂️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi my dear. Sorry for my late reply 🤦‍♂️"
+    }
+   ]
+  },
+  {
+   "id": 246116,
+   "type": "message",
+   "date": "2026-02-27T23:47:17",
+   "date_unixtime": "1772228837",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "But i'm been travelling to another area of country and only now arrived home",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "But i'm been travelling to another area of country and only now arrived home"
+    }
+   ]
+  },
+  {
+   "id": 246117,
+   "type": "message",
+   "date": "2026-02-27T23:47:28",
+   "date_unixtime": "1772228848",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Very good to see you😍",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Very good to see you😍"
+    }
+   ]
+  },
+  {
+   "id": 246118,
+   "type": "message",
+   "date": "2026-02-27T23:47:55",
+   "date_unixtime": "1772228875",
+   "edited": "2026-03-02T23:02:22",
+   "edited_unixtime": "1772485342",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Thank you. Ok tomorrow i will check and say you something",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thank you. Ok tomorrow i will check and say you something"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-02T23:02:22"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 246119,
+   "type": "message",
+   "date": "2026-02-27T23:48:34",
+   "date_unixtime": "1772228914",
+   "edited": "2026-03-02T20:43:54",
+   "edited_unixtime": "1772477034",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "So yes soon we will meet in person😍",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "So yes soon we will meet in person😍"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🥰",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-02T20:43:54"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 246120,
+   "type": "message",
+   "date": "2026-02-27T23:48:38",
+   "date_unixtime": "1772228918",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😘"
+    }
+   ]
+  },
+  {
+   "id": 246299,
+   "type": "message",
+   "date": "2026-03-02T23:10:03",
+   "date_unixtime": "1772485803",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (4).mp4",
+   "file_name": "video.mp4",
+   "file_size": 7739691,
+   "thumbnail": "round_video_messages/video (4).mp4_thumb.jpg",
+   "thumbnail_file_size": 14614,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 55,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 246300,
+   "type": "message",
+   "date": "2026-03-02T23:11:22",
+   "date_unixtime": "1772485882",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (5).mp4",
+   "file_name": "video.mp4",
+   "file_size": 8129891,
+   "thumbnail": "round_video_messages/video (5).mp4_thumb.jpg",
+   "thumbnail_file_size": 17025,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 58,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 246301,
+   "type": "message",
+   "date": "2026-03-02T23:11:42",
+   "date_unixtime": "1772485902",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (6).mp4",
+   "file_name": "video.mp4",
+   "file_size": 2447186,
+   "thumbnail": "round_video_messages/video (6).mp4_thumb.jpg",
+   "thumbnail_file_size": 12505,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 17,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 246302,
+   "type": "service",
+   "date": "2026-03-02T23:11:56",
+   "date_unixtime": "1772485916",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "discard_reason": "missed",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 246321,
+   "type": "message",
+   "date": "2026-03-03T13:02:59",
+   "date_unixtime": "1772535779",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hi my dear. Sorry yesterday had the phone charging in another room and didn't notice your call",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi my dear. Sorry yesterday had the phone charging in another room and didn't notice your call"
+    }
+   ]
+  },
+  {
+   "id": 246322,
+   "type": "message",
+   "date": "2026-03-03T13:03:49",
+   "date_unixtime": "1772535829",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes i understand. No problem. I'm out this days in the end of week I solve that for you😊",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes i understand. No problem. I'm out this days in the end of week I solve that for you😊"
+    }
+   ]
+  },
+  {
+   "id": 246323,
+   "type": "message",
+   "date": "2026-03-03T13:04:24",
+   "date_unixtime": "1772535864",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Just confirm me also when you can the return date for me to check also my flight pls",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Just confirm me also when you can the return date for me to check also my flight pls"
+    }
+   ]
+  },
+  {
+   "id": 246324,
+   "type": "message",
+   "date": "2026-03-03T13:04:36",
+   "date_unixtime": "1772535876",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hope all going well with you🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hope all going well with you🙏"
+    }
+   ]
+  },
+  {
+   "id": 246332,
+   "type": "message",
+   "date": "2026-03-03T13:55:05",
+   "date_unixtime": "1772538905",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I’m fine, thank you.\nAnd I hope you are too 🙏🏼💋",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I’m fine, thank you.\nAnd I hope you are too 🙏🏼💋"
+    }
+   ]
+  },
+  {
+   "id": 246401,
+   "type": "message",
+   "date": "2026-03-03T16:06:21",
+   "date_unixtime": "1772546781",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 246323,
+   "text": "Let’s figure this out together?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Let’s figure this out together?)"
+    }
+   ]
+  },
+  {
+   "id": 246446,
+   "type": "message",
+   "date": "2026-03-03T23:39:33",
+   "date_unixtime": "1772573973",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (7).mp4",
+   "file_name": "video.mp4",
+   "file_size": 574691,
+   "thumbnail": "round_video_messages/video (7).mp4_thumb.jpg",
+   "thumbnail_file_size": 13509,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 4,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 246447,
+   "type": "service",
+   "date": "2026-03-03T23:39:35",
+   "date_unixtime": "1772573975",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "discard_reason": "missed",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 246449,
+   "type": "message",
+   "date": "2026-03-03T23:43:20",
+   "date_unixtime": "1772574200",
+   "edited": "2026-03-03T23:47:15",
+   "edited_unixtime": "1772574435",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hi",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🥰",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-03T23:47:15"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 246451,
+   "type": "message",
+   "date": "2026-03-03T23:49:42",
+   "date_unixtime": "1772574582",
+   "edited": "2026-03-04T21:35:29",
+   "edited_unixtime": "1772652929",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Sorry i'm in a bar and didn't heard your call. It's noise here",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sorry i'm in a bar and didn't heard your call. It's noise here"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-04T21:35:29"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 246452,
+   "type": "message",
+   "date": "2026-03-03T23:53:17",
+   "date_unixtime": "1772574797",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Okay, I won't distract you. \nHave a nice evening 😌",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Okay, I won't distract you. \nHave a nice evening 😌"
+    }
+   ]
+  },
+  {
+   "id": 246453,
+   "type": "message",
+   "date": "2026-03-03T23:55:26",
+   "date_unixtime": "1772574926",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Thank you",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thank you"
+    }
+   ]
+  },
+  {
+   "id": 246454,
+   "type": "message",
+   "date": "2026-03-03T23:55:30",
+   "date_unixtime": "1772574930",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😘"
+    }
+   ]
+  },
+  {
+   "id": 246455,
+   "type": "message",
+   "date": "2026-03-03T23:55:59",
+   "date_unixtime": "1772574959",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Kiss💋",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Kiss💋"
+    }
+   ]
+  },
+  {
+   "id": 246573,
+   "type": "message",
+   "date": "2026-03-04T21:36:35",
+   "date_unixtime": "1772652995",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (8).mp4",
+   "file_name": "video.mp4",
+   "file_size": 1022402,
+   "thumbnail": "round_video_messages/video (8).mp4_thumb.jpg",
+   "thumbnail_file_size": 12882,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 7,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 246724,
+   "type": "message",
+   "date": "2026-03-05T16:57:52",
+   "date_unixtime": "1772722672",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Honey, are you okay?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Honey, are you okay?"
+    }
+   ]
+  },
+  {
+   "id": 247016,
+   "type": "message",
+   "date": "2026-03-06T14:24:36",
+   "date_unixtime": "1772799876",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Are you ignoring me? Why?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Are you ignoring me? Why?"
+    }
+   ]
+  },
+  {
+   "id": 247073,
+   "type": "service",
+   "date": "2026-03-06T22:55:55",
+   "date_unixtime": "1772830555",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "discard_reason": "missed",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 247318,
+   "type": "service",
+   "date": "2026-03-08T21:57:17",
+   "date_unixtime": "1772999837",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "discard_reason": "missed",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 247319,
+   "type": "message",
+   "date": "2026-03-08T21:57:33",
+   "date_unixtime": "1772999853",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (9).mp4",
+   "file_name": "video.mp4",
+   "file_size": 1231423,
+   "thumbnail": "round_video_messages/video (9).mp4_thumb.jpg",
+   "thumbnail_file_size": 14757,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 7,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 247354,
+   "type": "message",
+   "date": "2026-03-09T10:28:27",
+   "date_unixtime": "1773044907",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Good morning",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Good morning"
+    }
+   ]
+  },
+  {
+   "id": 247355,
+   "type": "message",
+   "date": "2026-03-09T10:28:48",
+   "date_unixtime": "1773044928",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Sorry i had some silly but stressful situation",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sorry i had some silly but stressful situation"
+    }
+   ]
+  },
+  {
+   "id": 247356,
+   "type": "message",
+   "date": "2026-03-09T10:29:19",
+   "date_unixtime": "1773044959",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "When you can pls say me something. Sorry",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "When you can pls say me something. Sorry"
+    }
+   ]
+  },
+  {
+   "id": 247403,
+   "type": "message",
+   "date": "2026-03-09T13:22:15",
+   "date_unixtime": "1773055335",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "So I’m waiting for you and your answer. \nYou promised to help at the end of the week, and I waited. \nWe can plan our meeting now if you’re ready",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "So I’m waiting for you and your answer. \nYou promised to help at the end of the week, and I waited. \nWe can plan our meeting now if you’re ready"
+    }
+   ]
+  },
+  {
+   "id": 247436,
+   "type": "message",
+   "date": "2026-03-09T13:36:35",
+   "date_unixtime": "1773056195",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hi. Yes let's discuss when you have time. Tell me when it's ok for you and what you need from me",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi. Yes let's discuss when you have time. Tell me when it's ok for you and what you need from me"
+    }
+   ]
+  },
+  {
+   "id": 247437,
+   "type": "message",
+   "date": "2026-03-09T13:36:37",
+   "date_unixtime": "1773056197",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "👌",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "👌"
+    }
+   ]
+  },
+  {
+   "id": 247734,
+   "type": "service",
+   "date": "2026-03-09T21:58:24",
+   "date_unixtime": "1773086304",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "discard_reason": "missed",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 247742,
+   "type": "message",
+   "date": "2026-03-09T22:00:17",
+   "date_unixtime": "1773086417",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hi Diana. Can I call you in 30 m?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi Diana. Can I call you in 30 m?"
+    }
+   ]
+  },
+  {
+   "id": 247743,
+   "type": "message",
+   "date": "2026-03-09T22:01:29",
+   "date_unixtime": "1773086489",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Yes)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes)"
+    }
+   ]
+  },
+  {
+   "id": 247744,
+   "type": "message",
+   "date": "2026-03-09T22:01:36",
+   "date_unixtime": "1773086496",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I’ll wait",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I’ll wait"
+    }
+   ]
+  },
+  {
+   "id": 247745,
+   "type": "message",
+   "date": "2026-03-09T22:02:05",
+   "date_unixtime": "1773086525",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok. Thank you. 30 m",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok. Thank you. 30 m"
+    }
+   ]
+  },
+  {
+   "id": 247746,
+   "type": "message",
+   "date": "2026-03-09T22:02:07",
+   "date_unixtime": "1773086527",
+   "edited": "2026-03-09T22:02:43",
+   "edited_unixtime": "1773086563",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😘"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🥰",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-09T22:02:43"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 247771,
+   "type": "service",
+   "date": "2026-03-09T22:23:20",
+   "date_unixtime": "1773087800",
+   "actor": "Maximo Лиссабон тргерлз",
+   "actor_id": "user5230906346",
+   "action": "phone_call",
+   "discard_reason": "hangup",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 247772,
+   "type": "service",
+   "date": "2026-03-09T22:33:01",
+   "date_unixtime": "1773088381",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "duration_seconds": 477,
+   "discard_reason": "hangup",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 247773,
+   "type": "message",
+   "date": "2026-03-09T22:34:06",
+   "date_unixtime": "1773088446",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": [
+    {
+     "type": "phone",
+     "text": "00351929469496"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "phone",
+     "text": "00351929469496"
+    }
+   ]
+  },
+  {
+   "id": 247774,
+   "type": "message",
+   "date": "2026-03-09T22:54:27",
+   "date_unixtime": "1773089667",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Is this your second number?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Is this your second number?)"
+    }
+   ]
+  },
+  {
+   "id": 247778,
+   "type": "message",
+   "date": "2026-03-09T23:08:10",
+   "date_unixtime": "1773090490",
+   "edited": "2026-03-10T12:11:02",
+   "edited_unixtime": "1773137462",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes. Keep it if in some moment i'm available in this one",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes. Keep it if in some moment i'm available in this one"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-10T12:11:02"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 247779,
+   "type": "message",
+   "date": "2026-03-09T23:08:13",
+   "date_unixtime": "1773090493",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😘"
+    }
+   ]
+  },
+  {
+   "id": 247814,
+   "type": "message",
+   "date": "2026-03-10T12:11:10",
+   "date_unixtime": "1773137470",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "How’s your day going? 🥰",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How’s your day going? 🥰"
+    }
+   ]
+  },
+  {
+   "id": 247892,
+   "type": "message",
+   "date": "2026-03-10T13:13:55",
+   "date_unixtime": "1773141235",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Good morning my dear",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Good morning my dear"
+    }
+   ]
+  },
+  {
+   "id": 247893,
+   "type": "message",
+   "date": "2026-03-10T13:14:17",
+   "date_unixtime": "1773141257",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "All going well. But extremely busy next 2 days. 😏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "All going well. But extremely busy next 2 days. 😏"
+    }
+   ]
+  },
+  {
+   "id": 247909,
+   "type": "message",
+   "date": "2026-03-10T14:01:53",
+   "date_unixtime": "1773144113",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Well, I hope we’ll have a chance to relax soon)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Well, I hope we’ll have a chance to relax soon)"
+    }
+   ]
+  },
+  {
+   "id": 247910,
+   "type": "message",
+   "date": "2026-03-10T14:02:22",
+   "date_unixtime": "1773144142",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "And you all ok?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "And you all ok?"
+    }
+   ]
+  },
+  {
+   "id": 247932,
+   "type": "message",
+   "date": "2026-03-10T14:09:04",
+   "date_unixtime": "1773144544",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Yes, I do cleaning",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes, I do cleaning"
+    }
+   ]
+  },
+  {
+   "id": 247962,
+   "type": "message",
+   "date": "2026-03-10T14:37:15",
+   "date_unixtime": "1773146235",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Me stuck on papers",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Me stuck on papers"
+    }
+   ]
+  },
+  {
+   "id": 247992,
+   "type": "message",
+   "date": "2026-03-10T18:47:28",
+   "date_unixtime": "1773161248",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "How are you? Have you sorted out the paperwork yet?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How are you? Have you sorted out the paperwork yet?)"
+    }
+   ]
+  },
+  {
+   "id": 247994,
+   "type": "message",
+   "date": "2026-03-10T18:48:08",
+   "date_unixtime": "1773161288",
+   "edited": "2026-03-10T18:48:42",
+   "edited_unixtime": "1773161322",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hi. I wish. No it's a lot to finish today. Now i'm in conservatory",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi. I wish. No it's a lot to finish today. Now i'm in conservatory"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-10T18:48:42"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 247995,
+   "type": "message",
+   "date": "2026-03-10T18:48:23",
+   "date_unixtime": "1773161303",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Recognising some signatures",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Recognising some signatures"
+    }
+   ]
+  },
+  {
+   "id": 247998,
+   "type": "message",
+   "date": "2026-03-10T18:48:34",
+   "date_unixtime": "1773161314",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Only tomorrow will finish",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Only tomorrow will finish"
+    }
+   ]
+  },
+  {
+   "id": 247999,
+   "type": "message",
+   "date": "2026-03-10T18:48:41",
+   "date_unixtime": "1773161321",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "🤷‍♂️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🤷‍♂️"
+    }
+   ]
+  },
+  {
+   "id": 248000,
+   "type": "message",
+   "date": "2026-03-10T18:48:50",
+   "date_unixtime": "1773161330",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "And you already home?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "And you already home?"
+    }
+   ]
+  },
+  {
+   "id": 248001,
+   "type": "message",
+   "date": "2026-03-10T18:49:13",
+   "date_unixtime": "1773161353",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Wow, that’s a lot of work. \nI hope you don’t get too tired.\nI was at home today, cleaning up. \nI have the day off today)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Wow, that’s a lot of work. \nI hope you don’t get too tired.\nI was at home today, cleaning up. \nI have the day off today)"
+    }
+   ]
+  },
+  {
+   "id": 248003,
+   "type": "message",
+   "date": "2026-03-10T18:50:05",
+   "date_unixtime": "1773161405",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Thank you. Yes i don't know when I finish. Here it's taking too much time. Waiting for lawyer",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thank you. Yes i don't know when I finish. Here it's taking too much time. Waiting for lawyer"
+    }
+   ]
+  },
+  {
+   "id": 248004,
+   "type": "message",
+   "date": "2026-03-10T18:50:08",
+   "date_unixtime": "1773161408",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "🤦‍♂️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🤦‍♂️"
+    }
+   ]
+  },
+  {
+   "id": 248036,
+   "type": "message",
+   "date": "2026-03-10T19:03:01",
+   "date_unixtime": "1773162181",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Well, let’s hope everything goes according to plan.\nAre you returning to Lisbon tomorrow?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Well, let’s hope everything goes according to plan.\nAre you returning to Lisbon tomorrow?)"
+    }
+   ]
+  },
+  {
+   "id": 248039,
+   "type": "message",
+   "date": "2026-03-10T19:06:17",
+   "date_unixtime": "1773162377",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes in the end of day. I want to return",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes in the end of day. I want to return"
+    }
+   ]
+  },
+  {
+   "id": 248062,
+   "type": "message",
+   "date": "2026-03-10T19:58:11",
+   "date_unixtime": "1773165491",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "When is your flight?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "When is your flight?"
+    }
+   ]
+  },
+  {
+   "id": 248134,
+   "type": "message",
+   "date": "2026-03-10T22:26:07",
+   "date_unixtime": "1773174367",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hi Diana. This trips inside Portugal i always go by car",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi Diana. This trips inside Portugal i always go by car"
+    }
+   ]
+  },
+  {
+   "id": 248135,
+   "type": "message",
+   "date": "2026-03-10T22:26:18",
+   "date_unixtime": "1773174378",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "It's 350 km from Lisbon",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It's 350 km from Lisbon"
+    }
+   ]
+  },
+  {
+   "id": 248184,
+   "type": "message",
+   "date": "2026-03-10T23:42:57",
+   "date_unixtime": "1773178977",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 248134,
+   "text": "Oh, then that’s even more convenient)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Oh, then that’s even more convenient)"
+    }
+   ]
+  },
+  {
+   "id": 248271,
+   "type": "message",
+   "date": "2026-03-11T10:33:30",
+   "date_unixtime": "1773218010",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes it's not very big distances and roads are good so it's easy",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes it's not very big distances and roads are good so it's easy"
+    }
+   ]
+  },
+  {
+   "id": 248277,
+   "type": "message",
+   "date": "2026-03-11T11:59:53",
+   "date_unixtime": "1773223193",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I hope you get there quickly, have a nice day ))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I hope you get there quickly, have a nice day ))"
+    }
+   ]
+  },
+  {
+   "id": 248326,
+   "type": "message",
+   "date": "2026-03-11T13:12:12",
+   "date_unixtime": "1773227532",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "reply_to_message_id": 248277,
+   "text": "❤️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "❤️"
+    }
+   ]
+  },
+  {
+   "id": 248349,
+   "type": "message",
+   "date": "2026-03-11T16:14:13",
+   "date_unixtime": "1773238453",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "How are you?h🥰",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How are you?h🥰"
+    }
+   ]
+  },
+  {
+   "id": 248372,
+   "type": "message",
+   "date": "2026-03-11T16:29:26",
+   "date_unixtime": "1773239366",
+   "edited": "2026-03-11T20:47:09",
+   "edited_unixtime": "1773254829",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hello my dear. All ok. Thank you 😊 finishing what I need to return to Lisbon end of day",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello my dear. All ok. Thank you 😊 finishing what I need to return to Lisbon end of day"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-11T20:47:09"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 248373,
+   "type": "message",
+   "date": "2026-03-11T16:29:46",
+   "date_unixtime": "1773239386",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "And you how is your day going?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "And you how is your day going?"
+    }
+   ]
+  },
+  {
+   "id": 248391,
+   "type": "message",
+   "date": "2026-03-11T17:23:32",
+   "date_unixtime": "1773242612",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Great) I’m glad to hear that. You’re getting everything done. \nI’m at work)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Great) I’m glad to hear that. You’re getting everything done. \nI’m at work)"
+    }
+   ]
+  },
+  {
+   "id": 248439,
+   "type": "message",
+   "date": "2026-03-11T17:36:09",
+   "date_unixtime": "1773243369",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "👌",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "👌"
+    }
+   ]
+  },
+  {
+   "id": 248491,
+   "type": "message",
+   "date": "2026-03-11T18:39:20",
+   "date_unixtime": "1773247160",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Honey, if you don’t manage to transfer the money today, please let me know so I know whether to wait or not🙏🏼☺️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Honey, if you don’t manage to transfer the money today, please let me know so I know whether to wait or not🙏🏼☺️"
+    }
+   ]
+  },
+  {
+   "id": 248747,
+   "type": "message",
+   "date": "2026-03-11T22:53:51",
+   "date_unixtime": "1773262431",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hi my dear. Sorry been here busy with somethings",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi my dear. Sorry been here busy with somethings"
+    }
+   ]
+  },
+  {
+   "id": 248748,
+   "type": "message",
+   "date": "2026-03-11T22:54:11",
+   "date_unixtime": "1773262451",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "But i sent you maybe one hour ago. Check if you received",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "But i sent you maybe one hour ago. Check if you received"
+    }
+   ]
+  },
+  {
+   "id": 248766,
+   "type": "message",
+   "date": "2026-03-11T23:20:04",
+   "date_unixtime": "1773264004",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I got it, just checked. \nThank you 🥰",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I got it, just checked. \nThank you 🥰"
+    }
+   ]
+  },
+  {
+   "id": 248790,
+   "type": "message",
+   "date": "2026-03-11T23:31:48",
+   "date_unixtime": "1773264708",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "reply_to_message_id": 248766,
+   "text": "❤️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "❤️"
+    }
+   ]
+  },
+  {
+   "id": 248882,
+   "type": "message",
+   "date": "2026-03-12T17:10:23",
+   "date_unixtime": "1773328223",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "How are you, dear? Did you rest after the trip?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How are you, dear? Did you rest after the trip?)"
+    }
+   ]
+  },
+  {
+   "id": 248933,
+   "type": "message",
+   "date": "2026-03-12T18:01:14",
+   "date_unixtime": "1773331274",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hello my dear. Sorry for my late answer. I didn't had time to rest. I'm finishing some tasks that I need till tomorrow",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello my dear. Sorry for my late answer. I didn't had time to rest. I'm finishing some tasks that I need till tomorrow"
+    }
+   ]
+  },
+  {
+   "id": 248934,
+   "type": "message",
+   "date": "2026-03-12T18:01:25",
+   "date_unixtime": "1773331285",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "So quite busy😏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "So quite busy😏"
+    }
+   ]
+  },
+  {
+   "id": 248935,
+   "type": "message",
+   "date": "2026-03-12T18:01:38",
+   "date_unixtime": "1773331298",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "And you my dear how are you today?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "And you my dear how are you today?"
+    }
+   ]
+  },
+  {
+   "id": 248941,
+   "type": "message",
+   "date": "2026-03-12T18:20:19",
+   "date_unixtime": "1773332419",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I’m fine, I’m working, so everything’s okay. \nI was worried about you)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I’m fine, I’m working, so everything’s okay. \nI was worried about you)"
+    }
+   ]
+  },
+  {
+   "id": 249015,
+   "type": "message",
+   "date": "2026-03-12T19:05:59",
+   "date_unixtime": "1773335159",
+   "edited": "2026-03-12T19:37:52",
+   "edited_unixtime": "1773337072",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I'm ok my dear. Thank you",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I'm ok my dear. Thank you"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-12T19:37:52"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 249016,
+   "type": "message",
+   "date": "2026-03-12T19:06:03",
+   "date_unixtime": "1773335163",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "😍",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😍"
+    }
+   ]
+  },
+  {
+   "id": 249156,
+   "type": "message",
+   "date": "2026-03-12T22:18:34",
+   "date_unixtime": "1773346714",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (10).mp4",
+   "file_name": "video.mp4",
+   "file_size": 1287929,
+   "thumbnail": "round_video_messages/video (10).mp4_thumb.jpg",
+   "thumbnail_file_size": 15711,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 9,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 249163,
+   "type": "message",
+   "date": "2026-03-12T22:21:23",
+   "date_unixtime": "1773346883",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hi Diana. Yes for today work finish",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi Diana. Yes for today work finish"
+    }
+   ]
+  },
+  {
+   "id": 249164,
+   "type": "message",
+   "date": "2026-03-12T22:21:43",
+   "date_unixtime": "1773346903",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Just resting and watching a bit of tv",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Just resting and watching a bit of tv"
+    }
+   ]
+  },
+  {
+   "id": 249165,
+   "type": "message",
+   "date": "2026-03-12T22:21:48",
+   "date_unixtime": "1773346908",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "😀",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😀"
+    }
+   ]
+  },
+  {
+   "id": 249170,
+   "type": "message",
+   "date": "2026-03-12T22:29:01",
+   "date_unixtime": "1773347341",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 249164,
+   "text": "Well, I’m glad you’re finally getting some rest)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Well, I’m glad you’re finally getting some rest)"
+    }
+   ]
+  },
+  {
+   "id": 249172,
+   "type": "message",
+   "date": "2026-03-12T22:29:39",
+   "date_unixtime": "1773347379",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "You are too kind my dear",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You are too kind my dear"
+    }
+   ]
+  },
+  {
+   "id": 249174,
+   "type": "message",
+   "date": "2026-03-12T22:29:43",
+   "date_unixtime": "1773347383",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "A sweet",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "A sweet"
+    }
+   ]
+  },
+  {
+   "id": 249242,
+   "type": "message",
+   "date": "2026-03-13T10:57:10",
+   "date_unixtime": "1773392230",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Good morning! Have a nice day))☺️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Good morning! Have a nice day))☺️"
+    }
+   ]
+  },
+  {
+   "id": 249269,
+   "type": "message",
+   "date": "2026-03-13T14:11:03",
+   "date_unixtime": "1773403863",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hello my dear. Thank you",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello my dear. Thank you"
+    }
+   ]
+  },
+  {
+   "id": 249270,
+   "type": "message",
+   "date": "2026-03-13T14:11:09",
+   "date_unixtime": "1773403869",
+   "edited": "2026-03-13T15:45:05",
+   "edited_unixtime": "1773409505",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "For you too my dear",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "For you too my dear"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🥰",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-13T15:45:05"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 249271,
+   "type": "message",
+   "date": "2026-03-13T14:11:12",
+   "date_unixtime": "1773403872",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😘"
+    }
+   ]
+  },
+  {
+   "id": 249323,
+   "type": "message",
+   "date": "2026-03-13T18:36:54",
+   "date_unixtime": "1773419814",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "So my dear. Work already finished?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "So my dear. Work already finished?"
+    }
+   ]
+  },
+  {
+   "id": 249325,
+   "type": "message",
+   "date": "2026-03-13T18:37:19",
+   "date_unixtime": "1773419839",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Not yet)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Not yet)"
+    }
+   ]
+  },
+  {
+   "id": 249326,
+   "type": "message",
+   "date": "2026-03-13T18:37:50",
+   "date_unixtime": "1773419870",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok. 😏\nYou work a lot",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok. 😏\nYou work a lot"
+    }
+   ]
+  },
+  {
+   "id": 249327,
+   "type": "message",
+   "date": "2026-03-13T18:38:13",
+   "date_unixtime": "1773419893",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hope it go smoothly and that soon you can rest",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hope it go smoothly and that soon you can rest"
+    }
+   ]
+  },
+  {
+   "id": 249354,
+   "type": "message",
+   "date": "2026-03-13T21:14:38",
+   "date_unixtime": "1773429278",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "I had two days off at the beginning of the week))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I had two days off at the beginning of the week))"
+    }
+   ]
+  },
+  {
+   "id": 249565,
+   "type": "message",
+   "date": "2026-03-15T13:12:44",
+   "date_unixtime": "1773573164",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Good morning my dear. How is your weekend going?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Good morning my dear. How is your weekend going?"
+    }
+   ]
+  },
+  {
+   "id": 249566,
+   "type": "message",
+   "date": "2026-03-15T13:12:51",
+   "date_unixtime": "1773573171",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "All going well?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "All going well?"
+    }
+   ]
+  },
+  {
+   "id": 249572,
+   "type": "message",
+   "date": "2026-03-15T14:43:54",
+   "date_unixtime": "1773578634",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Hey there, sweetie \nThere was shelling last night, and we had some power issues yesterday, but everything’s fine now \nHow are you?))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hey there, sweetie \nThere was shelling last night, and we had some power issues yesterday, but everything’s fine now \nHow are you?))"
+    }
+   ]
+  },
+  {
+   "id": 249600,
+   "type": "message",
+   "date": "2026-03-15T14:53:25",
+   "date_unixtime": "1773579205",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Ok. Good to hear you are well my dear 🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok. Good to hear you are well my dear 🙏"
+    }
+   ]
+  },
+  {
+   "id": 249601,
+   "type": "message",
+   "date": "2026-03-15T14:53:37",
+   "date_unixtime": "1773579217",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Everything ok with me thank you",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Everything ok with me thank you"
+    }
+   ]
+  },
+  {
+   "id": 249602,
+   "type": "message",
+   "date": "2026-03-15T14:54:23",
+   "date_unixtime": "1773579263",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes i read on news. Not good. Try to rest today, guess at night you couldn't rest",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes i read on news. Not good. Try to rest today, guess at night you couldn't rest"
+    }
+   ]
+  },
+  {
+   "id": 249605,
+   "type": "message",
+   "date": "2026-03-15T14:59:16",
+   "date_unixtime": "1773579556",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 249602,
+   "text": "Yeah, I think I’ll go to bed early tonight \nBecause I’m a little tired \nThanks for asking ❤️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yeah, I think I’ll go to bed early tonight \nBecause I’m a little tired \nThanks for asking ❤️"
+    }
+   ]
+  },
+  {
+   "id": 249610,
+   "type": "message",
+   "date": "2026-03-15T15:00:13",
+   "date_unixtime": "1773579613",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Yes it's better. And probably tomorrow you will go to work, so yes it's better to try to rest😊",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes it's better. And probably tomorrow you will go to work, so yes it's better to try to rest😊"
+    }
+   ]
+  },
+  {
+   "id": 249699,
+   "type": "message",
+   "date": "2026-03-15T20:34:15",
+   "date_unixtime": "1773599655",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "You’re right) \nHow are your days?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "You’re right) \nHow are your days?)"
+    }
+   ]
+  },
+  {
+   "id": 249748,
+   "type": "message",
+   "date": "2026-03-15T21:12:41",
+   "date_unixtime": "1773601961",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "All normal my dear. Weather here was very good sunny and warm",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "All normal my dear. Weather here was very good sunny and warm"
+    }
+   ]
+  },
+  {
+   "id": 249749,
+   "type": "message",
+   "date": "2026-03-15T21:13:06",
+   "date_unixtime": "1773601986",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "So i went to have lunch in center and go there for a walk after",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "So i went to have lunch in center and go there for a walk after"
+    }
+   ]
+  },
+  {
+   "id": 249751,
+   "type": "message",
+   "date": "2026-03-15T21:18:54",
+   "date_unixtime": "1773602334",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Just enjoying the good weather in a nice place",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Just enjoying the good weather in a nice place"
+    }
+   ]
+  },
+  {
+   "id": 249752,
+   "type": "message",
+   "date": "2026-03-15T21:18:54",
+   "date_unixtime": "1773602334",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "And you? What you did today?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "And you? What you did today?"
+    }
+   ]
+  },
+  {
+   "id": 249809,
+   "type": "message",
+   "date": "2026-03-16T14:35:29",
+   "date_unixtime": "1773664529",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Hey, we had some shelling this morning, so I’m fine, but a little stressed.\nI’m at work now.\nHow are you?🥰",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hey, we had some shelling this morning, so I’m fine, but a little stressed.\nI’m at work now.\nHow are you?🥰"
+    }
+   ]
+  },
+  {
+   "id": 249963,
+   "type": "message",
+   "date": "2026-03-16T17:19:03",
+   "date_unixtime": "1773674343",
+   "edited": "2026-03-16T20:16:05",
+   "edited_unixtime": "1773684965",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Hi my dear. Yes i saw in the news. Ok good to hear you are well. I can imagine how stressful it is",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi my dear. Yes i saw in the news. Ok good to hear you are well. I can imagine how stressful it is"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-16T20:16:05"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 249964,
+   "type": "message",
+   "date": "2026-03-16T17:19:13",
+   "date_unixtime": "1773674353",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I'm ok thank you.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I'm ok thank you."
+    }
+   ]
+  },
+  {
+   "id": 249965,
+   "type": "message",
+   "date": "2026-03-16T17:19:48",
+   "date_unixtime": "1773674388",
+   "edited": "2026-03-23T21:18:05",
+   "edited_unixtime": "1774293485",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "I'm in the north of country now in some businesses i have here. I don't know if it's return today or tomorrow",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I'm in the north of country now in some businesses i have here. I don't know if it's return today or tomorrow"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-23T21:18:05"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 249966,
+   "type": "message",
+   "date": "2026-03-16T17:19:56",
+   "date_unixtime": "1773674396",
+   "edited": "2026-03-22T22:00:06",
+   "edited_unixtime": "1774209606",
+   "from": "Maximo Лиссабон тргерлз",
+   "from_id": "user5230906346",
+   "text": "Keep safe😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Keep safe😘"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-22T22:00:06"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 250076,
+   "type": "message",
+   "date": "2026-03-16T20:17:11",
+   "date_unixtime": "1773685031",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (11).mp4",
+   "file_name": "video.mp4",
+   "file_size": 8025912,
+   "thumbnail": "round_video_messages/video (11).mp4_thumb.jpg",
+   "thumbnail_file_size": 16613,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 57,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 250077,
+   "type": "message",
+   "date": "2026-03-16T20:17:54",
+   "date_unixtime": "1773685074",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (12).mp4",
+   "file_name": "video.mp4",
+   "file_size": 5754534,
+   "thumbnail": "round_video_messages/video (12).mp4_thumb.jpg",
+   "thumbnail_file_size": 15805,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 41,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 250397,
+   "type": "message",
+   "date": "2026-03-17T22:58:53",
+   "date_unixtime": "1773781133",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (13).mp4",
+   "file_name": "video.mp4",
+   "file_size": 1285599,
+   "thumbnail": "round_video_messages/video (13).mp4_thumb.jpg",
+   "thumbnail_file_size": 18702,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 9,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 250398,
+   "type": "service",
+   "date": "2026-03-17T23:07:55",
+   "date_unixtime": "1773781675",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "duration_seconds": 528,
+   "discard_reason": "hangup",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 250791,
+   "type": "service",
+   "date": "2026-03-20T20:36:42",
+   "date_unixtime": "1774031802",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "discard_reason": "missed",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 250792,
+   "type": "message",
+   "date": "2026-03-20T20:37:19",
+   "date_unixtime": "1774031839",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (14).mp4",
+   "file_name": "video.mp4",
+   "file_size": 3743888,
+   "thumbnail": "round_video_messages/video (14).mp4_thumb.jpg",
+   "thumbnail_file_size": 18807,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 26,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 250793,
+   "type": "message",
+   "date": "2026-03-20T20:37:30",
+   "date_unixtime": "1774031850",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "round_video_messages/video (15).mp4",
+   "file_name": "video.mp4",
+   "file_size": 1500190,
+   "thumbnail": "round_video_messages/video (15).mp4_thumb.jpg",
+   "thumbnail_file_size": 15650,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 10,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 252223,
+   "type": "service",
+   "date": "2026-03-24T21:47:23",
+   "date_unixtime": "1774381643",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "discard_reason": "missed",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 254468,
+   "type": "message",
+   "date": "2026-03-29T20:51:43",
+   "date_unixtime": "1774806703",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Are you ignoring me?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Are you ignoring me?"
+    }
+   ]
+  }
+ ]
+}

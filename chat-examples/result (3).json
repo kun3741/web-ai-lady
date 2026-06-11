@@ -1,0 +1,1387 @@
+{
+ "name": "Джио Вторая страница",
+ "type": "personal_chat",
+ "id": 8355480676,
+ "messages": [
+  {
+   "id": 245731,
+   "type": "message",
+   "date": "2026-02-26T18:37:07",
+   "date_unixtime": "1772123827",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Ли",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ли"
+    }
+   ]
+  },
+  {
+   "id": 245732,
+   "type": "message",
+   "date": "2026-02-26T18:37:12",
+   "date_unixtime": "1772123832",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Это ты?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Это ты?"
+    }
+   ]
+  },
+  {
+   "id": 245733,
+   "type": "message",
+   "date": "2026-02-26T18:37:19",
+   "date_unixtime": "1772123839",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Джордж",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Джордж"
+    }
+   ]
+  },
+  {
+   "id": 245862,
+   "type": "message",
+   "date": "2026-02-27T17:36:09",
+   "date_unixtime": "1772206569",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Привет) я Диана, приятно познакомиться 😌☺️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Привет) я Диана, приятно познакомиться 😌☺️"
+    }
+   ]
+  },
+  {
+   "id": 246025,
+   "type": "message",
+   "date": "2026-02-27T19:30:54",
+   "date_unixtime": "1772213454",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Диииии",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Диииии"
+    }
+   ]
+  },
+  {
+   "id": 246026,
+   "type": "message",
+   "date": "2026-02-27T19:30:59",
+   "date_unixtime": "1772213459",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Это я )))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Это я )))"
+    }
+   ]
+  },
+  {
+   "id": 246027,
+   "type": "message",
+   "date": "2026-02-27T19:31:18",
+   "date_unixtime": "1772213478",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Джордж, с Германии! 😂😂😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Джордж, с Германии! 😂😂😂"
+    }
+   ]
+  },
+  {
+   "id": 246035,
+   "type": "message",
+   "date": "2026-02-27T19:39:49",
+   "date_unixtime": "1772213989",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "А я еще почему то так и подумала, что это ты😂 \nно думаю вдруг ошибаюсь",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "А я еще почему то так и подумала, что это ты😂 \nно думаю вдруг ошибаюсь"
+    }
+   ]
+  },
+  {
+   "id": 246037,
+   "type": "message",
+   "date": "2026-02-27T19:40:29",
+   "date_unixtime": "1772214029",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "У меня этот телефон всегда рядом, второй только рабочий",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "У меня этот телефон всегда рядом, второй только рабочий"
+    }
+   ]
+  },
+  {
+   "id": 246039,
+   "type": "message",
+   "date": "2026-02-27T19:42:58",
+   "date_unixtime": "1772214178",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Хорошо)☺️😌",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Хорошо)☺️😌"
+    }
+   ]
+  },
+  {
+   "id": 246361,
+   "type": "message",
+   "date": "2026-03-03T15:13:38",
+   "date_unixtime": "1772543618",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Привет, ты как ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Привет, ты как ?"
+    }
+   ]
+  },
+  {
+   "id": 246385,
+   "type": "message",
+   "date": "2026-03-03T15:31:28",
+   "date_unixtime": "1772544688",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Привет Ди, выздоравливаю, в Грузии, ты как?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Привет Ди, выздоравливаю, в Грузии, ты как?"
+    }
+   ]
+  },
+  {
+   "id": 246387,
+   "type": "message",
+   "date": "2026-03-03T15:32:20",
+   "date_unixtime": "1772544740",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "хорошо, я в порядке \nработаю, все как обычно ))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "хорошо, я в порядке \nработаю, все как обычно ))"
+    }
+   ]
+  },
+  {
+   "id": 246390,
+   "type": "message",
+   "date": "2026-03-03T15:32:32",
+   "date_unixtime": "1772544752",
+   "edited": "2026-03-03T22:35:19",
+   "edited_unixtime": "1772570119",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Отлично",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Отлично"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-03T22:35:19"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 246392,
+   "type": "message",
+   "date": "2026-03-03T15:32:37",
+   "date_unixtime": "1772544757",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "👍👍👍",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "👍👍👍"
+    }
+   ]
+  },
+  {
+   "id": 246437,
+   "type": "message",
+   "date": "2026-03-03T22:35:39",
+   "date_unixtime": "1772570139",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "video.mp4",
+   "file_size": 2260670,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 15376,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 16,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 246465,
+   "type": "message",
+   "date": "2026-03-04T07:26:32",
+   "date_unixtime": "1772601992",
+   "edited": "2026-03-04T14:10:42",
+   "edited_unixtime": "1772626242",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Доброе утро, я услышал ди )) разберемся",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Доброе утро, я услышал ди )) разберемся"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🥰",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-04T14:10:42"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 246564,
+   "type": "message",
+   "date": "2026-03-04T21:27:27",
+   "date_unixtime": "1772652447",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "video.mp4",
+   "file_size": 2338127,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 13820,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 16,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 247238,
+   "type": "message",
+   "date": "2026-03-08T12:07:14",
+   "date_unixtime": "1772964434",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Ты как? Все в порядке ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ты как? Все в порядке ?"
+    }
+   ]
+  },
+  {
+   "id": 247299,
+   "type": "message",
+   "date": "2026-03-08T16:50:42",
+   "date_unixtime": "1772981442",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "С 8 мартом солнышко…",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "С 8 мартом солнышко…"
+    }
+   ]
+  },
+  {
+   "id": 247300,
+   "type": "message",
+   "date": "2026-03-08T16:50:52",
+   "date_unixtime": "1772981452",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Счастье счастье и счастье тебе",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Счастье счастье и счастье тебе"
+    }
+   ]
+  },
+  {
+   "id": 247301,
+   "type": "message",
+   "date": "2026-03-08T16:51:52",
+   "date_unixtime": "1772981512",
+   "edited": "2026-03-09T22:07:14",
+   "edited_unixtime": "1773086834",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "На днях наберу ди, по работе ЧП,",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "На днях наберу ди, по работе ЧП,"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-09T22:07:14"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 247302,
+   "type": "message",
+   "date": "2026-03-08T16:52:13",
+   "date_unixtime": "1772981533",
+   "edited": "2026-03-16T00:54:45",
+   "edited_unixtime": "1773615285",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Должно быть хорошо",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Должно быть хорошо"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-03-16T00:54:45"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 247311,
+   "type": "message",
+   "date": "2026-03-08T21:52:23",
+   "date_unixtime": "1772999543",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 247299,
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "video.mp4",
+   "file_size": 1895636,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 16342,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 13,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 258366,
+   "type": "message",
+   "date": "2026-04-12T00:44:24",
+   "date_unixtime": "1775943864",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Христос воскрес 🙏\nВсех благ, исполнение всех желании, божью благодать, счастье тебе христианин \nАминь 🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Христос воскрес 🙏\nВсех благ, исполнение всех желании, божью благодать, счастье тебе христианин \nАминь 🙏"
+    }
+   ]
+  },
+  {
+   "id": 258398,
+   "type": "message",
+   "date": "2026-04-12T08:38:03",
+   "date_unixtime": "1775972283",
+   "edited": "2026-04-12T09:41:00",
+   "edited_unixtime": "1775976060",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Воистину воскрес 🙏🏼",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Воистину воскрес 🙏🏼"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Джио Вторая страница",
+        "from_id": "user8355480676",
+        "date": "2026-04-12T09:41:00"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 259499,
+   "type": "message",
+   "date": "2026-04-14T22:48:42",
+   "date_unixtime": "1776196122",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "video.mp4",
+   "file_size": 2381780,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 16537,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 17,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 259500,
+   "type": "message",
+   "date": "2026-04-14T22:49:41",
+   "date_unixtime": "1776196181",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Привет ди",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Привет ди"
+    }
+   ]
+  },
+  {
+   "id": 259501,
+   "type": "message",
+   "date": "2026-04-14T22:49:52",
+   "date_unixtime": "1776196192",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Я в больнице лежал на сердце",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Я в больнице лежал на сердце"
+    }
+   ]
+  },
+  {
+   "id": 259502,
+   "type": "message",
+   "date": "2026-04-14T22:50:09",
+   "date_unixtime": "1776196209",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Буквально пару дней назад выписали",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Буквально пару дней назад выписали"
+    }
+   ]
+  },
+  {
+   "id": 259503,
+   "type": "message",
+   "date": "2026-04-14T22:50:21",
+   "date_unixtime": "1776196221",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Микроинфаркт",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Микроинфаркт"
+    }
+   ]
+  },
+  {
+   "id": 259504,
+   "type": "message",
+   "date": "2026-04-14T22:50:37",
+   "date_unixtime": "1776196237",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Встретимся увидишь дышу как дракон 😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Встретимся увидишь дышу как дракон 😂"
+    }
+   ]
+  },
+  {
+   "id": 259506,
+   "type": "message",
+   "date": "2026-04-14T22:51:37",
+   "date_unixtime": "1776196297",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Сплю в основном… как чуток о Яше станет встретимся, обязательно )",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Сплю в основном… как чуток о Яше станет встретимся, обязательно )"
+    }
+   ]
+  },
+  {
+   "id": 259509,
+   "type": "message",
+   "date": "2026-04-14T22:51:51",
+   "date_unixtime": "1776196311",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "На днях наберу тебя солнышко…",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "На днях наберу тебя солнышко…"
+    }
+   ]
+  },
+  {
+   "id": 259588,
+   "type": "message",
+   "date": "2026-04-15T14:58:51",
+   "date_unixtime": "1776254331",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "ого, ничего себе \nНу у тебя еще те деньки конечно \nКак себя чувствуешь?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ого, ничего себе \nНу у тебя еще те деньки конечно \nКак себя чувствуешь?"
+    }
+   ]
+  },
+  {
+   "id": 259691,
+   "type": "message",
+   "date": "2026-04-15T20:30:59",
+   "date_unixtime": "1776274259",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Уже намного лучше….",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Уже намного лучше…."
+    }
+   ]
+  },
+  {
+   "id": 259692,
+   "type": "message",
+   "date": "2026-04-15T20:31:03",
+   "date_unixtime": "1776274263",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Спасибо…",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Спасибо…"
+    }
+   ]
+  },
+  {
+   "id": 259701,
+   "type": "message",
+   "date": "2026-04-15T21:23:23",
+   "date_unixtime": "1776277403",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "🙏🏼🫂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🙏🏼🫂"
+    }
+   ]
+  },
+  {
+   "id": 259772,
+   "type": "message",
+   "date": "2026-04-15T21:42:24",
+   "date_unixtime": "1776278544",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "😘",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😘"
+    }
+   ]
+  },
+  {
+   "id": 260735,
+   "type": "message",
+   "date": "2026-04-19T20:29:48",
+   "date_unixtime": "1776619788",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "photo_file_size": 145553,
+   "width": 960,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 260736,
+   "type": "message",
+   "date": "2026-04-19T20:29:48",
+   "date_unixtime": "1776619788",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "photo_file_size": 194997,
+   "width": 959,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 260737,
+   "type": "message",
+   "date": "2026-04-19T20:30:00",
+   "date_unixtime": "1776619800",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Сегодня первый раз вышел на улицу",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Сегодня первый раз вышел на улицу"
+    }
+   ]
+  },
+  {
+   "id": 260738,
+   "type": "message",
+   "date": "2026-04-19T20:30:08",
+   "date_unixtime": "1776619808",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Пешком погулять",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Пешком погулять"
+    }
+   ]
+  },
+  {
+   "id": 260741,
+   "type": "message",
+   "date": "2026-04-19T21:57:30",
+   "date_unixtime": "1776625050",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Как себя чувствуешь?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Как себя чувствуешь?"
+    }
+   ]
+  },
+  {
+   "id": 260750,
+   "type": "message",
+   "date": "2026-04-19T22:03:12",
+   "date_unixtime": "1776625392",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Сравнение нет",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Сравнение нет"
+    }
+   ]
+  },
+  {
+   "id": 260751,
+   "type": "message",
+   "date": "2026-04-19T22:03:15",
+   "date_unixtime": "1776625395",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Спасибо",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Спасибо"
+    }
+   ]
+  },
+  {
+   "id": 260760,
+   "type": "message",
+   "date": "2026-04-19T22:03:23",
+   "date_unixtime": "1776625403",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Намного лучше",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Намного лучше"
+    }
+   ]
+  },
+  {
+   "id": 260761,
+   "type": "message",
+   "date": "2026-04-19T22:03:48",
+   "date_unixtime": "1776625428",
+   "edited": "2026-04-19T22:04:01",
+   "edited_unixtime": "1776625441",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "надеюсь ты быстро в остановишься и забудешь об этом на долго 🙏🏼",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "надеюсь ты быстро в остановишься и забудешь об этом на долго 🙏🏼"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Джио Вторая страница",
+        "from_id": "user8355480676",
+        "date": "2026-04-19T22:04:01"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 260762,
+   "type": "message",
+   "date": "2026-04-19T22:04:17",
+   "date_unixtime": "1776625457",
+   "edited": "2026-04-19T22:06:33",
+   "edited_unixtime": "1776625593",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Можешь быть уверенной",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Можешь быть уверенной"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🔥",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-04-19T22:06:33"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 260763,
+   "type": "message",
+   "date": "2026-04-19T22:04:20",
+   "date_unixtime": "1776625460",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "🥰",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🥰"
+    }
+   ]
+  },
+  {
+   "id": 260765,
+   "type": "message",
+   "date": "2026-04-19T22:06:52",
+   "date_unixtime": "1776625612",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Хороший настрой мне нравится )",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Хороший настрой мне нравится )"
+    }
+   ]
+  },
+  {
+   "id": 260771,
+   "type": "message",
+   "date": "2026-04-19T22:22:53",
+   "date_unixtime": "1776626573",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Даааа",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Даааа"
+    }
+   ]
+  },
+  {
+   "id": 260772,
+   "type": "message",
+   "date": "2026-04-19T22:23:24",
+   "date_unixtime": "1776626604",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Уже который раз не приняли в другом мире ))))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Уже который раз не приняли в другом мире ))))"
+    }
+   ]
+  },
+  {
+   "id": 260773,
+   "type": "message",
+   "date": "2026-04-19T22:23:41",
+   "date_unixtime": "1776626621",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Вытурили пеньком",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Вытурили пеньком"
+    }
+   ]
+  },
+  {
+   "id": 260774,
+   "type": "message",
+   "date": "2026-04-19T22:23:45",
+   "date_unixtime": "1776626625",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "😂😂😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😂😂😂"
+    }
+   ]
+  },
+  {
+   "id": 260782,
+   "type": "message",
+   "date": "2026-04-19T22:54:17",
+   "date_unixtime": "1776628457",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "значит ты еще нужен тут)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "значит ты еще нужен тут)"
+    }
+   ]
+  },
+  {
+   "id": 260800,
+   "type": "message",
+   "date": "2026-04-19T23:10:33",
+   "date_unixtime": "1776629433",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "🤦",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🤦"
+    }
+   ]
+  },
+  {
+   "id": 260801,
+   "type": "message",
+   "date": "2026-04-19T23:10:36",
+   "date_unixtime": "1776629436",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😂"
+    }
+   ]
+  },
+  {
+   "id": 260802,
+   "type": "message",
+   "date": "2026-04-19T23:11:00",
+   "date_unixtime": "1776629460",
+   "edited": "2026-04-20T12:51:04",
+   "edited_unixtime": "1776678664",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Очень красивая хочу тебя увидеть",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Очень красивая хочу тебя увидеть"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🥰",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-04-20T12:51:04"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 261344,
+   "type": "message",
+   "date": "2026-04-21T21:41:17",
+   "date_unixtime": "1776796877",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 260802,
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "video.mp4",
+   "file_size": 4158361,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 19312,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 29,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 261361,
+   "type": "message",
+   "date": "2026-04-21T21:50:05",
+   "date_unixtime": "1776797405",
+   "edited": "2026-04-21T21:54:49",
+   "edited_unixtime": "1776797689",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "К начале следующей недели будут у меня повторные анализы, надеюсь уже все будет дозволено так что можно будет уже планировать хоть какое передвижение",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "К начале следующей недели будут у меня повторные анализы, надеюсь уже все будет дозволено так что можно будет уже планировать хоть какое передвижение"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-04-21T21:54:49"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 261365,
+   "type": "message",
+   "date": "2026-04-21T21:54:56",
+   "date_unixtime": "1776797696",
+   "edited": "2026-04-21T22:02:04",
+   "edited_unixtime": "1776798124",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "reply_to_message_id": 261361,
+   "text": "Конечно, понимаю )",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Конечно, понимаю )"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Джио Вторая страница",
+        "from_id": "user8355480676",
+        "date": "2026-04-21T22:02:04"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 261676,
+   "type": "message",
+   "date": "2026-04-23T22:57:24",
+   "date_unixtime": "1776974244",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "video.mp4",
+   "file_size": 1194442,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 18837,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 7,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 261677,
+   "type": "service",
+   "date": "2026-04-23T22:57:39",
+   "date_unixtime": "1776974259",
+   "actor": "Di",
+   "actor_id": "user7404772966",
+   "action": "phone_call",
+   "discard_reason": "missed",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 261687,
+   "type": "message",
+   "date": "2026-04-24T08:17:36",
+   "date_unixtime": "1777007856",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Доброе утро ди",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Доброе утро ди"
+    }
+   ]
+  },
+  {
+   "id": 261688,
+   "type": "message",
+   "date": "2026-04-24T08:17:49",
+   "date_unixtime": "1777007869",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Вчера спал уже солнышко",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Вчера спал уже солнышко"
+    }
+   ]
+  },
+  {
+   "id": 261689,
+   "type": "message",
+   "date": "2026-04-24T08:18:04",
+   "date_unixtime": "1777007884",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Извини что не ответил",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Извини что не ответил"
+    }
+   ]
+  },
+  {
+   "id": 261691,
+   "type": "message",
+   "date": "2026-04-24T09:11:47",
+   "date_unixtime": "1777011107",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Принцесса",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Принцесса"
+    }
+   ]
+  },
+  {
+   "id": 261692,
+   "type": "message",
+   "date": "2026-04-24T09:12:11",
+   "date_unixtime": "1777011131",
+   "edited": "2026-04-28T19:39:24",
+   "edited_unixtime": "1777394364",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Такая красивая 🥰 прям такая красивая",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Такая красивая 🥰 прям такая красивая"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-04-28T19:39:24"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 261693,
+   "type": "message",
+   "date": "2026-04-24T09:12:14",
+   "date_unixtime": "1777011134",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "💋❤️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "💋❤️"
+    }
+   ]
+  },
+  {
+   "id": 261700,
+   "type": "message",
+   "date": "2026-04-24T21:41:32",
+   "date_unixtime": "1777056092",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "video.mp4",
+   "file_size": 6232909,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 17636,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 44,
+   "width": 400,
+   "height": 400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 266105,
+   "type": "message",
+   "date": "2026-05-07T02:06:21",
+   "date_unixtime": "1778108781",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Добрый вечер ди",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Добрый вечер ди"
+    }
+   ]
+  },
+  {
+   "id": 266106,
+   "type": "message",
+   "date": "2026-05-07T02:06:26",
+   "date_unixtime": "1778108786",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Как вы там?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Как вы там?"
+    }
+   ]
+  },
+  {
+   "id": 266140,
+   "type": "message",
+   "date": "2026-05-07T12:57:06",
+   "date_unixtime": "1778147826",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "Привет, нормально \nА ты как? Как самочувствие?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Привет, нормально \nА ты как? Как самочувствие?"
+    }
+   ]
+  },
+  {
+   "id": 266195,
+   "type": "message",
+   "date": "2026-05-07T13:57:00",
+   "date_unixtime": "1778151420",
+   "edited": "2026-05-08T22:40:21",
+   "edited_unixtime": "1778269221",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "Привет ди, спасибо лучше… надеюсь скоро разрешат вылет, как точно буду знать даты организую все и билеты и все остальное… пока на реабилитации",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Привет ди, спасибо лучше… надеюсь скоро разрешат вылет, как точно буду знать даты организую все и билеты и все остальное… пока на реабилитации"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Di",
+        "from_id": "user7404772966",
+        "date": "2026-05-08T22:40:21"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 266213,
+   "type": "message",
+   "date": "2026-05-07T16:32:18",
+   "date_unixtime": "1778160738",
+   "from": "Di",
+   "from_id": "user7404772966",
+   "text": "конечно, поправляйся\nТы должен быть сейчас у себя на первом месте 🙏🏼",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "конечно, поправляйся\nТы должен быть сейчас у себя на первом месте 🙏🏼"
+    }
+   ]
+  },
+  {
+   "id": 266311,
+   "type": "message",
+   "date": "2026-05-07T17:38:44",
+   "date_unixtime": "1778164724",
+   "from": "Джио Вторая страница",
+   "from_id": "user8355480676",
+   "text": "❤️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "❤️"
+    }
+   ]
+  }
+ ]
+}

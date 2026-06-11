@@ -8,6 +8,7 @@ import { InboundPipelineService } from './services/inbound-pipeline.service';
 import { SafetyEvaluatorService } from './services/safety-evaluator.service';
 import { ConfidenceScorerService } from './services/confidence-scorer.service';
 import { ContextAssemblerService } from './services/context-assembler.service';
+import { JunkDetectorService } from './services/junk-detector.service';
 import { LanguageDetectorService } from './services/language-detector.service';
 import { LlmModule } from '@infrastructure/llm/llm.module';
 import { MemoryModule } from '@modules/memory/memory.module';
@@ -46,6 +47,7 @@ import { TelegramBridgeModule } from '@infrastructure/telegram/telegram-bridge.m
     SafetyEvaluatorService,
     ConfidenceScorerService,
     ContextAssemblerService,
+    JunkDetectorService,
     LanguageDetectorService,
   ],
   exports: [AiOrchestratorService, InboundPipelineService, SafetyEvaluatorService],

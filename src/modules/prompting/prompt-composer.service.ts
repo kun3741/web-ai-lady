@@ -5,7 +5,11 @@ import { FunnelStage } from '@modules/funnel/schemas/funnel-stage-state.schema';
 
 @Injectable()
 export class PromptComposerService {
-  composeSystemPrompt(context: AssembledContext, language: string, availableMediaItems: any[] = []): string {
+  composeSystemPrompt(
+    context: AssembledContext,
+    language: string,
+    availableMediaItems: any[] = [],
+  ): string {
     const persona = context.persona;
     const profile = context.promptProfile;
     const stageConfig = FUNNEL_STAGE_CONFIG[context.funnelStage as FunnelStage];
@@ -44,17 +48,21 @@ You may discuss money/payment topics when it is CONTEXTUALLY APPROPRIATE — for
 ${persona.paymentRules}\n`
       : '';
 
-    const mediaItemsBlock = availableMediaItems.length > 0
-      ? `\n## Available Media Content (Photos, Videos, Voice Messages, Circles/Video Notes)
+    const junkBlock = this.composeJunkBlock(context);
+    const mediaPriorityBlock = this.composeMediaPriorityBlock(context, availableMediaItems);
+
+    const mediaItemsBlock =
+      availableMediaItems.length > 0
+        ? `\n## Available Media Content (Photos, Videos, Voice Messages, Circles/Video Notes)
 You can optionally choose to attach a specific media file (photo, video, voice message, or round video note/circle) from the library to accompany your reply.
 Analyze the conversation context and choose a media item ONLY if it fits the current flow naturally (e.g. if they ask for a voice note, or if you tell a story and want to attach a fitting photo/video).
-Here are the available files you can attach:
-${availableMediaItems.map((item) => `- ID: "${item._id}" | Type: "${item.mediaType}" | Category: "${item.category}" | Description/Caption: "${item.caption || '(No description)'}"`).join('\n')}
+${mediaPriorityBlock}Here are the available files you can attach:
+${availableMediaItems.map((item) => `- ID: "${item._id}" | Type: "${item.mediaType}" | Category: "${item.category}" | Description: "${(item as any).description || item.caption || '(No description)'}"${(item as any).tags?.length ? ` | Tags: ${(item as any).tags.join(', ')}` : ''}`).join('\n')}
 
 If you decide to attach one of these items, set "attachedMediaId" in the JSON response to the chosen ID. Otherwise, set it to null.
 Only choose an ID from the list above. Do NOT suggest any ID not in the list.
-If you attach a media file, ensure your text "reply" is written to flow naturally as a caption or comment accompanying this specific media.\n`
-      : '';
+Match the media to the current conversation topic using its Description/Tags. If you attach a media file, ensure your text "reply" is written to flow naturally as a caption or comment accompanying this specific media.\n`
+        : '';
 
     return `You are writing a reply directly as "${persona?.name || 'the girl'}" in a private Telegram conversation.
 
@@ -83,13 +91,21 @@ You MUST write like a real girl typing on her phone in a messenger. This is EXTR
 8. **Short affirmations**: Sometimes reply with just "ахах", "ого", "ну да", "мм", "а расскажи)", "прикольно" before adding anything else. Or just that — nothing else.
 9. **Copy the Style Examples above as closely as possible**: if style examples exist, prioritize mimicking their exact length, punctuation, capitalization, and emoji usage.
 
+## 🚫 Реакция на спам / бессмыслицу / повторы
+Ты живой человек, а не сладкий бот, который радуется любому сообщению. Если собеседник ведёт себя странно — НЕ реагируй мило и как ни в чём не бывало.
+- Если он присылает **одно и то же** по несколько раз ("привет"/"привет"), просто **цифры/коды** (типа "123456", "x9f2k1") или явный **бред/набор букв** — реагируй живо и слегка с характером, как реальная девушка, которой это надоедает.
+- Первый раз — можно с лёгкой иронией поддеть ("ты там уснул на клавиатуре? 😅", "это что за шифровка))").
+- Если повторяется 2-3 раза подряд — спокойно, но твёрдо обозначь границу. Например: "блин, слушай, если ты будешь мне писать просто непонятный код / одно и то же — давай на этом закончим. Я хотела бы нормально пообщаться, найти коннект, а если будешь слать бред — лучше заблокируй меня и не пиши больше".
+- НИКОГДА не отвечай на такой мусор положительно, восторженно или сладко. Не придумывай за него смысл там, где его нет. Не пиши длинных тёплых сообщений в ответ на бессмыслицу.
+- Не повторяй дословно фразы из примера выше — формулируй своими словами, но сохраняй смысл и тон.
+
 ## Current Funnel Stage: ${stageConfig?.label || context.funnelStage}
 Objective: ${context.funnelObjective || stageConfig?.objective || 'Maintain conversation'}
 ${stageConfig?.safetyWarnings?.length ? `⚠️ Safety: ${stageConfig.safetyWarnings.join('; ')}` : ''}
 
 ## Known Facts About This Contact
 ${context.memoryContext}
-${mediaItemsBlock}
+${junkBlock}${mediaItemsBlock}
 ${safetyInstr ? `## Additional Safety Instructions\n${safetyInstr}` : ''}
 ${styleExamplesBlock}
 
@@ -103,6 +119,51 @@ Respond ONLY in valid JSON:
   "suggestedFollowUp": "optional follow-up topic",
   "attachedMediaId": "id_here" or null
 }`;
+  }
+
+  /**
+   * Feature 3: Encourage sending video notes (кружочки) and voice messages more
+   * often — especially early in the funnel — so the lead feels they talk to a real person.
+   */
+  private composeMediaPriorityBlock(context: AssembledContext, availableMediaItems: any[]): string {
+    if (context.junkSignal?.isJunk) return '';
+
+    const hasCircle = availableMediaItems.some((i) => i.mediaType === 'video_note');
+    const hasVoice = availableMediaItems.some((i) => i.mediaType === 'voice');
+    if (!hasCircle && !hasVoice) return '';
+
+    const earlyStage = ['new', 'intro', 'rapport'].includes(context.funnelStage);
+    const veryEarly = (context.outboundCount ?? 0) <= 4;
+
+    const kinds = [hasCircle ? 'видео-кружочек' : '', hasVoice ? 'голосовое' : '']
+      .filter(Boolean)
+      .join(' или ');
+
+    if (earlyStage || veryEarly) {
+      return `🎥 ВАЖНО: на этом раннем этапе общения старайся ЧАЩЕ отправлять ${kinds}, чтобы человек видел, что говорит с живой девушкой, а не с ботом. Если по смыслу хоть немного подходит — прикрепи ${kinds} (выбери соответствующий ID из списка ниже с типом "video_note" или "voice"). Это особенно уместно в первых сообщениях.\n`;
+    }
+
+    return `🎥 Если уместно по контексту — не стесняйся прикрепить ${kinds} (тип "video_note" или "voice"), живое медиа делает общение теплее.\n`;
+  }
+
+  /** Build an explicit, escalating instruction when the lead is spamming/sending junk. */
+  private composeJunkBlock(context: AssembledContext): string {
+    const junk = context.junkSignal;
+    if (!junk || !junk.isJunk) return '';
+
+    const reasonText = junk.reasons.includes('repeat')
+      ? 'присылает одно и то же по несколько раз'
+      : junk.reasons.includes('digits')
+        ? 'присылает непонятные цифры/коды'
+        : 'присылает бессмысленный набор символов/букв';
+
+    if (junk.level >= 2) {
+      return `\n## ⚠️ ВНИМАНИЕ: собеседник ${reasonText} (уже не первый раз)
+Сейчас НЕЛЬЗЯ отвечать мило или развёрнуто. Ответь живо и твёрдо, как реальная девушка, которой надоел этот бред. Обозначь границу примерно так (СВОИМИ словами, не копируй дословно): «блин, слушай, если ты будешь мне писать просто непонятный код / одно и то же — давай на этом закончим. Я хотела бы нормально пообщаться, найти коннект, а если будешь слать бред — лучше заблокируй меня и не пиши больше». Коротко, без сладости, без эмодзи-сердечек. НЕ прикрепляй медиа.\n`;
+    }
+
+    return `\n## ⚠️ Собеседник ${reasonText}
+Не реагируй сладко и как ни в чём не бывало. Ответь коротко, живо, с лёгкой иронией — поддень его по-доброму (например: «ты там уснул на клавиатуре?)» или «это что за шифровка))»). Без длинных тёплых сообщений. НЕ прикрепляй медиа.\n`;
   }
 
   composeDraftPrompt(context: AssembledContext, language: string): string {

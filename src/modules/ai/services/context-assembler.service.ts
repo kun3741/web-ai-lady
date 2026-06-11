@@ -7,6 +7,7 @@ import { FunnelService } from '@modules/funnel/funnel.service';
 import { PromptProfile } from '@modules/prompting/schemas/prompt-profile.schema';
 import { Persona } from '@modules/telegram-accounts/schemas/persona.schema';
 import { Message } from '@modules/messages/schemas/message.schema';
+import { JunkDetectorService, JunkSignal } from './junk-detector.service';
 
 export interface AssembledContext {
   persona: Persona | null;
@@ -16,6 +17,8 @@ export interface AssembledContext {
   funnelStage: string;
   funnelObjective: string;
   styleExamples: Array<{ input: string; output: string }>;
+  junkSignal: JunkSignal;
+  outboundCount: number;
 }
 
 @Injectable()
@@ -28,6 +31,7 @@ export class ContextAssemblerService {
     private readonly messagesService: MessagesService,
     private readonly memoryService: MemoryService,
     private readonly funnelService: FunnelService,
+    private readonly junkDetector: JunkDetectorService,
   ) {}
 
   /** Assemble full context for AI — strictly scoped to personaId + candidateId */
@@ -67,6 +71,9 @@ export class ContextAssemblerService {
       selectedExamples = scoredExamples.slice(0, 12).map((item) => item.example);
     }
 
+    const junkSignal = this.junkDetector.analyze(recentMessages);
+    const outboundCount = recentMessages.filter((m) => m.direction === 'outbound').length;
+
     return {
       persona,
       promptProfile,
@@ -75,6 +82,8 @@ export class ContextAssemblerService {
       funnelStage: funnelState.stage,
       funnelObjective: funnelState.objective,
       styleExamples: selectedExamples.map((e) => ({ input: e.input, output: e.output })),
+      junkSignal,
+      outboundCount,
     };
   }
 }
@@ -155,7 +164,10 @@ function calculateExampleScore(
   if (/meet|встреч|свидан/.test(lowerCand) && example.tags?.includes('meeting')) {
     score += 1.2;
   }
-  if (/❤|🥰|😍|💕|😘|love|любл|милая|солн/.test(lowerCand) && example.tags?.includes('affectionate')) {
+  if (
+    /❤|🥰|😍|💕|😘|love|любл|милая|солн/.test(lowerCand) &&
+    example.tags?.includes('affectionate')
+  ) {
     score += 1.0;
   }
   if (/😂|🤣|😅|хаха|haha|lol|смеш/.test(lowerCand) && example.tags?.includes('humor')) {
@@ -164,4 +176,3 @@ function calculateExampleScore(
 
   return score;
 }
-

@@ -37,7 +37,16 @@ export interface DraftResult {
   attachedMediaId?: string | null;
 }
 
-export type RewriteStyle = 'cooler' | 'warmer' | 'shorter' | 'more_direct' | 'small_talk' | 'to_call' | 'to_tickets' | 'to_luggage' | 'to_meeting';
+export type RewriteStyle =
+  | 'cooler'
+  | 'warmer'
+  | 'shorter'
+  | 'more_direct'
+  | 'small_talk'
+  | 'to_call'
+  | 'to_tickets'
+  | 'to_luggage'
+  | 'to_meeting';
 
 @Injectable()
 export class AiOrchestratorService {
@@ -63,9 +72,7 @@ export class AiOrchestratorService {
     const language = await this.languageDetector.detect(context.recentMessages);
 
     // 3. Safety pre-check on inbound message
-    const lastInbound = context.recentMessages
-      .filter((m) => m.direction === 'inbound')
-      .pop();
+    const lastInbound = context.recentMessages.filter((m) => m.direction === 'inbound').pop();
     const preSafety = this.safetyEvaluator.evaluate(lastInbound?.normalizedText || '');
 
     if (preSafety.blocked) {
@@ -89,9 +96,29 @@ export class AiOrchestratorService {
       excludeIds = (candidate as any).sentContentMessageIds || [];
     }
 
-    const availableMediaItems = await this.contentGroupService.getAvailableMediaItems(groupId, context.funnelStage, excludeIds);
+    // Early in the funnel, surface video notes (кружочки) and voice messages first
+    // so the AI is more likely to send them and the lead sees a real person.
+    const earlyFunnel =
+      ['new', 'intro', 'rapport'].includes(context.funnelStage) || context.outboundCount <= 4;
+    const prioritizeTypes: Array<'video_note' | 'voice'> = earlyFunnel
+      ? ['video_note', 'voice']
+      : [];
 
-    const systemPrompt = this.promptComposer.composeSystemPrompt(context, language, availableMediaItems);
+    // Never offer media when the lead is spamming / sending junk — react with words, not content.
+    const availableMediaItems = context.junkSignal?.isJunk
+      ? []
+      : await this.contentGroupService.getAvailableMediaItems(
+          groupId,
+          context.funnelStage,
+          excludeIds,
+          prioritizeTypes,
+        );
+
+    const systemPrompt = this.promptComposer.composeSystemPrompt(
+      context,
+      language,
+      availableMediaItems,
+    );
     const userPrompt = this.promptComposer.composeDraftPrompt(context, language);
 
     // 5. Generate via LLM with structured JSON

@@ -26,6 +26,22 @@ export class ContentMediaItem extends Document {
 
   @Prop({ required: true, index: true })
   category: string;
+
+  /** AI-derived (or caption-derived) description of what this media is about. */
+  @Prop({ default: '' })
+  description: string;
+
+  /** Keyword tags for topic matching during selection. */
+  @Prop({ type: [String], default: [] })
+  tags: string[];
+
+  /** Whisper transcript for voice / video notes (used to understand content). */
+  @Prop({ default: '' })
+  transcript: string;
+
+  /** Whether the AI analysis pipeline has already processed this item. */
+  @Prop({ default: false, index: true })
+  analyzed: boolean;
 }
 
 export const ContentMediaItemSchema = SchemaFactory.createForClass(ContentMediaItem);

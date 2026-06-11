@@ -21,7 +21,9 @@ export class TranscriptionService {
         baseURL: config.get<string>('OPENAI_BASE_URL', 'https://api.openai.com/v1'),
       });
     } else {
-      this.logger.warn('OpenAI API Key not configured — Whisper transcription will run in mock mode');
+      this.logger.warn(
+        'OpenAI API Key not configured — Whisper transcription will run in mock mode',
+      );
     }
   }
 
@@ -53,12 +55,15 @@ export class TranscriptionService {
         text = response.text || '';
         this.logger.log(`Successfully transcribed message ${messageId} via Whisper`);
       } catch (err) {
-        this.logger.error(`Whisper transcription failed for message ${messageId}: ${(err as Error).message}`);
+        this.logger.error(
+          `Whisper transcription failed for message ${messageId}: ${(err as Error).message}`,
+        );
         text = '[Transcription failed — Audio message placeholder]';
         confidence = 0.0;
       }
     } else {
-      text = '[Mock transcription: Hello, this is a voice message recorded for the virtual assistant!]';
+      text =
+        '[Mock transcription: Hello, this is a voice message recorded for the virtual assistant!]';
       language = 'en';
       duration = 10;
       confidence = 0.9;
@@ -72,6 +77,26 @@ export class TranscriptionService {
       confidence,
       duration,
     });
+  }
+
+  /**
+   * Transcribe an audio/voice buffer WITHOUT persisting a Transcript document.
+   * Used by the content-indexing pipeline to understand voice / video notes.
+   * Returns empty string if Whisper is unavailable or fails.
+   */
+  async transcribeBuffer(audioBuffer: Buffer, filename: string): Promise<string> {
+    if (!this.client) return '';
+    try {
+      const file = await OpenAI.toFile(audioBuffer, filename);
+      const response = await this.client.audio.transcriptions.create({
+        file,
+        model: 'whisper-1',
+      });
+      return response.text || '';
+    } catch (err) {
+      this.logger.error(`Whisper buffer transcription failed: ${(err as Error).message}`);
+      return '';
+    }
   }
 
   async findByMessageId(messageId: string | Types.ObjectId): Promise<Transcript | null> {
